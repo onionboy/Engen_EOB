@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <homepage display_value="eob">489b121e0fe30300c23945ace1050ef1</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
+        <logo/>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-11 12:56:35</sys_created_on>
+        <sys_id>537a12da0fe30300c23945ace1050e54</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Electronic Occurrence Book</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sp_portal_537a12da0fe30300c23945ace1050e54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-11 13:14:54</sys_updated_on>
+        <theme display_value="Stock">79315153cb33310000f8d856634c9c4b</theme>
+        <title>Electronic Occurrence Book</title>
+        <url_suffix>eob</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=537a12da0fe30300c23945ace1050e54"/>
+</record_update>
