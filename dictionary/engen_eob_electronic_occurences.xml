@@ -1,4 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="Electronic Occurences" max_length="40" name="engen_eob_electronic_occurences" type="collection"/>
+    <element attributes="live_feed=true" audit="true" extends="task" label="Electronic Occurences" max_length="40" name="engen_eob_electronic_occurences" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Catgeory" mandatory="true" max_length="40" name="u_category" type="string">
+            <choice>
+                <element label="Maintenance Incident" sequence="0" value="Maintenance Incident"/>
+                <element label="Security Incident" sequence="1" value="Security Incident"/>
+                <element label="Health and Safety Incident" sequence="2" value="Health and Safety Incident"/>
+                <element label="Scheduled Event" sequence="3" value="Scheduled Event"/>
+                <element label="Security Status Report" sequence="4" value="Security Status Report"/>
+                <element label="Contractors Status Report" sequence="5" value="Contractors Status Report"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_category" dependent_on_field="u_category" label="Type" mandatory="true" max_length="40" name="u_type" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Scheduled Event" label="Boarmeeting" sequence="0" value="Boarmeeting"/>
+                <element dependent_value="Health and Safety Incident" label="Evacuation" sequence="0" value="Evacuation"/>
+                <element dependent_value="Maintenance Incident" label="Fire equipment" sequence="0" value="Fire equipment"/>
+                <element dependent_value="Contractors Status Report" label="On site" sequence="0" value="On site"/>
+                <element dependent_value="Security Status Report" label="Security Staff Shift Status" sequence="0" value="Security Staff Shift Status"/>
+                <element dependent_value="Security Incident" label="Theft" sequence="0" value="Theft"/>
+                <element dependent_value="Maintenance Incident" label="Access Control System" sequence="1" value="Access Control System"/>
+                <element dependent_value="Security Status Report" label="Equipment checklist" sequence="1" value="Equipment checklist"/>
+                <element dependent_value="Health and Safety Incident" label="Medical emergency" sequence="1" value="Medical emergency"/>
+                <element dependent_value="Contractors Status Report" label="Off site" sequence="1" value="Off site"/>
+                <element dependent_value="Scheduled Event" label="Power outage" sequence="1" value="Power outage"/>
+                <element dependent_value="Security Incident" label="Trespass/Security breach" sequence="1" value="Trespass/Security breach"/>
+                <element dependent_value="Maintenance Incident" label="CCTV" sequence="2" value="CCTV"/>
+                <element dependent_value="Scheduled Event" label="Fire test" sequence="2" value="Fire test"/>
+                <element dependent_value="Contractors Status Report" label="Other" sequence="2" value="Other"/>
+                <element dependent_value="Security Status Report" label="Patrol checks" sequence="2" value="Patrol checks"/>
+                <element dependent_value="Security Incident" label="Sabotage" sequence="2" value="Sabotage"/>
+                <element dependent_value="Health and Safety Incident" label="Substance /drug abuse" sequence="2" value="Substance /drug abuse"/>
+                <element dependent_value="Scheduled Event" label="Building tests" sequence="3" value="Building tests"/>
+                <element dependent_value="Maintenance Incident" label="Communication systems" sequence="3" value="Communication systems"/>
+                <element dependent_value="Health and Safety Incident" label="Fire Arm Discharge" sequence="3" value="Fire Arm Discharge"/>
+                <element dependent_value="Security Incident" label="Lost and Found" sequence="3" value="Lost and Found"/>
+                <element dependent_value="Security Status Report" label="Management visits" sequence="3" value="Management visits"/>
+                <element dependent_value="Maintenance Incident" label="Electronic" sequence="4" value="Electronic"/>
+                <element dependent_value="Scheduled Event" label="Engen Functions/Events" sequence="4" value="Engen Functions/Events"/>
+                <element dependent_value="Security Incident" label="Misconduct" sequence="4" value="Misconduct"/>
+                <element dependent_value="Health and Safety Incident" label="Reckless Driving" sequence="4" value="Reckless Driving"/>
+                <element dependent_value="Security Status Report" label="Sec Training /Meeting" sequence="4" value="Sec Training /Meeting"/>
+                <element dependent_value="Security Incident" label="Malicious damage to property" sequence="5" value="Malicious damage to property"/>
+                <element dependent_value="Scheduled Event" label="Panic alarm tests" sequence="5" value="Panic alarm tests"/>
+                <element dependent_value="Maintenance Incident" label="Plumbing" sequence="5" value="Plumbing"/>
+                <element dependent_value="Security Status Report" label="Site Situation" sequence="5" value="Site Situation"/>
+                <element dependent_value="Health and Safety Incident" label="Spillage" sequence="5" value="Spillage"/>
+                <element dependent_value="Scheduled Event" label="CCTV maintenance" sequence="6" value="CCTV maintenance"/>
+                <element dependent_value="Security Status Report" label="Client Instructions" sequence="6" value="Client Instructions"/>
+                <element dependent_value="Maintenance Incident" label="Lightning" sequence="6" value="Lightning"/>
+                <element dependent_value="Security Incident" label="Loss Control" sequence="6" value="Loss Control"/>
+                <element dependent_value="Scheduled Event" label="Access Control Maintenance" sequence="7" value="Access Control Maintenance"/>
+                <element dependent_value="Maintenance Incident" label="Air-conditioning" sequence="7" value="Air-conditioning"/>
+                <element dependent_value="Security Incident" label="Assault" sequence="7" value="Assault"/>
+                <element dependent_value="Security Incident" label="Armed robbery" sequence="8" value="Armed robbery"/>
+                <element dependent_value="Maintenance Incident" label="Doors/furniture/ locks" sequence="8" value="Doors/furniture/ locks"/>
+                <element dependent_value="Security Incident" label="Harassment" sequence="9" value="Harassment"/>
+                <element dependent_value="Maintenance Incident" label="Perimeter/Entrances and" sequence="9" value="Perimeter/Entrances and"/>
+                <element dependent_value="Maintenance Incident" label="Other" sequence="10" value="Other"/>
+                <element dependent_value="Security Incident" label="Protest action" sequence="10" value="Protest action"/>
+                <element dependent_value="Security Incident" label="Suspicious persons/devices" sequence="11" value="Suspicious persons/devices"/>
+                <element dependent_value="Security Incident" label="Other" sequence="12" value="Other"/>
+            </choice>
+        </element>
+    </element>
 </database>

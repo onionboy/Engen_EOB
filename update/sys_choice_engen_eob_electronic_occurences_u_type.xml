@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_type" table="engen_eob_electronic_occurences" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Scheduled Event</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Boarmeeting</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:14:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec28a59e0f630300c23945ace1050e28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:14:53</sys_updated_on>
+            <value>Boarmeeting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Health and Safety Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Evacuation</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:13:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25e7e95e0f630300c23945ace1050e84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:13:52</sys_updated_on>
+            <value>Evacuation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maintenance Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fire equipment</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5c6695e0f630300c23945ace1050e90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:08:59</sys_updated_on>
+            <value>Fire equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Contractors Status Report</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On site</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 10:11:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1205b5520fa30300c23945ace1050e9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 10:11:16</sys_updated_on>
+            <value>On site</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Status Report</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security Staff Shift Status</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:16:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb98e9de0f630300c23945ace1050e1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:16:58</sys_updated_on>
+            <value>Security Staff Shift Status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theft</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:11:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a957ad9e0f630300c23945ace1050e01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:11:25</sys_updated_on>
+            <value>Theft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maintenance Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Access Control System</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06c6695e0f630300c23945ace1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:08:59</sys_updated_on>
+            <value>Access Control System</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Status Report</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Equipment checklist</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:16:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b98e9de0f630300c23945ace1050e20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:16:58</sys_updated_on>
+            <value>Equipment checklist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Health and Safety Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medical emergency</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:13:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1e7e95e0f630300c23945ace1050e86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:13:52</sys_updated_on>
+            <value>Medical emergency</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Contractors Status Report</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Off site</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 10:11:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1205b5520fa30300c23945ace1050e9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 10:11:16</sys_updated_on>
+            <value>Off site</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Scheduled Event</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Power outage</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:15:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>254825de0f630300c23945ace1050e2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:15:30</sys_updated_on>
+            <value>Power outage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trespass/Security breach</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:11:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2957ad9e0f630300c23945ace1050e03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:11:25</sys_updated_on>
+            <value>Trespass/Security breach</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maintenance Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CCTV</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82c6695e0f630300c23945ace1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:08:59</sys_updated_on>
+            <value>CCTV</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Scheduled Event</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fire test</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:15:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d48e5de0f630300c23945ace1050ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:15:30</sys_updated_on>
+            <value>Fire test</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Contractors Status Report</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 10:11:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5205b9960fa30300c23945ace1050ed1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 10:11:16</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Status Report</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Patrol checks</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:16:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c798e9de0f630300c23945ace1050e22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:16:58</sys_updated_on>
+            <value>Patrol checks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sabotage</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d497ad9e0f630300c23945ace1050e0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:12:25</sys_updated_on>
+            <value>Sabotage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Health and Safety Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Substance /drug abuse</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:13:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21e7e95e0f630300c23945ace1050e88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:13:52</sys_updated_on>
+            <value>Substance /drug abuse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Scheduled Event</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Building tests</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:15:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e948e5de0f630300c23945ace1050eeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:15:30</sys_updated_on>
+            <value>Building tests</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maintenance Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Communication systems</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02c6695e0f630300c23945ace1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:08:59</sys_updated_on>
+            <value>Communication systems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Health and Safety Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fire Arm Discharge</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:13:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ade7e95e0f630300c23945ace1050e89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:13:52</sys_updated_on>
+            <value>Fire Arm Discharge</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lost and Found</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5497ad9e0f630300c23945ace1050e0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:12:25</sys_updated_on>
+            <value>Lost and Found</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Status Report</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Management visits</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:16:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4798e9de0f630300c23945ace1050e24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:16:58</sys_updated_on>
+            <value>Management visits</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maintenance Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electronic</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ec6695e0f630300c23945ace1050e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:08:59</sys_updated_on>
+            <value>Electronic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Scheduled Event</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Engen Functions/Events</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:15:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6948e5de0f630300c23945ace1050eed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:15:30</sys_updated_on>
+            <value>Engen Functions/Events</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Misconduct</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c9761de0f630300c23945ace1050e04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:12:25</sys_updated_on>
+            <value>Misconduct</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Health and Safety Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reckless Driving</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:13:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6de7e1de0f630300c23945ace1050efb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:13:52</sys_updated_on>
+            <value>Reckless Driving</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Status Report</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sec Training /Meeting</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:16:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c398e9de0f630300c23945ace1050e26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:16:58</sys_updated_on>
+            <value>Sec Training /Meeting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Malicious damage to property</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c9761de0f630300c23945ace1050e06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:12:25</sys_updated_on>
+            <value>Malicious damage to property</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Scheduled Event</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Panic alarm tests</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:15:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e548e5de0f630300c23945ace1050eef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:15:30</sys_updated_on>
+            <value>Panic alarm tests</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maintenance Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plumbing</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ac6699e0f630300c23945ace1050eae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:08:59</sys_updated_on>
+            <value>Plumbing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Status Report</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Site Situation</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:16:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4398e9de0f630300c23945ace1050e28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:16:58</sys_updated_on>
+            <value>Site Situation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Health and Safety Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spillage</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:13:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9e7e1de0f630300c23945ace1050efd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:13:52</sys_updated_on>
+            <value>Spillage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Scheduled Event</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CCTV maintenance</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:15:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6548e5de0f630300c23945ace1050ef1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:15:30</sys_updated_on>
+            <value>CCTV maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Status Report</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Client Instructions</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:16:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf98e9de0f630300c23945ace1050e29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:16:58</sys_updated_on>
+            <value>Client Instructions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maintenance Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lightning</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6c6699e0f630300c23945ace1050eb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:08:59</sys_updated_on>
+            <value>Lightning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Loss Control</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>989761de0f630300c23945ace1050e08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:12:25</sys_updated_on>
+            <value>Loss Control</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Scheduled Event</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Access Control Maintenance</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:15:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e148e5de0f630300c23945ace1050ef3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:15:30</sys_updated_on>
+            <value>Access Control Maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maintenance Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Air-conditioning</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46c6699e0f630300c23945ace1050eb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:08:59</sys_updated_on>
+            <value>Air-conditioning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assault</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>189761de0f630300c23945ace1050e0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:12:25</sys_updated_on>
+            <value>Assault</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Armed robbery</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>949761de0f630300c23945ace1050e0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:12:25</sys_updated_on>
+            <value>Armed robbery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maintenance Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Doors/furniture/ locks</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2c6699e0f630300c23945ace1050eb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:08:59</sys_updated_on>
+            <value>Doors/furniture/ locks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Harassment</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>149761de0f630300c23945ace1050e0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:12:25</sys_updated_on>
+            <value>Harassment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maintenance Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Perimeter/Entrances and</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42c6699e0f630300c23945ace1050eb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:08:59</sys_updated_on>
+            <value>Perimeter/Entrances and</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maintenance Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:08:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cec6699e0f630300c23945ace1050eb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:08:59</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Protest action</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>909761de0f630300c23945ace1050e10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:12:25</sys_updated_on>
+            <value>Protest action</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Suspicious persons/devices</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:12:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1a7219e0f630300c23945ace1050eb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:12:47</sys_updated_on>
+            <value>Suspicious persons/devices</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Security Incident</dependent_value>
+            <element>u_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:12:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61a7219e0f630300c23945ace1050eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:12:47</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <name>engen_eob_electronic_occurences</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-11 09:04:23</sys_created_on>
+            <sys_id>3ab5ed5e0f630300c23945ace1050e68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_type</sys_name>
+            <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+            <sys_update_name>sys_choice_engen_eob_electronic_occurences_u_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-11 09:04:23</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
