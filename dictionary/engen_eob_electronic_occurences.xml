@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="Electronic Occurences" max_length="40" name="engen_eob_electronic_occurences" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="Electronic Occurences" max_length="40" name="engen_eob_electronic_occurences" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Catgeory" mandatory="true" max_length="40" name="u_category" type="string">
             <choice>
                 <element label="Maintenance Incident" sequence="0" value="Maintenance Incident"/>
