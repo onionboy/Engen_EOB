@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="branch_code" label="Branch Code" language="en" table="engen_eob_electronic_occurences">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>branch_code</element>
+            <help/>
+            <hint/>
+            <label>Branch Code</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <plural>Branch Codes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:33:24</sys_created_on>
+            <sys_id>e378dd43db801300e815712ebf961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Branch Code</sys_name>
+            <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+            <sys_update_name>sys_documentation_engen_eob_electronic_occurences_branch_code_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:33:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

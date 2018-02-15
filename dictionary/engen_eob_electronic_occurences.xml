@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element attributes="live_feed=true" audit="true" extends="task" label="Electronic Occurences" max_length="40" name="engen_eob_electronic_occurences" sizeclass="1" type="collection">
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Catgeory" mandatory="true" max_length="40" name="u_category" type="string">
+        <element attributes="edge_encryption_enabled=true" label="Branch Code" max_length="40" name="branch_code" type="string"/>
+        <element label="By Whom Received" max_length="32" name="by_whom_received" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Client" max_length="40" name="client" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Co No. / Designation" max_length="40" name="co_no_designation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="D.B REF  CR REF:" max_length="40" name="d_b_ref_cr_ref" type="string"/>
+        <element label="From Whom" max_length="32" name="from_whom" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Nature of Report" max_length="4000" name="nature_of_report" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Source" max_length="40" name="source" type="string">
+            <choice>
+                <element label="Phone" sequence="0" value="Phone"/>
+                <element label="Letter" sequence="1" value="Letter"/>
+                <element label="Verbal" sequence="2" value="Verbal"/>
+            </choice>
+        </element>
+        <element label="Statements attached" max_length="40" name="statements_attached" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Catgeory" mandatory="true" max_length="50" name="u_category" type="string">
             <choice>
                 <element label="Maintenance Incident" sequence="0" value="Maintenance Incident"/>
                 <element label="Security Incident" sequence="1" value="Security Incident"/>
@@ -11,6 +26,11 @@
                 <element label="Contractors Status Report" sequence="5" value="Contractors Status Report"/>
             </choice>
         </element>
+        <element label="Client File" max_length="40" name="u_dis_cfile" type="boolean"/>
+        <element label="Copy" max_length="40" name="u_dis_copy" type="boolean"/>
+        <element label="File Client" max_length="40" name="u_dis_filec" type="boolean"/>
+        <element label="Head Office" max_length="40" name="u_dis_hq" type="boolean"/>
+        <element label="Personnel" max_length="40" name="u_dis_person" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_category" dependent_on_field="u_category" label="Type" mandatory="true" max_length="40" name="u_type" type="string" use_dependent_field="true">
             <choice>
                 <element dependent_value="Scheduled Event" label="Boarmeeting" sequence="0" value="Boarmeeting"/>

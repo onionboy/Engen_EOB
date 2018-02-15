@@ -1,0 +1,3256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"ends":["034ec485dbd41300e815712ebf961902"],"subflows":[],"stages":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>8b4ec485dbd41300e815712ebf961904,8f4e8485dbd41300e815712ebf9619fa,8f4ec485dbd41300e815712ebf961902,834e8485dbd41300e815712ebf9619f9,c74e8485dbd41300e815712ebf9619ff,034ec485dbd41300e815712ebf961902</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>8b4ec485dbd41300e815712ebf961904,8f4e8485dbd41300e815712ebf9619fa,8f4ec485dbd41300e815712ebf961902,874ec485dbd41300e815712ebf961907,cb4e8485dbd41300e815712ebf9619fd,834e8485dbd41300e815712ebf9619f9,8b4ec485dbd41300e815712ebf961905,834ec485dbd41300e815712ebf961909,c74e8485dbd41300e815712ebf9619ff,074ec485dbd41300e815712ebf961900,034ec485dbd41300e815712ebf961902,cf4e4085dbd41300e815712ebf961991,474e8485dbd41300e815712ebf9619f8,cb4e8485dbd41300e815712ebf9619fc</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Engen: Electronic Occurrence Book</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">8b4ec485dbd41300e815712ebf961904</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074e4085dbd41300e815712ebf961990</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-14 13:25:29</sys_updated_on>
+        <table>engen_eob_electronic_occurences</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Engen: Electronic Occurrence Book">af5bcdf0db501300e815712ebf9619f0</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Engen: Electronic Occurrence Book</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-12 22:05:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af5bcdf0db501300e815712ebf9619f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Engen: Electronic Occurrence Book</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>wf_workflow_af5bcdf0db501300e815712ebf9619f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 08:59:18</sys_updated_on>
+        <table>engen_eob_electronic_occurences</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>17</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Assign EOB to the Depot Manager</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>474e8485dbd41300e815712ebf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>803</x>
+        <y>181</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=474e8485dbd41300e815712ebf9619f8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>474e8485dbd41300e815712ebf9619f8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c74e8485dbd41300e815712ebf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>474e8485dbd41300e815712ebf9619f8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c74e8485dbd41300e815712ebf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assign EOB to the Depot Manager">474e8485dbd41300e815712ebf9619f8</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0f4e8485dbd41300e815712ebf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8b4ec485dbd41300e815712ebf961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8b4ec485dbd41300e815712ebf961904"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">8b4ec485dbd41300e815712ebf961904</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074ec485dbd41300e815712ebf961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create Facility Request</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c74e8485dbd41300e815712ebf9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>836</x>
+        <y>36</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c74e8485dbd41300e815712ebf9619ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c74e8485dbd41300e815712ebf9619ff</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4b4e8485dbd41300e815712ebf9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c74e8485dbd41300e815712ebf9619ff</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4b4e8485dbd41300e815712ebf9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create Facility Request">c74e8485dbd41300e815712ebf9619ff</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8f4e8485dbd41300e815712ebf9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034ec485dbd41300e815712ebf961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>993</x>
+        <y>452</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=034ec485dbd41300e815712ebf961902"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>IF Category is Maintainance </name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8f4e8485dbd41300e815712ebf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>49</x>
+        <y>152</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8f4e8485dbd41300e815712ebf9619fa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4e8485dbd41300e815712ebf9619fa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034e8485dbd41300e815712ebf9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4e8485dbd41300e815712ebf9619fa</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>874e8485dbd41300e815712ebf9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>   answer = ifScript();&#13;
+&#13;
+&#13;
+   function ifScript() {&#13;
+	   var cat = current.getValue('u_category');&#13;
+      if (cat == "Maintenance Incident") {&#13;
+         return 'Maintenance';&#13;
+      }&#13;
+		 else if (cat == "Security Incident") { &#13;
+		 return 'Security';&#13;
+			 &#13;
+   }     else if (cat == "Health and Safety Incident") {&#13;
+		 return 'Health and Safety ';&#13;
+	   &#13;
+   }     else if (cat == "Scheduled Event") {&#13;
+		 return 'Scheduled';&#13;
+   &#13;
+	}    else if (cat == "Security Status Report") {&#13;
+		 return 'Security Site Status Reports';&#13;
+		&#13;
+	   }else if (cat == "Contractors Status Report") {&#13;
+		 return 'Contractor Status Reports';&#13;
+   }&#13;
+   }</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4e8485dbd41300e815712ebf9619fa</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c34e8485dbd41300e815712ebf9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4e8485dbd41300e815712ebf9619fa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034e8485dbd41300e815712ebf9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4e8485dbd41300e815712ebf9619fa</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c34e8485dbd41300e815712ebf9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4e8485dbd41300e815712ebf9619fa</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>874e8485dbd41300e815712ebf9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>   answer = ifScript();&#13;
+&#13;
+&#13;
+   function ifScript() {&#13;
+	   var cat = current.getValue('u_category');&#13;
+      if (cat == "Maintenance Incident") {&#13;
+         return 'Maintenance';&#13;
+      }&#13;
+		 else if (cat == "Security Incident") { &#13;
+		 return 'Security';&#13;
+			 &#13;
+   }     else if (cat == "Health and Safety Incident") {&#13;
+		 return 'Health and Safety ';&#13;
+	   &#13;
+   }     else if (cat == "Scheduled Event") {&#13;
+		 return 'Scheduled';&#13;
+   &#13;
+	}    else if (cat == "Security Status Report") {&#13;
+		 return 'Security Site Status Reports';&#13;
+		&#13;
+	   }else if (cat == "Contractors Status Report") {&#13;
+		 return 'Contractor Status Reports';&#13;
+   }&#13;
+   }</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</activity>
+        <condition>activity.result == 'Contractor Status Reports'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Contractor Status Reports</name>
+        <order>204</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cb4e8485dbd41300e815712ebf9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</activity>
+        <condition>activity.result == 'Health and Safety'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Health and Safety</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c34e8485dbd41300e815712ebf9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</activity>
+        <condition>activity.result == 'Maintenance'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Maintenance</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4f4e8485dbd41300e815712ebf9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</activity>
+        <condition>activity.result == 'Scheduled'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Scheduled</name>
+        <order>202</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cf4e8485dbd41300e815712ebf9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</activity>
+        <condition>activity.result == 'Security'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Security</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>474e8485dbd41300e815712ebf9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</activity>
+        <condition>activity.result == 'Security Site Status Reports'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Security Site Status Reports</name>
+        <order>203</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>434e8485dbd41300e815712ebf9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>15</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>IF Category is Maintainance </name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cf4e4085dbd41300e815712ebf961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>564</x>
+        <y>189</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=cf4e4085dbd41300e815712ebf961991"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cf4e4085dbd41300e815712ebf961991</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4b4e4085dbd41300e815712ebf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>   answer = ifScript();&#13;
+&#13;
+&#13;
+   function ifScript() {&#13;
+	   var cat = current.getValue('u_category');&#13;
+      if (cat == "Maintenance Incident") {&#13;
+         return 'Maintenance';&#13;
+      }&#13;
+		 else if (cat == "Security Incident") { &#13;
+		 return 'Security';&#13;
+			 &#13;
+   }     else if (cat == "Health and Safety Incident") {&#13;
+		 return 'Health and Safety ';&#13;
+	   &#13;
+   }     else if (cat == "Scheduled Event") {&#13;
+		 return 'Scheduled';&#13;
+   &#13;
+	}    else if (cat == "Security Status Report") {&#13;
+		 return 'Security Site Status Reports';&#13;
+		&#13;
+	   }else if (cat == "Contractors Status Report") {&#13;
+		 return 'Contractor Status Reports';&#13;
+   }&#13;
+   }</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cf4e4085dbd41300e815712ebf961991</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>874e4085dbd41300e815712ebf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cf4e4085dbd41300e815712ebf961991</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c34e4085dbd41300e815712ebf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cf4e4085dbd41300e815712ebf961991</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c34e4085dbd41300e815712ebf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cf4e4085dbd41300e815712ebf961991</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>874e4085dbd41300e815712ebf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cf4e4085dbd41300e815712ebf961991</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4b4e4085dbd41300e815712ebf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>   answer = ifScript();&#13;
+&#13;
+&#13;
+   function ifScript() {&#13;
+	   var cat = current.getValue('u_category');&#13;
+      if (cat == "Maintenance Incident") {&#13;
+         return 'Maintenance';&#13;
+      }&#13;
+		 else if (cat == "Security Incident") { &#13;
+		 return 'Security';&#13;
+			 &#13;
+   }     else if (cat == "Health and Safety Incident") {&#13;
+		 return 'Health and Safety ';&#13;
+	   &#13;
+   }     else if (cat == "Scheduled Event") {&#13;
+		 return 'Scheduled';&#13;
+   &#13;
+	}    else if (cat == "Security Status Report") {&#13;
+		 return 'Security Site Status Reports';&#13;
+		&#13;
+	   }else if (cat == "Contractors Status Report") {&#13;
+		 return 'Contractor Status Reports';&#13;
+   }&#13;
+   }</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="IF Category is Maintainance ">cf4e4085dbd41300e815712ebf961991</activity>
+        <condition>activity.result == 'Health and Safety'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Health and Safety</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>834e4085dbd41300e815712ebf961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="IF Category is Maintainance ">cf4e4085dbd41300e815712ebf961991</activity>
+        <condition>activity.result == 'Scheduled'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Scheduled</name>
+        <order>202</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074e4085dbd41300e815712ebf961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="IF Category is Maintainance ">cf4e4085dbd41300e815712ebf961991</activity>
+        <condition>activity.result == 'Security'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Security</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8f4e4085dbd41300e815712ebf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="IF Category is Maintainance ">cf4e4085dbd41300e815712ebf961991</activity>
+        <condition>activity.result == 'Security Site Status Reports'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Security Site Status Reports</name>
+        <order>203</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034e4085dbd41300e815712ebf961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notifies Depot Manager</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>874ec485dbd41300e815712ebf961907</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:22:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>302</x>
+        <y>125</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=874ec485dbd41300e815712ebf961907"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>874ec485dbd41300e815712ebf961907</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074ec485dbd41300e815712ebf961908</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:22:30</sys_updated_on>
+        <value>&lt;table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+  &lt;tbody&gt;&#13;
+    &lt;tr&gt;&#13;
+      &lt;td style="width: 100px; text-align: center; vertical-align: top;"&gt;&#13;
+                                &lt;img style="height: 58px; width: 58px;" alt="EOB" src="/Engen_offboarding.png"&gt;&#13;
+                  &lt;/td&gt;&#13;
+      &lt;td&gt;&#13;
+      &lt;p class="MsoNoSpacing"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Request for Employee Off-Boarding submitted by ${request.requested_for} on ${sys_created_on} &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+      &lt;table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+        &lt;tbody&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td style="font-weight: bold; width: 250px;"&gt;&lt;span&gt;EOB Number:&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;a href="/nav_to.do?uri=%2Fsc_req_item.do%3Fsysparm_query%3Dnumber%3D${number}%26sysparm_view%3Ddefault"&gt;&lt;span style="font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;${number}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Opened By:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt; ${opened_by} &lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Category:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_category}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Type:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_type}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Nature of Report:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${nature_of_report}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+        &lt;/tbody&gt;&#13;
+      &lt;/table&gt;&#13;
+      &lt;p class="MsoNormal"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Thank you.&lt;/span&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>874ec485dbd41300e815712ebf961907</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0b4ec485dbd41300e815712ebf961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>874ec485dbd41300e815712ebf961907</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>434ec485dbd41300e815712ebf961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>EOB Incident for ${u_category} logged by ${opened_by} on ${opened_at}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>874ec485dbd41300e815712ebf961907</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8f4ec485dbd41300e815712ebf961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>var answer = [];&#13;
+&#13;
+var loc = current.opened_by.location.name;&#13;
+&#13;
+var workflow_name = 'Engen: Electronic Occurrence Book';&#13;
+&#13;
+var activity_name = 'Depot Manager';&#13;
+    &#13;
+var user_list = new GlideRecord('u_engen_app_notif');&#13;
+user_list.addQuery ('u_activity.u_workflow.name', workflow_name);&#13;
+user_list.addQuery ('u_activity.u_activity', activity_name);&#13;
+user_list.addQuery ('u_activity.u_param_1', loc);&#13;
+//user_list.addQuery ('u_activity.u_param_2', current.variables.u_parking_region);&#13;
+&#13;
+user_list.query ();&#13;
+//gs.log ('u_engen_app_notif Record Count: ' + user_list.getRowCount(), 'Engen_Workflow_Script');&#13;
+&#13;
+while (user_list.next()) {&#13;
+  // *** The following should be used if an Approval or Notification is to be created ***&#13;
+  answer.push (user_list.u_user.sys_id);&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>874ec485dbd41300e815712ebf961907</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c74ec485dbd41300e815712ebf961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>874ec485dbd41300e815712ebf961907</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cb4ec485dbd41300e815712ebf961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>874ec485dbd41300e815712ebf961907</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0b4ec485dbd41300e815712ebf961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>874ec485dbd41300e815712ebf961907</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c74ec485dbd41300e815712ebf961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>874ec485dbd41300e815712ebf961907</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>434ec485dbd41300e815712ebf961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>EOB Incident for ${u_category} logged by ${opened_by} on ${opened_at}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>874ec485dbd41300e815712ebf961907</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074ec485dbd41300e815712ebf961908</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:22:30</sys_updated_on>
+        <value>&lt;table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+  &lt;tbody&gt;&#13;
+    &lt;tr&gt;&#13;
+      &lt;td style="width: 100px; text-align: center; vertical-align: top;"&gt;&#13;
+                                &lt;img style="height: 58px; width: 58px;" alt="EOB" src="/Engen_offboarding.png"&gt;&#13;
+                  &lt;/td&gt;&#13;
+      &lt;td&gt;&#13;
+      &lt;p class="MsoNoSpacing"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Request for Employee Off-Boarding submitted by ${request.requested_for} on ${sys_created_on} &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+      &lt;table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+        &lt;tbody&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td style="font-weight: bold; width: 250px;"&gt;&lt;span&gt;EOB Number:&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;a href="/nav_to.do?uri=%2Fsc_req_item.do%3Fsysparm_query%3Dnumber%3D${number}%26sysparm_view%3Ddefault"&gt;&lt;span style="font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;${number}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Opened By:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt; ${opened_by} &lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Category:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_category}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Type:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_type}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Nature of Report:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${nature_of_report}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+        &lt;/tbody&gt;&#13;
+      &lt;/table&gt;&#13;
+      &lt;p class="MsoNormal"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Thank you.&lt;/span&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>874ec485dbd41300e815712ebf961907</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cb4ec485dbd41300e815712ebf961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>874ec485dbd41300e815712ebf961907</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8f4ec485dbd41300e815712ebf961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>var answer = [];&#13;
+&#13;
+var loc = current.opened_by.location.name;&#13;
+&#13;
+var workflow_name = 'Engen: Electronic Occurrence Book';&#13;
+&#13;
+var activity_name = 'Depot Manager';&#13;
+    &#13;
+var user_list = new GlideRecord('u_engen_app_notif');&#13;
+user_list.addQuery ('u_activity.u_workflow.name', workflow_name);&#13;
+user_list.addQuery ('u_activity.u_activity', activity_name);&#13;
+user_list.addQuery ('u_activity.u_param_1', loc);&#13;
+//user_list.addQuery ('u_activity.u_param_2', current.variables.u_parking_region);&#13;
+&#13;
+user_list.query ();&#13;
+//gs.log ('u_engen_app_notif Record Count: ' + user_list.getRowCount(), 'Engen_Workflow_Script');&#13;
+&#13;
+while (user_list.next()) {&#13;
+  // *** The following should be used if an Approval or Notification is to be created ***&#13;
+  answer.push (user_list.u_user.sys_id);&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notifies Depot Manager">874ec485dbd41300e815712ebf961907</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0f4ec485dbd41300e815712ebf961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notifies Depot Manager</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8f4ec485dbd41300e815712ebf961902</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:22:45</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>304</x>
+        <y>31</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8f4ec485dbd41300e815712ebf961902"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4ec485dbd41300e815712ebf961902</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034ec485dbd41300e815712ebf961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4ec485dbd41300e815712ebf961902</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0f4ec485dbd41300e815712ebf961903</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:22:45</sys_updated_on>
+        <value>&lt;table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+  &lt;tbody&gt;&#13;
+    &lt;tr&gt;&#13;
+      &lt;td style="width: 100px; text-align: center; vertical-align: top;"&gt;&#13;
+                                &lt;img style="height: 58px; width: 58px;" alt="EOB" src="/Engen_offboarding.png"&gt;&#13;
+                  &lt;/td&gt;&#13;
+      &lt;td&gt;&#13;
+      &lt;p class="MsoNoSpacing"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Request for Employee Off-Boarding submitted by ${request.requested_for} on ${sys_created_on} &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+      &lt;table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+        &lt;tbody&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td style="font-weight: bold; width: 250px;"&gt;&lt;span&gt;EOB Number:&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;a href="/nav_to.do?uri=%2Fsc_req_item.do%3Fsysparm_query%3Dnumber%3D${number}%26sysparm_view%3Ddefault"&gt;&lt;span style="font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;${number}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Opened By:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt; ${opened_by} &lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Category:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_category}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Type:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_type}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Nature of Report:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${nature_of_report}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+        &lt;/tbody&gt;&#13;
+      &lt;/table&gt;&#13;
+      &lt;p class="MsoNormal"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Thank you.&lt;/span&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4ec485dbd41300e815712ebf961902</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4b4ec485dbd41300e815712ebf961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>EOB Incident for ${u_category} logged by ${opened_by} on ${opened_at}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4ec485dbd41300e815712ebf961902</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>874ec485dbd41300e815712ebf961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>var answer = [];&#13;
+&#13;
+var loc = current.opened_by.location.name;&#13;
+&#13;
+var workflow_name = 'Engen: Electronic Occurrence Book';&#13;
+&#13;
+var activity_name = 'Depot Manager';&#13;
+    &#13;
+var user_list = new GlideRecord('u_engen_app_notif');&#13;
+user_list.addQuery ('u_activity.u_workflow.name', workflow_name);&#13;
+user_list.addQuery ('u_activity.u_activity', activity_name);&#13;
+user_list.addQuery ('u_activity.u_param_1', loc);&#13;
+//user_list.addQuery ('u_activity.u_param_2', current.variables.u_parking_region);&#13;
+&#13;
+user_list.query ();&#13;
+//gs.log ('u_engen_app_notif Record Count: ' + user_list.getRowCount(), 'Engen_Workflow_Script');&#13;
+&#13;
+while (user_list.next()) {&#13;
+  // *** The following should be used if an Approval or Notification is to be created ***&#13;
+  answer.push (user_list.u_user.sys_id);&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4ec485dbd41300e815712ebf961902</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c34ec485dbd41300e815712ebf961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4ec485dbd41300e815712ebf961902</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cf4ec485dbd41300e815712ebf961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4ec485dbd41300e815712ebf961902</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034ec485dbd41300e815712ebf961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4ec485dbd41300e815712ebf961902</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cf4ec485dbd41300e815712ebf961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4ec485dbd41300e815712ebf961902</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4b4ec485dbd41300e815712ebf961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>EOB Incident for ${u_category} logged by ${opened_by} on ${opened_at}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4ec485dbd41300e815712ebf961902</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0f4ec485dbd41300e815712ebf961903</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:22:45</sys_updated_on>
+        <value>&lt;table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+  &lt;tbody&gt;&#13;
+    &lt;tr&gt;&#13;
+      &lt;td style="width: 100px; text-align: center; vertical-align: top;"&gt;&#13;
+                                &lt;img style="height: 58px; width: 58px;" alt="EOB" src="/Engen_offboarding.png"&gt;&#13;
+                  &lt;/td&gt;&#13;
+      &lt;td&gt;&#13;
+      &lt;p class="MsoNoSpacing"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Request for Employee Off-Boarding submitted by ${request.requested_for} on ${sys_created_on} &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+      &lt;table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+        &lt;tbody&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td style="font-weight: bold; width: 250px;"&gt;&lt;span&gt;EOB Number:&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;a href="/nav_to.do?uri=%2Fsc_req_item.do%3Fsysparm_query%3Dnumber%3D${number}%26sysparm_view%3Ddefault"&gt;&lt;span style="font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;${number}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Opened By:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt; ${opened_by} &lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Category:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_category}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Type:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_type}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Nature of Report:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${nature_of_report}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+        &lt;/tbody&gt;&#13;
+      &lt;/table&gt;&#13;
+      &lt;p class="MsoNormal"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Thank you.&lt;/span&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4ec485dbd41300e815712ebf961902</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c34ec485dbd41300e815712ebf961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8f4ec485dbd41300e815712ebf961902</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>874ec485dbd41300e815712ebf961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>var answer = [];&#13;
+&#13;
+var loc = current.opened_by.location.name;&#13;
+&#13;
+var workflow_name = 'Engen: Electronic Occurrence Book';&#13;
+&#13;
+var activity_name = 'Depot Manager';&#13;
+    &#13;
+var user_list = new GlideRecord('u_engen_app_notif');&#13;
+user_list.addQuery ('u_activity.u_workflow.name', workflow_name);&#13;
+user_list.addQuery ('u_activity.u_activity', activity_name);&#13;
+user_list.addQuery ('u_activity.u_param_1', loc);&#13;
+//user_list.addQuery ('u_activity.u_param_2', current.variables.u_parking_region);&#13;
+&#13;
+user_list.query ();&#13;
+//gs.log ('u_engen_app_notif Record Count: ' + user_list.getRowCount(), 'Engen_Workflow_Script');&#13;
+&#13;
+while (user_list.next()) {&#13;
+  // *** The following should be used if an Approval or Notification is to be created ***&#13;
+  answer.push (user_list.u_user.sys_id);&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notifies Depot Manager">8f4ec485dbd41300e815712ebf961902</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074ec485dbd41300e815712ebf961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>14</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notifies Depot Manager</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cb4e8485dbd41300e815712ebf9619fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:18:51</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>167</x>
+        <y>386</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=cb4e8485dbd41300e815712ebf9619fd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fd</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034e8485dbd41300e815712ebf9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fd</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0f4e8485dbd41300e815712ebf9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fd</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4b4e8485dbd41300e815712ebf9619fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:18:51</sys_updated_on>
+        <value>&lt;table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+  &lt;tbody&gt;&#13;
+    &lt;tr&gt;&#13;
+      &lt;td style="width: 100px; text-align: center; vertical-align: top;"&gt;&#13;
+                                &lt;img style="height: 58px; width: 58px;" alt="EOB" src="/Engen_offboarding.png"&gt;&#13;
+                  &lt;/td&gt;&#13;
+      &lt;td&gt;&#13;
+      &lt;p class="MsoNoSpacing"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Request for Employee Off-Boarding submitted by ${request.requested_for} on ${sys_created_on} &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+      &lt;table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+        &lt;tbody&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td style="font-weight: bold; width: 250px;"&gt;&lt;span&gt;EOB Number:&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;a href="/nav_to.do?uri=%2Fsc_req_item.do%3Fsysparm_query%3Dnumber%3D${number}%26sysparm_view%3Ddefault"&gt;&lt;span style="font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;${current.&#13;
+Opened: ${opened_at}number}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Opened By:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt; ${opened_by} &lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Category:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_category}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Type:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_type}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Nature of Report:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${nature_of_report}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+        &lt;/tbody&gt;&#13;
+      &lt;/table&gt;&#13;
+      &lt;p class="MsoNormal"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Thank you.&lt;/span&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4f4e8485dbd41300e815712ebf9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fd</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>874e8485dbd41300e815712ebf9619fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:18:51</sys_updated_on>
+        <value>EOB Incident for ${u_category} logged by ${opened_by} on ${opened_at}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fd</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c34e8485dbd41300e815712ebf9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>var answer = [];&#13;
+&#13;
+var loc = current.opened_by.location.name;&#13;
+&#13;
+var workflow_name = 'Engen: Electronic Occurrence Book';&#13;
+&#13;
+var activity_name = 'Depot Manager';&#13;
+    &#13;
+var user_list = new GlideRecord('u_engen_app_notif');&#13;
+user_list.addQuery ('u_activity.u_workflow.name', workflow_name);&#13;
+user_list.addQuery ('u_activity.u_activity', activity_name);&#13;
+user_list.addQuery ('u_activity.u_param_1', loc);&#13;
+//user_list.addQuery ('u_activity.u_param_2', current.variables.u_parking_region);&#13;
+&#13;
+user_list.query ();&#13;
+//gs.log ('u_engen_app_notif Record Count: ' + user_list.getRowCount(), 'Engen_Workflow_Script');&#13;
+&#13;
+while (user_list.next()) {&#13;
+  // *** The following should be used if an Approval or Notification is to be created ***&#13;
+  answer.push (user_list.u_user.sys_id);&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4f4e8485dbd41300e815712ebf9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fd</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0f4e8485dbd41300e815712ebf9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fd</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>874e8485dbd41300e815712ebf9619fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:18:51</sys_updated_on>
+        <value>EOB Incident for ${u_category} logged by ${opened_by} on ${opened_at}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fd</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4b4e8485dbd41300e815712ebf9619fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:18:51</sys_updated_on>
+        <value>&lt;table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+  &lt;tbody&gt;&#13;
+    &lt;tr&gt;&#13;
+      &lt;td style="width: 100px; text-align: center; vertical-align: top;"&gt;&#13;
+                                &lt;img style="height: 58px; width: 58px;" alt="EOB" src="/Engen_offboarding.png"&gt;&#13;
+                  &lt;/td&gt;&#13;
+      &lt;td&gt;&#13;
+      &lt;p class="MsoNoSpacing"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Request for Employee Off-Boarding submitted by ${request.requested_for} on ${sys_created_on} &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+      &lt;table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+        &lt;tbody&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td style="font-weight: bold; width: 250px;"&gt;&lt;span&gt;EOB Number:&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;a href="/nav_to.do?uri=%2Fsc_req_item.do%3Fsysparm_query%3Dnumber%3D${number}%26sysparm_view%3Ddefault"&gt;&lt;span style="font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;${current.&#13;
+Opened: ${opened_at}number}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Opened By:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt; ${opened_by} &lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Category:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_category}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Type:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_type}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Nature of Report:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${nature_of_report}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+        &lt;/tbody&gt;&#13;
+      &lt;/table&gt;&#13;
+      &lt;p class="MsoNormal"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Thank you.&lt;/span&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fd</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034e8485dbd41300e815712ebf9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fd</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c34e8485dbd41300e815712ebf9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>var answer = [];&#13;
+&#13;
+var loc = current.opened_by.location.name;&#13;
+&#13;
+var workflow_name = 'Engen: Electronic Occurrence Book';&#13;
+&#13;
+var activity_name = 'Depot Manager';&#13;
+    &#13;
+var user_list = new GlideRecord('u_engen_app_notif');&#13;
+user_list.addQuery ('u_activity.u_workflow.name', workflow_name);&#13;
+user_list.addQuery ('u_activity.u_activity', activity_name);&#13;
+user_list.addQuery ('u_activity.u_param_1', loc);&#13;
+//user_list.addQuery ('u_activity.u_param_2', current.variables.u_parking_region);&#13;
+&#13;
+user_list.query ();&#13;
+//gs.log ('u_engen_app_notif Record Count: ' + user_list.getRowCount(), 'Engen_Workflow_Script');&#13;
+&#13;
+while (user_list.next()) {&#13;
+  // *** The following should be used if an Approval or Notification is to be created ***&#13;
+  answer.push (user_list.u_user.sys_id);&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notifies Depot Manager">cb4e8485dbd41300e815712ebf9619fd</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>434e8485dbd41300e815712ebf9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notifies Security Advisor</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>834e8485dbd41300e815712ebf9619f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:22:57</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>563</x>
+        <y>31</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=834e8485dbd41300e815712ebf9619f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834e8485dbd41300e815712ebf9619f9</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034e8485dbd41300e815712ebf9619fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:22:57</sys_updated_on>
+        <value>&lt;table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+  &lt;tbody&gt;&#13;
+    &lt;tr&gt;&#13;
+      &lt;td style="width: 100px; text-align: center; vertical-align: top;"&gt;&#13;
+                                &lt;img style="height: 58px; width: 58px;" alt="EOB" src="/Engen_offboarding.png"&gt;&#13;
+                  &lt;/td&gt;&#13;
+      &lt;td&gt;&#13;
+      &lt;p class="MsoNoSpacing"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Request for Employee Off-Boarding submitted by ${request.requested_for} on ${sys_created_on} &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+      &lt;table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+        &lt;tbody&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td style="font-weight: bold; width: 250px;"&gt;&lt;span&gt;EOB Number:&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;a href="/nav_to.do?uri=%2Fsc_req_item.do%3Fsysparm_query%3Dnumber%3D${number}%26sysparm_view%3Ddefault"&gt;&lt;span style="font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;${number}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Opened By:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt; ${opened_by} &lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Category:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_category}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Type:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_type}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Nature of Report:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${nature_of_report}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+        &lt;/tbody&gt;&#13;
+      &lt;/table&gt;&#13;
+      &lt;p class="MsoNormal"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Thank you.&lt;/span&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834e8485dbd41300e815712ebf9619f9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074e8485dbd41300e815712ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834e8485dbd41300e815712ebf9619f9</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4f4e8485dbd41300e815712ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>EOB Incident Logged by ${opened_by} on ${opened_at}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834e8485dbd41300e815712ebf9619f9</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8b4e8485dbd41300e815712ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>var answer = [];&#13;
+&#13;
+var loc = current.request.requested_for.location.name;&#13;
+&#13;
+var workflow_name = 'Engen: Electronic Occurrence Book';&#13;
+&#13;
+var activity_name = 'Security Advisor';&#13;
+    &#13;
+var user_list = new GlideRecord('u_engen_app_notif');&#13;
+user_list.addQuery ('u_activity.u_workflow.name', workflow_name);&#13;
+user_list.addQuery ('u_activity.u_activity', activity_name);&#13;
+user_list.addQuery ('u_activity.u_param_1', loc);&#13;
+//user_list.addQuery ('u_activity.u_param_2', current.variables.u_parking_region);&#13;
+&#13;
+user_list.query ();&#13;
+//gs.log ('u_engen_app_notif Record Count: ' + user_list.getRowCount(), 'Engen_Workflow_Script');&#13;
+&#13;
+while (user_list.next()) {&#13;
+  // *** The following should be used if an Approval or Notification is to be created ***&#13;
+  answer.push (user_list.u_user.sys_id);&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834e8485dbd41300e815712ebf9619f9</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c34e8485dbd41300e815712ebf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834e8485dbd41300e815712ebf9619f9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c74e8485dbd41300e815712ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834e8485dbd41300e815712ebf9619f9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074e8485dbd41300e815712ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834e8485dbd41300e815712ebf9619f9</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c34e8485dbd41300e815712ebf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834e8485dbd41300e815712ebf9619f9</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4f4e8485dbd41300e815712ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>EOB Incident Logged by ${opened_by} on ${opened_at}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834e8485dbd41300e815712ebf9619f9</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034e8485dbd41300e815712ebf9619fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:22:57</sys_updated_on>
+        <value>&lt;table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+  &lt;tbody&gt;&#13;
+    &lt;tr&gt;&#13;
+      &lt;td style="width: 100px; text-align: center; vertical-align: top;"&gt;&#13;
+                                &lt;img style="height: 58px; width: 58px;" alt="EOB" src="/Engen_offboarding.png"&gt;&#13;
+                  &lt;/td&gt;&#13;
+      &lt;td&gt;&#13;
+      &lt;p class="MsoNoSpacing"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Request for Employee Off-Boarding submitted by ${request.requested_for} on ${sys_created_on} &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+      &lt;table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+        &lt;tbody&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td style="font-weight: bold; width: 250px;"&gt;&lt;span&gt;EOB Number:&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;a href="/nav_to.do?uri=%2Fsc_req_item.do%3Fsysparm_query%3Dnumber%3D${number}%26sysparm_view%3Ddefault"&gt;&lt;span style="font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;${number}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Opened By:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt; ${opened_by} &lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Category:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_category}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Type:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_type}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Nature of Report:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${nature_of_report}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+        &lt;/tbody&gt;&#13;
+      &lt;/table&gt;&#13;
+      &lt;p class="MsoNormal"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Thank you.&lt;/span&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834e8485dbd41300e815712ebf9619f9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c74e8485dbd41300e815712ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834e8485dbd41300e815712ebf9619f9</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8b4e8485dbd41300e815712ebf9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>var answer = [];&#13;
+&#13;
+var loc = current.request.requested_for.location.name;&#13;
+&#13;
+var workflow_name = 'Engen: Electronic Occurrence Book';&#13;
+&#13;
+var activity_name = 'Security Advisor';&#13;
+    &#13;
+var user_list = new GlideRecord('u_engen_app_notif');&#13;
+user_list.addQuery ('u_activity.u_workflow.name', workflow_name);&#13;
+user_list.addQuery ('u_activity.u_activity', activity_name);&#13;
+user_list.addQuery ('u_activity.u_param_1', loc);&#13;
+//user_list.addQuery ('u_activity.u_param_2', current.variables.u_parking_region);&#13;
+&#13;
+user_list.query ();&#13;
+//gs.log ('u_engen_app_notif Record Count: ' + user_list.getRowCount(), 'Engen_Workflow_Script');&#13;
+&#13;
+while (user_list.next()) {&#13;
+  // *** The following should be used if an Approval or Notification is to be created ***&#13;
+  answer.push (user_list.u_user.sys_id);&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notifies Security Advisor">834e8485dbd41300e815712ebf9619f9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0b4e8485dbd41300e815712ebf9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notifies Security Advisor</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8b4ec485dbd41300e815712ebf961905</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:21:29</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>301</x>
+        <y>201</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8b4ec485dbd41300e815712ebf961905"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b4ec485dbd41300e815712ebf961905</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0b4ec485dbd41300e815712ebf961906</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:21:29</sys_updated_on>
+        <value>&lt;table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+  &lt;tbody&gt;&#13;
+    &lt;tr&gt;&#13;
+      &lt;td style="width: 100px; text-align: center; vertical-align: top;"&gt;&#13;
+                                &lt;img style="height: 58px; width: 58px;" alt="EOB" src="/Engen_offboarding.png"&gt;&#13;
+                  &lt;/td&gt;&#13;
+      &lt;td&gt;&#13;
+      &lt;p class="MsoNoSpacing"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Request for Employee Off-Boarding submitted by ${request.requested_for} on ${sys_created_on} &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+      &lt;table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+        &lt;tbody&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td style="font-weight: bold; width: 250px;"&gt;&lt;span&gt;EOB Number:&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;a href="/nav_to.do?uri=%2Fsc_req_item.do%3Fsysparm_query%3Dnumber%3D${number}%26sysparm_view%3Ddefault"&gt;&lt;span style="font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;${number}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Opened By:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt; ${opened_by} &lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Category:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_category}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Type:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_type}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Nature of Report:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${nature_of_report}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+        &lt;/tbody&gt;&#13;
+      &lt;/table&gt;&#13;
+      &lt;p class="MsoNormal"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Thank you.&lt;/span&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b4ec485dbd41300e815712ebf961905</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0f4ec485dbd41300e815712ebf961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b4ec485dbd41300e815712ebf961905</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>474ec485dbd41300e815712ebf961906</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:21:29</sys_updated_on>
+        <value>EOB Incident for ${u_category} logged by ${opened_by} on ${opened_at}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b4ec485dbd41300e815712ebf961905</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>834ec485dbd41300e815712ebf961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>var answer = [];&#13;
+&#13;
+var loc = current.request.requested_for.location.name;&#13;
+&#13;
+var workflow_name = 'Engen: Electronic Occurrence Book';&#13;
+&#13;
+var activity_name = 'Security Advisor';&#13;
+    &#13;
+var user_list = new GlideRecord('u_engen_app_notif');&#13;
+user_list.addQuery ('u_activity.u_workflow.name', workflow_name);&#13;
+user_list.addQuery ('u_activity.u_activity', activity_name);&#13;
+user_list.addQuery ('u_activity.u_param_1', loc);&#13;
+//user_list.addQuery ('u_activity.u_param_2', current.variables.u_parking_region);&#13;
+&#13;
+user_list.query ();&#13;
+//gs.log ('u_engen_app_notif Record Count: ' + user_list.getRowCount(), 'Engen_Workflow_Script');&#13;
+&#13;
+while (user_list.next()) {&#13;
+  // *** The following should be used if an Approval or Notification is to be created ***&#13;
+  answer.push (user_list.u_user.sys_id);&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b4ec485dbd41300e815712ebf961905</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cb4ec485dbd41300e815712ebf961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b4ec485dbd41300e815712ebf961905</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cf4ec485dbd41300e815712ebf961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b4ec485dbd41300e815712ebf961905</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0f4ec485dbd41300e815712ebf961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b4ec485dbd41300e815712ebf961905</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cb4ec485dbd41300e815712ebf961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b4ec485dbd41300e815712ebf961905</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>474ec485dbd41300e815712ebf961906</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:21:29</sys_updated_on>
+        <value>EOB Incident for ${u_category} logged by ${opened_by} on ${opened_at}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b4ec485dbd41300e815712ebf961905</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0b4ec485dbd41300e815712ebf961906</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:21:29</sys_updated_on>
+        <value>&lt;table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+  &lt;tbody&gt;&#13;
+    &lt;tr&gt;&#13;
+      &lt;td style="width: 100px; text-align: center; vertical-align: top;"&gt;&#13;
+                                &lt;img style="height: 58px; width: 58px;" alt="EOB" src="/Engen_offboarding.png"&gt;&#13;
+                  &lt;/td&gt;&#13;
+      &lt;td&gt;&#13;
+      &lt;p class="MsoNoSpacing"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Request for Employee Off-Boarding submitted by ${request.requested_for} on ${sys_created_on} &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+      &lt;table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+        &lt;tbody&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td style="font-weight: bold; width: 250px;"&gt;&lt;span&gt;EOB Number:&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;a href="/nav_to.do?uri=%2Fsc_req_item.do%3Fsysparm_query%3Dnumber%3D${number}%26sysparm_view%3Ddefault"&gt;&lt;span style="font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;${number}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Opened By:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt; ${opened_by} &lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Category:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_category}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Type:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_type}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Nature of Report:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${nature_of_report}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+        &lt;/tbody&gt;&#13;
+      &lt;/table&gt;&#13;
+      &lt;p class="MsoNormal"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Thank you.&lt;/span&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b4ec485dbd41300e815712ebf961905</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cf4ec485dbd41300e815712ebf961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8b4ec485dbd41300e815712ebf961905</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>834ec485dbd41300e815712ebf961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>var answer = [];&#13;
+&#13;
+var loc = current.request.requested_for.location.name;&#13;
+&#13;
+var workflow_name = 'Engen: Electronic Occurrence Book';&#13;
+&#13;
+var activity_name = 'Security Advisor';&#13;
+    &#13;
+var user_list = new GlideRecord('u_engen_app_notif');&#13;
+user_list.addQuery ('u_activity.u_workflow.name', workflow_name);&#13;
+user_list.addQuery ('u_activity.u_activity', activity_name);&#13;
+user_list.addQuery ('u_activity.u_param_1', loc);&#13;
+//user_list.addQuery ('u_activity.u_param_2', current.variables.u_parking_region);&#13;
+&#13;
+user_list.query ();&#13;
+//gs.log ('u_engen_app_notif Record Count: ' + user_list.getRowCount(), 'Engen_Workflow_Script');&#13;
+&#13;
+while (user_list.next()) {&#13;
+  // *** The following should be used if an Approval or Notification is to be created ***&#13;
+  answer.push (user_list.u_user.sys_id);&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notifies Security Advisor">8b4ec485dbd41300e815712ebf961905</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034ec485dbd41300e815712ebf961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Notifies Security Area Manager </name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074ec485dbd41300e815712ebf961900</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:22:01</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>305</x>
+        <y>279</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=074ec485dbd41300e815712ebf961900"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>074ec485dbd41300e815712ebf961900</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0f4ec485dbd41300e815712ebf961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>var answer = [];&#13;
+&#13;
+var loc = current.request.requested_for.location.name;&#13;
+&#13;
+var workflow_name = 'Engen: Electronic Occurrence Book';&#13;
+&#13;
+var activity_name = 'Security Area Manager';&#13;
+    &#13;
+var user_list = new GlideRecord('u_engen_app_notif');&#13;
+user_list.addQuery ('u_activity.u_workflow.name', workflow_name);&#13;
+user_list.addQuery ('u_activity.u_activity', activity_name);&#13;
+user_list.addQuery ('u_activity.u_param_1', loc);&#13;
+//user_list.addQuery ('u_activity.u_param_2', current.variables.u_parking_region);&#13;
+&#13;
+user_list.query ();&#13;
+//gs.log ('u_engen_app_notif Record Count: ' + user_list.getRowCount(), 'Engen_Workflow_Script');&#13;
+&#13;
+while (user_list.next()) {&#13;
+  // *** The following should be used if an Approval or Notification is to be created ***&#13;
+  answer.push (user_list.u_user.sys_id);&#13;
+&#13;
+}&#13;
+&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>074ec485dbd41300e815712ebf961900</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>474ec485dbd41300e815712ebf961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>074ec485dbd41300e815712ebf961900</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4b4ec485dbd41300e815712ebf961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>074ec485dbd41300e815712ebf961900</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>834ec485dbd41300e815712ebf961901</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:22:01</sys_updated_on>
+        <value>&lt;table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+  &lt;tbody&gt;&#13;
+    &lt;tr&gt;&#13;
+      &lt;td style="width: 100px; text-align: center; vertical-align: top;"&gt;&#13;
+                                &lt;img style="height: 58px; width: 58px;" alt="EOB" src="/Engen_offboarding.png"&gt;&#13;
+                  &lt;/td&gt;&#13;
+      &lt;td&gt;&#13;
+      &lt;p class="MsoNoSpacing"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Request for Employee Off-Boarding submitted by ${request.requested_for} on ${sys_created_on} &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+      &lt;table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+        &lt;tbody&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td style="font-weight: bold; width: 250px;"&gt;&lt;span&gt;EOB Number:&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;a href="/nav_to.do?uri=%2Fsc_req_item.do%3Fsysparm_query%3Dnumber%3D${number}%26sysparm_view%3Ddefault"&gt;&lt;span style="font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;${number}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Opened By:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt; ${opened_by} &lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Category:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_category}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Type:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_type}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Nature of Report:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${nature_of_report}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+        &lt;/tbody&gt;&#13;
+      &lt;/table&gt;&#13;
+      &lt;p class="MsoNormal"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Thank you.&lt;/span&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>074ec485dbd41300e815712ebf961900</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>874ec485dbd41300e815712ebf961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>074ec485dbd41300e815712ebf961900</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cf4ec485dbd41300e815712ebf961900</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:19:39</sys_updated_on>
+        <value>EOB Incident for ${u_category} logged by ${opened_by} on ${opened_at}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>074ec485dbd41300e815712ebf961900</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>874ec485dbd41300e815712ebf961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>074ec485dbd41300e815712ebf961900</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>474ec485dbd41300e815712ebf961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>074ec485dbd41300e815712ebf961900</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cf4ec485dbd41300e815712ebf961900</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:19:39</sys_updated_on>
+        <value>EOB Incident for ${u_category} logged by ${opened_by} on ${opened_at}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>074ec485dbd41300e815712ebf961900</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>834ec485dbd41300e815712ebf961901</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:22:01</sys_updated_on>
+        <value>&lt;table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+  &lt;tbody&gt;&#13;
+    &lt;tr&gt;&#13;
+      &lt;td style="width: 100px; text-align: center; vertical-align: top;"&gt;&#13;
+                                &lt;img style="height: 58px; width: 58px;" alt="EOB" src="/Engen_offboarding.png"&gt;&#13;
+                  &lt;/td&gt;&#13;
+      &lt;td&gt;&#13;
+      &lt;p class="MsoNoSpacing"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Request for Employee Off-Boarding submitted by ${request.requested_for} on ${sys_created_on} &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+      &lt;table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;" border="0" cellpadding="2" cellspacing="2"&gt;&#13;
+        &lt;tbody&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td style="font-weight: bold; width: 250px;"&gt;&lt;span&gt;EOB Number:&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;a href="/nav_to.do?uri=%2Fsc_req_item.do%3Fsysparm_query%3Dnumber%3D${number}%26sysparm_view%3Ddefault"&gt;&lt;span style="font-size: 11pt; line-height: 107%; font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;${number}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Opened By:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt; ${opened_by} &lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Category:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_category}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Type:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${u_type}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+          &lt;tr&gt;&#13;
+            &lt;td&gt;&lt;span&gt;&lt;span style="font-weight: bold;"&gt;Nature of Report:&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&#13;
+            &lt;td&gt;&lt;span&gt;${nature_of_report}&lt;/span&gt;&lt;/td&gt;&#13;
+          &lt;/tr&gt;&#13;
+        &lt;/tbody&gt;&#13;
+      &lt;/table&gt;&#13;
+      &lt;p class="MsoNormal"&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif; color: midnightblue;"&gt;Thank you.&lt;/span&gt;&lt;span style="font-family: &amp;quot;Arial&amp;quot;,sans-serif;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>074ec485dbd41300e815712ebf961900</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4b4ec485dbd41300e815712ebf961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>074ec485dbd41300e815712ebf961900</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0f4ec485dbd41300e815712ebf961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>var answer = [];&#13;
+&#13;
+var loc = current.request.requested_for.location.name;&#13;
+&#13;
+var workflow_name = 'Engen: Electronic Occurrence Book';&#13;
+&#13;
+var activity_name = 'Security Area Manager';&#13;
+    &#13;
+var user_list = new GlideRecord('u_engen_app_notif');&#13;
+user_list.addQuery ('u_activity.u_workflow.name', workflow_name);&#13;
+user_list.addQuery ('u_activity.u_activity', activity_name);&#13;
+user_list.addQuery ('u_activity.u_param_1', loc);&#13;
+//user_list.addQuery ('u_activity.u_param_2', current.variables.u_parking_region);&#13;
+&#13;
+user_list.query ();&#13;
+//gs.log ('u_engen_app_notif Record Count: ' + user_list.getRowCount(), 'Engen_Workflow_Script');&#13;
+&#13;
+while (user_list.next()) {&#13;
+  // *** The following should be used if an Approval or Notification is to be created ***&#13;
+  answer.push (user_list.u_user.sys_id);&#13;
+&#13;
+}&#13;
+&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Notifies Security Area Manager ">074ec485dbd41300e815712ebf961900</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8b4ec485dbd41300e815712ebf961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>16</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Status to Closed</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>834ec485dbd41300e815712ebf961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>532</x>
+        <y>420</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=834ec485dbd41300e815712ebf961909"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834ec485dbd41300e815712ebf961909</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074ec485dbd41300e815712ebf961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>834ec485dbd41300e815712ebf961909</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074ec485dbd41300e815712ebf961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Status to Closed">834ec485dbd41300e815712ebf961909</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4b4ec485dbd41300e815712ebf961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>18</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for state to be "Closed Complete"</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cb4e8485dbd41300e815712ebf9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+        <x>803</x>
+        <y>289</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=cb4e8485dbd41300e815712ebf9619fc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034e8485dbd41300e815712ebf9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4f4e8485dbd41300e815712ebf9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>034e8485dbd41300e815712ebf9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cb4e8485dbd41300e815712ebf9619fc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4f4e8485dbd41300e815712ebf9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for state to be &quot;Closed Complete&quot;">cb4e8485dbd41300e815712ebf9619fc</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>474e8485dbd41300e815712ebf9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Security Site Status Reports">434e8485dbd41300e815712ebf9619fc</condition>
+        <from display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074ec485dbd41300e815712ebf96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Notifies Depot Manager">874ec485dbd41300e815712ebf961907</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8b4ec485dbd41300e815712ebf961901</condition>
+        <from display_value="Notifies Security Area Manager ">074ec485dbd41300e815712ebf961900</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>074ec485dbd41300e815712ebf96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="IF Category is Maintainance ">cf4e4085dbd41300e815712ebf961991</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">074ec485dbd41300e815712ebf961905</condition>
+        <from display_value="Begin">8b4ec485dbd41300e815712ebf961904</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0b4ec485dbd41300e815712ebf96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Contractor Status Reports">cb4e8485dbd41300e815712ebf9619fb</condition>
+        <from display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0b4ec485dbd41300e815712ebf96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Notifies Depot Manager">cb4e8485dbd41300e815712ebf9619fd</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Health and Safety">c34e8485dbd41300e815712ebf9619fc</condition>
+        <from display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>0f4ec485dbd41300e815712ebf96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Notifies Depot Manager">874ec485dbd41300e815712ebf961907</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">034ec485dbd41300e815712ebf961907</condition>
+        <from display_value="Notifies Security Advisor">8b4ec485dbd41300e815712ebf961905</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>434ec485dbd41300e815712ebf96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Notifies Security Area Manager ">074ec485dbd41300e815712ebf961900</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">0f4ec485dbd41300e815712ebf961908</condition>
+        <from display_value="Notifies Depot Manager">874ec485dbd41300e815712ebf961907</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>434ec485dbd41300e815712ebf96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Notifies Security Advisor">8b4ec485dbd41300e815712ebf961905</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">074ec485dbd41300e815712ebf961904</condition>
+        <from display_value="Notifies Depot Manager">8f4ec485dbd41300e815712ebf961902</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>474ec485dbd41300e815712ebf96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Notifies Security Advisor">834e8485dbd41300e815712ebf9619f9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Security Site Status Reports">034e4085dbd41300e815712ebf961993</condition>
+        <from display_value="IF Category is Maintainance ">cf4e4085dbd41300e815712ebf961991</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4b4ec485dbd41300e815712ebf96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Set Status to Closed">834ec485dbd41300e815712ebf961909</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Security">8f4e4085dbd41300e815712ebf961992</condition>
+        <from display_value="IF Category is Maintainance ">cf4e4085dbd41300e815712ebf961991</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>4f4ec485dbd41300e815712ebf96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Assign EOB to the Depot Manager">474e8485dbd41300e815712ebf9619f8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">0b4e8485dbd41300e815712ebf9619fa</condition>
+        <from display_value="Notifies Security Advisor">834e8485dbd41300e815712ebf9619f9</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>834ec485dbd41300e815712ebf96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Create Facility Request">c74e8485dbd41300e815712ebf9619ff</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Scheduled">cf4e8485dbd41300e815712ebf9619fb</condition>
+        <from display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>874ec485dbd41300e815712ebf96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Notifies Depot Manager">874ec485dbd41300e815712ebf961907</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Maintenance">4f4e8485dbd41300e815712ebf9619fb</condition>
+        <from display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8b4ec485dbd41300e815712ebf96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Notifies Depot Manager">8f4ec485dbd41300e815712ebf961902</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">474e8485dbd41300e815712ebf9619fd</condition>
+        <from display_value="Wait for state to be &quot;Closed Complete&quot;">cb4e8485dbd41300e815712ebf9619fc</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8f4ec485dbd41300e815712ebf96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="End">034ec485dbd41300e815712ebf961902</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Security">474e8485dbd41300e815712ebf9619fc</condition>
+        <from display_value="IF Category is Maintainance ">8f4e8485dbd41300e815712ebf9619fa</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8f4ec485dbd41300e815712ebf96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Notifies Depot Manager">874ec485dbd41300e815712ebf961907</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8f4e8485dbd41300e815712ebf9619ff</condition>
+        <from display_value="Create Facility Request">c74e8485dbd41300e815712ebf9619ff</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>8f4ec485dbd41300e815712ebf96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="End">034ec485dbd41300e815712ebf961902</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">434e8485dbd41300e815712ebf9619ff</condition>
+        <from display_value="Notifies Depot Manager">cb4e8485dbd41300e815712ebf9619fd</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c74ec485dbd41300e815712ebf96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Set Status to Closed">834ec485dbd41300e815712ebf961909</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Scheduled">074e4085dbd41300e815712ebf961993</condition>
+        <from display_value="IF Category is Maintainance ">cf4e4085dbd41300e815712ebf961991</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cb4ec485dbd41300e815712ebf96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Set Status to Closed">834ec485dbd41300e815712ebf961909</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">0f4e8485dbd41300e815712ebf9619f8</condition>
+        <from display_value="Assign EOB to the Depot Manager">474e8485dbd41300e815712ebf9619f8</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cb4ec485dbd41300e815712ebf96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Wait for state to be &quot;Closed Complete&quot;">cb4e8485dbd41300e815712ebf9619fc</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4b4ec485dbd41300e815712ebf961909</condition>
+        <from display_value="Set Status to Closed">834ec485dbd41300e815712ebf961909</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cb4ec485dbd41300e815712ebf96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="End">034ec485dbd41300e815712ebf961902</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Health and Safety">834e4085dbd41300e815712ebf961993</condition>
+        <from display_value="IF Category is Maintainance ">cf4e4085dbd41300e815712ebf961991</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>cf4ec485dbd41300e815712ebf96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <to display_value="Assign EOB to the Depot Manager">474e8485dbd41300e815712ebf9619f8</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-13 12:17:05</sys_created_on>
+        <sys_id>c74e4085dbd41300e815712ebf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-13 12:17:05</sys_updated_on>
+        <workflow_version display_value="Engen: Electronic Occurrence Book">074e4085dbd41300e815712ebf961990</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=af5bcdf0db501300e815712ebf9619f0^sys_id!=074e4085dbd41300e815712ebf961990">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="8de79943db801300e815712ebf9619a2" sys_domain="global" table="engen_eob_electronic_occurences" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:30:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01e79943db801300e815712ebf9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="engen_eob_electronic_occurences" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">8de79943db801300e815712ebf9619a2</sys_ui_form>
+            <sys_ui_section caption="Incident Report" display_value="Incident Report" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">f4e79943db801300e815712ebf96199b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:30:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:30:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0de79943db801300e815712ebf9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="engen_eob_electronic_occurences" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">8de79943db801300e815712ebf9619a2</sys_ui_form>
+            <sys_ui_section caption="Report Received" display_value="Report Received" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d3781d520f630300c23945ace1050eb7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:30:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>538a11c3db801300e815712ebf9619c3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="engen_eob_electronic_occurences" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">8de79943db801300e815712ebf9619a2</sys_ui_form>
+            <sys_ui_section caption="Nature of Report" display_value="Nature of Report" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d78a11c3db801300e815712ebf961905</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:42:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:30:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9e79943db801300e815712ebf9619b5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="engen_eob_electronic_occurences" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">8de79943db801300e815712ebf9619a2</sys_ui_form>
+            <sys_ui_section caption="Action Taken" display_value="Action Taken" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">c1e79943db801300e815712ebf9619a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:42:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>638a11c3db801300e815712ebf9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="engen_eob_electronic_occurences" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">8de79943db801300e815712ebf9619a2</sys_ui_form>
+            <sys_ui_section caption="Results / Distribution" display_value="Results / Distribution" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">df8a11c3db801300e815712ebf961905</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:42:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>engen_eob_electronic_occurences</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:30:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8de79943db801300e815712ebf9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>engen_eob_electronic_occurences</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8de79943db801300e815712ebf9619a2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:30:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

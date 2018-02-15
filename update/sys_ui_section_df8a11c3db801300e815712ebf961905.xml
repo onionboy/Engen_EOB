@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Results / Distribution" section_id="df8a11c3db801300e815712ebf961905" sys_domain="global" table="engen_eob_electronic_occurences" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dis_copy</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:42:26</sys_created_on>
+            <sys_id>3b8a51c3db801300e815712ebf96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Results / Distribution" display_value="Results / Distribution" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">df8a11c3db801300e815712ebf961905</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:42:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dis_hq</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:42:26</sys_created_on>
+            <sys_id>bb8a51c3db801300e815712ebf96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Results / Distribution" display_value="Results / Distribution" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">df8a11c3db801300e815712ebf961905</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:42:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dis_person</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:42:26</sys_created_on>
+            <sys_id>3f8a51c3db801300e815712ebf96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Results / Distribution" display_value="Results / Distribution" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">df8a11c3db801300e815712ebf961905</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:42:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:42:26</sys_created_on>
+            <sys_id>bf8a51c3db801300e815712ebf96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Results / Distribution" display_value="Results / Distribution" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">df8a11c3db801300e815712ebf961905</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:42:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dis_cfile</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:42:26</sys_created_on>
+            <sys_id>338a51c3db801300e815712ebf96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Results / Distribution" display_value="Results / Distribution" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">df8a11c3db801300e815712ebf961905</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:42:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dis_filec</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:42:26</sys_created_on>
+            <sys_id>b38a51c3db801300e815712ebf96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Results / Distribution" display_value="Results / Distribution" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">df8a11c3db801300e815712ebf961905</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:42:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Results / Distribution</caption>
+            <header>false</header>
+            <name>engen_eob_electronic_occurences</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-07 12:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df8a11c3db801300e815712ebf961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Results / Distribution</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+            <sys_update_name>sys_ui_section_df8a11c3db801300e815712ebf961905</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-07 12:42:24</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
