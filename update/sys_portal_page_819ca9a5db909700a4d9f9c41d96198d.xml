@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-02-22 08:42:29">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>engen_eob.admin,engen_eob.manager</read_roles>
+        <roles>engen_eob.admin</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-02-15 08:27:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>819ca9a5db909700a4d9f9c41d96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EOB Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sys_portal_page_819ca9a5db909700a4d9f9c41d96198d</sys_update_name>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-02-15 08:27:08</sys_updated_on>
+        <title>EOB Dashboard</title>
+        <user/>
+        <view>eob_dashboard</view>
+    </sys_portal_page>
+</record_update>

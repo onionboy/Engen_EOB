@@ -26,8 +26,6 @@
         <element>by_whom_received</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
         <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
@@ -49,15 +47,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-06 11:54:38</sys_created_on>
-        <sys_id>4a06cc3adb401300e815712ebf96196e</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>079b25e1db909700a4d9f9c41d961940</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>By Whom Received</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sys_dictionary_engen_eob_electronic_occurences_by_whom_received</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-06 11:54:38</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-02-15 08:22:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -4,98 +4,70 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>203d51d3db001300e815712ebf961999</sys_id>
+            <sys_created_by>rudolf.cronje</sys_created_by>
+            <sys_created_on>2018-02-15 10:06:38</sys_created_on>
+            <sys_id>3393ce69dbd09700a4d9f9c41d961979</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Incident Report" display_value="Incident Report" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">f4e79943db801300e815712ebf96199b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
+            <sys_updated_by>rudolf.cronje</sys_updated_by>
+            <sys_updated_on>2018-02-15 10:06:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location</element>
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>e43d51d3db001300e815712ebf961999</sys_id>
+            <sys_created_by>rudolf.cronje</sys_created_by>
+            <sys_created_on>2018-02-15 10:06:38</sys_created_on>
+            <sys_id>b393ce69dbd09700a4d9f9c41d961979</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Incident Report" display_value="Incident Report" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">f4e79943db801300e815712ebf96199b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_category</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>683d51d3db001300e815712ebf961999</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Incident Report" display_value="Incident Report" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">f4e79943db801300e815712ebf96199b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_type</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>e83d51d3db001300e815712ebf961999</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Incident Report" display_value="Incident Report" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">f4e79943db801300e815712ebf96199b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
+            <sys_updated_by>rudolf.cronje</sys_updated_by>
+            <sys_updated_on>2018-02-15 10:06:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>6c3d51d3db001300e815712ebf961999</sys_id>
+            <position>2</position>
+            <sys_created_by>rudolf.cronje</sys_created_by>
+            <sys_created_on>2018-02-15 10:06:38</sys_created_on>
+            <sys_id>3793ce69dbd09700a4d9f9c41d961979</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Incident Report" display_value="Incident Report" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">f4e79943db801300e815712ebf96199b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
+            <sys_updated_by>rudolf.cronje</sys_updated_by>
+            <sys_updated_on>2018-02-15 10:06:38</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>branch_code</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>ec3d51d3db001300e815712ebf961999</sys_id>
+            <element>u_category</element>
+            <position>3</position>
+            <sys_created_by>rudolf.cronje</sys_created_by>
+            <sys_created_on>2018-02-15 10:06:38</sys_created_on>
+            <sys_id>b793ce69dbd09700a4d9f9c41d961979</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Incident Report" display_value="Incident Report" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">f4e79943db801300e815712ebf96199b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
+            <sys_updated_by>rudolf.cronje</sys_updated_by>
+            <sys_updated_on>2018-02-15 10:06:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>d_b_ref_cr_ref</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>603d51d3db001300e815712ebf96199a</sys_id>
+            <element>u_type</element>
+            <position>4</position>
+            <sys_created_by>rudolf.cronje</sys_created_by>
+            <sys_created_on>2018-02-15 10:06:38</sys_created_on>
+            <sys_id>3b93ce69dbd09700a4d9f9c41d961979</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Incident Report" display_value="Incident Report" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">f4e79943db801300e815712ebf96199b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
+            <sys_updated_by>rudolf.cronje</sys_updated_by>
+            <sys_updated_on>2018-02-15 10:06:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -107,18 +79,20 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-02-07 12:30:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f4e79943db801300e815712ebf96199b</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>Incident Report</sys_name>
             <sys_overrides/>
             <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
             <sys_update_name>sys_ui_section_f4e79943db801300e815712ebf96199b</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-07 12:42:24</sys_updated_on>
+            <sys_updated_by>rudolf.cronje</sys_updated_by>
+            <sys_updated_on>2018-02-15 10:06:38</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

@@ -64,11 +64,13 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-02-08 07:29:13</sys_created_on>
-            <sys_id>e97c9153db001300e815712ebf961974</sys_id>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>86cb69e1db909700a4d9f9c41d961909</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
             <sys_update_name>sys_choice_engen_eob_electronic_occurences_state</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

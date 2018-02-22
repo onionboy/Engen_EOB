@@ -20,9 +20,12 @@
         <query>location=javascript:gs.getUser().getLocation();</query>
         <report/>
         <roles>engen_eob.admin,engen_eob.manager,engen_eob.user</roles>
+        <survey/>
+        <survey_overwrite>false</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-14 13:04:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5d222dd1db501300e815712ebf9619f9</sys_id>
@@ -31,6 +34,7 @@
         <sys_overrides/>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sys_app_module_5d222dd1db501300e815712ebf9619f9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
