@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Trespass / Security Breach">788fd806dbb8d7008b72f3d31d9619b2</sc_cat_item>
+        <sc_category display_value="Security Incidents">ec53e192db745b008b72f3d31d96198b</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-14 12:47:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>257b251edb745b008b72f3d31d9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security Incidents.EOB Security Incident - Trespass / Security Breach</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sc_cat_item_category_257b251edb745b008b72f3d31d9619b0</sys_update_name>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-03-14 12:47:55</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

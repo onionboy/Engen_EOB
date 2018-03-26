@@ -2,128 +2,86 @@
 <record_update>
     <sys_ui_section caption="Report Received" section_id="d3781d520f630300c23945ace1050eb7" sys_domain="global" table="engen_eob_electronic_occurences" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sys_created_on</element>
-            <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>e03d51d3db001300e815712ebf9619b3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Report Received" display_value="Report Received" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d3781d520f630300c23945ace1050eb7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>from_whom</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>643d51d3db001300e815712ebf9619b3</sys_id>
+            <position>0</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-03-19 11:51:04</sys_created_on>
+            <sys_id>696e8fbfdb3453008b72f3d31d961946</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Report Received" display_value="Report Received" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d3781d520f630300c23945ace1050eb7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-03-19 11:51:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>client</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>e43d51d3db001300e815712ebf9619b3</sys_id>
+            <position>1</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-03-19 11:51:04</sys_created_on>
+            <sys_id>e96e8fbfdb3453008b72f3d31d961946</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Report Received" display_value="Report Received" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d3781d520f630300c23945ace1050eb7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-03-19 11:51:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>by_whom_received</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>683d51d3db001300e815712ebf9619b3</sys_id>
+            <position>2</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-03-19 11:51:04</sys_created_on>
+            <sys_id>6d6e8fbfdb3453008b72f3d31d961946</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Report Received" display_value="Report Received" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d3781d520f630300c23945ace1050eb7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-03-19 11:51:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>e83d51d3db001300e815712ebf9619b3</sys_id>
+            <position>3</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-03-19 11:51:04</sys_created_on>
+            <sys_id>ed6e8fbfdb3453008b72f3d31d961946</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Report Received" display_value="Report Received" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d3781d520f630300c23945ace1050eb7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-03-19 11:51:04</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>source</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>6c3d51d3db001300e815712ebf9619b3</sys_id>
+            <position>4</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-03-19 11:51:04</sys_created_on>
+            <sys_id>616e8fbfdb3453008b72f3d31d961947</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Report Received" display_value="Report Received" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d3781d520f630300c23945ace1050eb7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-03-19 11:51:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>co_no_designation</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>ec3d51d3db001300e815712ebf9619b3</sys_id>
+            <position>5</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-03-19 11:51:04</sys_created_on>
+            <sys_id>e16e8fbfdb3453008b72f3d31d961947</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Report Received" display_value="Report Received" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d3781d520f630300c23945ace1050eb7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>603d51d3db001300e815712ebf9619b4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Report Received" display_value="Report Received" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d3781d520f630300c23945ace1050eb7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-08 07:32:26</sys_created_on>
-            <sys_id>e03d51d3db001300e815712ebf9619b4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Report Received" display_value="Report Received" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d3781d520f630300c23945ace1050eb7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-08 07:32:26</sys_updated_on>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-03-19 11:51:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

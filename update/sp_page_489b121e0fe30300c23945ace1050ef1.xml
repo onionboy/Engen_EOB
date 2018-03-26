@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sp_page">
     <sp_page action="INSERT_OR_UPDATE">
-        <css/>
+        <category>custom</category>
+        <css>.col-md-3{&#13;
+ padding: 0 0 0 0 ; &#13;
+}&#13;
+.col-lg-2 {&#13;
+ padding: 0 0 0 0 ; &#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
         <id>eob</id>
         <internal>false</internal>
         <public>false</public>
@@ -12,16 +20,16 @@
         <sys_created_on>2018-01-11 12:59:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>489b121e0fe30300c23945ace1050ef1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>eob</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sp_page_489b121e0fe30300c23945ace1050ef1</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-11 12:59:35</sys_updated_on>
-        <title>EOB</title>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-03-23 09:15:18</sys_updated_on>
+        <title>EOB Menu</title>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=489b121e0fe30300c23945ace1050ef1"/>
 </record_update>

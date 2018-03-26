@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>img {&#13;
+  display: block;&#13;
+  margin-left: auto;&#13;
+  margin-right: auto;&#13;
+ &#13;
+}&#13;
+&#13;
+.div1 {&#13;
+  padding-top: 6%;&#13;
+  padding-bottom:6%;&#13;
+  background-color:#3e4249;&#13;
+width: 50%;&#13;
+}&#13;
+&#13;
+.div1:hover {&#13;
+	//background-color: #3D3D3D;&#13;
+ opacity: 0.5;&#13;
+ transition: .5s ease;&#13;
+}&#13;
+&#13;
+.div2 {&#13;
+  width: 50%;&#13;
+  padding-top: 30%;&#13;
+  padding-bottom:10%;&#13;
+  background-color:#3e4249;&#13;
+  flex: 1 0 auto;&#13;
+}&#13;
+&#13;
+.h5 {&#13;
+  color:#7F8A98;&#13;
+  text-align:center; &#13;
+  word-wrap: break-word;&#13;
+  padding-right: 3%;&#13;
+  padding-left:3%;  &#13;
+}&#13;
+#tablecontainer{&#13;
+width: 70%;&#13;
+height: 100%; &#13;
+  background-color:#3e4249;&#13;
+}&#13;
+&#13;
+.table-panel {&#13;
+    display: table;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>eob-c1-dashboard</id>
+        <internal>false</internal>
+        <link/>
+        <name>EOB Menu</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-20 10:13:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a5747b83db501300e815712ebf961951</sys_id>
+        <sys_mod_count>217</sys_mod_count>
+        <sys_name>EOB Menu</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sp_widget_a5747b83db501300e815712ebf961951</sys_update_name>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-03-22 09:42:35</sys_updated_on>
+        <template><![CDATA[<table  class="table-panel" id="tablecontainer"   >
+  
+<tr>
+<div class="div1">
+</div> 
+</tr>
+  
+<tr>
+<div class="div1" onclick="location.href='?id=eob'">
+<img src="dashboard_grey.png"  style="width:20%"/>
+<h5 class="h5">
+ DASHBOARD
+</h5>       
+</div>
+</tr>
+    
+<tr>
+<div class="div1" onclick="location.href='?id=eob_category&sys_id=e77d00dedbfc1b008b72f3d31d961981'">
+<img src="3pccontractors-grey.png" style="width:20%"/>
+<h5 class="h5">
+3RD PARTY CONTRACTORS
+</h5>   
+</div> 
+</tr>
+  
+<tr>
+<div class="div1" onclick="location.href='?id=eob_category&sys_id=9b03a9d2db745b008b72f3d31d961926'">
+<img src="hseq-icon.png"  style="width:20%" />
+<h5 class="h5">
+HSEQ INCIDENTS
+</h5>
+</div> 
+</tr>
+  
+  
+<tr>
+<div class="div1" onclick="location.href='?id=eob_category&sys_id=487133b1dbb0d7008b72f3d31d96191e'">
+<img src="maintenance-icon-grey.png"  style="width:20%"/>
+<h5 class="h5">
+MAINTENANCE INCIDENTS
+</h5>
+</div> 
+</tr>
+ 
+<tr>
+<div class="div1" onclick="location.href='?id=eob_category&sys_id=1f332dd2db745b008b72f3d31d9619b2'">
+<img src="events-icon-grey.png"  style="width:20%"/>
+<h5 class="h5">
+SCHEDULED EVENTS
+</h5>
+</div> 
+</tr>
+  
+<tr>
+<div class="div1" onclick="location.href='?id=eob_category&sys_id=ec53e192db745b008b72f3d31d96198b'">
+<img src="security-icon-grey.png"  style="width:20%"/>
+<h5 class="h5">
+SECURITY INCIDENTS  
+</h5>
+</div> 
+</tr>
+  
+<tr>
+<div class="div1" onclick="location.href='?id=eob_category&sys_id=216329d2db745b008b72f3d31d961927'">
+<img src="securitystatus-icon-grey.png"  style="width:20%"/>
+<h5 class="h5">
+SECURITY STATUS  
+</h5>
+</div> 
+</tr>
+
+<tr>
+<div class="div1" onclick="location.href='?id=eob_category&sys_id=2ea32116db745b008b72f3d31d961932'">
+<img src="siteinstructions-icon-grey.png"  style="width:20%"/>
+<h5 class="h5">
+SITE INSTRUCTIONS  
+</h5>
+</div> 
+</tr>
+    
+<tr>
+<div class="div2">
+</div> 
+</tr>
+ 
+</table>
+]]></template>
+    </sp_widget>
+</record_update>

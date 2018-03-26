@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>EOB - Display Tab according to Type</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	if (g_form.getValue('u_type') == "Client Instructions") {
+		g_form.setSectionDisplay('client_instructions', true);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+	}	
+
+	else if
+	  (g_form.getValue('u_type') == "Equipment Sign-Out") {
+		g_form.setSectionDisplay('equipment_signout', true);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+	}
+	
+	else if
+	  (g_form.getValue('u_type') == "Management Visits" || g_form.getValue('u_type') == "Inspector Visits") {
+		g_form.setSectionDisplay('managementinspector_visits', true);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+	}	
+	
+	else if
+	  (g_form.getValue('u_type') == "Security Information") {
+		g_form.setSectionDisplay('security_information', true);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+	}	
+		
+	else if
+	  (g_form.getValue('u_type') == "Security Off Duty") {
+		g_form.setSectionDisplay('security_offduty', true);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+	}	
+		
+	else if
+	  (g_form.getValue('u_type') == "Security On Duty") {
+		g_form.setSectionDisplay('security_onduty', true);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+	}	
+	
+	else if
+	  (g_form.getValue('u_type') == "Patrol Off") {
+		g_form.setSectionDisplay('patrol_off', true);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+	}	
+	
+	else if
+	  (g_form.getValue('u_type') == "Patrol On") {
+		g_form.setSectionDisplay('patrol_on', true);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+	}	
+	
+	else if
+	  (g_form.getValue('u_type') == "Security Shift Handover") {
+		g_form.setSectionDisplay('security_shifthandover', true);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+	}	
+	
+	else if
+	  (g_form.getValue('u_type') == "Security Training/Meeting") {
+		g_form.setSectionDisplay('security_trainingmeeting', true);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+	}
+	
+	else if
+	  (g_form.getValue('u_type') == "Site Situation Report") {
+		g_form.setSectionDisplay('site_situationreport', true);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+	}
+	else if
+	  (g_form.getValue('u_category') == "Maintenance Incident" || g_form.getValue('u_category') == "Security Incident" || g_form.getValue('u_category') == "Health and Safety Incident" || g_form.getValue('u_category') == "Scheduled Event" || g_form.getValue('u_category') == "Contractors Status Report") {
+		g_form.setSectionDisplay('report_received', true);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+	  }
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-19 09:50:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c9b272fbdb7053008b72f3d31d96198f</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_name>EOB - Display Tab according to Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sys_script_client_c9b272fbdb7053008b72f3d31d96198f</sys_update_name>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-03-26 06:53:45</sys_updated_on>
+        <table>engen_eob_electronic_occurences</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>Service Portal</category>
+        <format>png</format>
+        <height>56</height>
+        <image/>
+        <name>securitystatus-icon-grey.png</name>
+        <size_bytes>2143</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-07 11:49:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f3ead100db78970ca4d9f9c41d96194f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>securitystatus-icon-grey.png</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>db_image_f3ead100db78970ca4d9f9c41d96194f</sys_update_name>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-03-07 11:49:39</sys_updated_on>
+        <thumbnail/>
+        <width>48</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <image_height>56</image_height>
+        <image_width>48</image_width>
+        <size_bytes>2143</size_bytes>
+        <size_compressed>2166</size_compressed>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-07 11:49:39</sys_created_on>
+        <sys_id>2bfa5140db38970ca4d9f9c41d9619de</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-03-07 11:49:39</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>f3ead100db78970ca4d9f9c41d96194f</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="2bfa5140db38970ca4d9f9c41d9619de">2bfa5140db38970ca4d9f9c41d9619de</sys_attachment>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-07 11:49:39</sys_created_on>
+        <sys_id>6bfa5140db38970ca4d9f9c41d9619de</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2876</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="2bfa5140db38970ca4d9f9c41d9619de">2bfa5140db38970ca4d9f9c41d9619de</sys_attachment>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-07 11:49:39</sys_created_on>
+        <sys_id>67fa5540db78970ca4d9f9c41d9619cb</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -6,10 +6,21 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
+        <category display_value="Electronic Occurences" name="Electronic Occurences">90d82830dbb013008b72f3d31d9619c5</category>
         <collection>engen_eob_electronic_occurences</collection>
         <condition/>
         <content_type>text/html</content_type>
+        <default_interval/>
         <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
         <event_name>engen_eob.notify</event_name>
         <event_parm_1>true</event_parm_1>
         <event_parm_2>false</event_parm_2>
@@ -26,7 +37,7 @@
         <message_html><![CDATA[<table style="text-align: left; width: 100%;" border="0" cellspacing="2" cellpadding="2">
 <tbody>
 <tr>
-<td style="width: 100px; text-align: center; vertical-align: top;">&nbsp;</td>
+<td style="width: 100px; text-align: center; vertical-align: top;"><img style="align: baseline;" title="" src="Engen%20Marketing.jpgx" alt="" align="bottom" border="" hspace="" vspace="" /></td>
 <td>
 <p class="MsoNoSpacing"><span style="font-family: 'Arial',sans-serif; color: midnightblue;">EOB submitted by ${opened_by} for ${u_category} on ${sys_created_on} </span></p>
 <table style="text-align: left; width: 100%; font-size: 11pt; line-height: 107%; font-family: 'Arial',sans-serif; color: midnightblue;" border="0" cellspacing="2" cellpadding="2">
@@ -37,7 +48,7 @@
 </tr>
 <tr>
 <td><span style="font-weight: bold;">Opened By:</span></td>
-<td>${sys_created_by}</td>
+<td>${opened_by}</td>
 </tr>
 <tr>
 <td><span style="font-weight: bold;">Category:</span></td>
@@ -57,7 +68,8 @@
 </td>
 </tr>
 </tbody>
-</table>]]></message_html>
+</table>
+<p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>EOB Notification (General)</name>
@@ -80,7 +92,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>49c46aa9db549700a4d9f9c41d961932</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>EOB Notification (General)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
@@ -88,8 +100,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sysevent_email_action_49c46aa9db549700a4d9f9c41d961932</sys_update_name>
-        <sys_updated_by>rudolf.cronje</sys_updated_by>
-        <sys_updated_on>2018-02-15 13:05:49</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-03-09 16:05:51</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

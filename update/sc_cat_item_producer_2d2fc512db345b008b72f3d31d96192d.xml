@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="HSEQ Incidents">9b03a9d2db745b008b72f3d31d961926</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Environmental (Heat / Cold Exposures)</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=2d2fc512db345b008b72f3d31d96192d&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <roles/>
+        <sc_catalogs>0a117371dbb0d7008b72f3d31d96199c</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[current.u_category = "Health and Safety Incident";
+current.u_type = "Environmental Heat/Cold Exposures";
+current.location = producer.Location.toString();
+current.from_whom = producer.fromwhom.toString();
+current.u_client = producer.client;
+current.by_whom_received = producer.bywhomreceived.toString();
+current.source = producer.source;
+current.co_no_designation = producer.designation;
+current.priority = producer.priority;
+current.nature_of_report = producer.natureofreport;
+current.u_branch = producer.branch;
+]]></script>
+        <short_description>Log a call for Health &amp; Safety - Environmental (Heat / Cold Exposures)</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-14 10:44:13</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2d2fc512db345b008b72f3d31d96192d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Environmental (Heat / Cold Exposures)</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sc_cat_item_producer_2d2fc512db345b008b72f3d31d96192d</sys_update_name>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-03-23 08:33:30</sys_updated_on>
+        <table_name>engen_eob_electronic_occurences</table_name>
+        <template/>
+        <type>item</type>
+        <u_min_amount_attached/>
+        <u_no_attach>false</u_no_attach>
+        <u_no_submit_button>false</u_no_submit_button>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Engen: Electronic Occurrence Book">af5bcdf0db501300e815712ebf9619f0</workflow>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=2d2fc512db345b008b72f3d31d96192d"/>
+    <fx_price action="delete_multiple" query="id=2d2fc512db345b008b72f3d31d96192d"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="ZAR">ZAR</currency>
+        <field>price</field>
+        <id>2d2fc512db345b008b72f3d31d96192d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="ZAR">ZAR</reference_currency>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-14 10:44:13</sys_created_on>
+        <sys_id>6d2fc512db345b008b72f3d31d96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-03-14 10:44:13</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="ZAR">ZAR</currency>
+        <field>recurring_price</field>
+        <id>2d2fc512db345b008b72f3d31d96192d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="ZAR">ZAR</reference_currency>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-14 10:44:13</sys_created_on>
+        <sys_id>212fc512db345b008b72f3d31d961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-03-14 10:44:13</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#6cc8c1</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <image_height>56</image_height>
+        <image_width>56</image_width>
+        <size_bytes>5124</size_bytes>
+        <size_compressed>5147</size_compressed>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-14 10:45:05</sys_created_on>
+        <sys_id>1e5f4592db345b008b72f3d31d961931</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-03-14 10:45:05</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>2d2fc512db345b008b72f3d31d96192d</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="1e5f4592db345b008b72f3d31d961931">1e5f4592db345b008b72f3d31d961931</sys_attachment>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-14 10:45:05</sys_created_on>
+        <sys_id>5e5f4592db345b008b72f3d31d961931</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6852</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="1e5f4592db345b008b72f3d31d961931">1e5f4592db345b008b72f3d31d961931</sys_attachment>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-14 10:45:05</sys_created_on>
+        <sys_id>de5f4592db345b008b72f3d31d961931</sys_id>
+    </sys_attachment_doc>
+</record_update>

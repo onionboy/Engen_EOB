@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ($scope, spUtil, $rootScope, $location) {
+	var bc = [{label: $scope.page.title, url: '?id=' + $scope.data.sc_catalog_page}];
+	if ($scope.data.category)
+		bc[bc.length] = {label: $scope.data.category, url: '#'};
+	
+	$rootScope.$broadcast('sp.update.breadcrumbs', bc);	
+	spUtil.setSearchPage('sc');
+
+	/*=============== Begin link handling ===============*/
+	$scope.onClick = function($event, item) {
+		var lp = getLinkParts(item);
+		if (typeof lp == "string")
+			return; // can't intercept/redirect external content item
+
+		$event.stopPropagation();
+		$event.preventDefault();
+		var evt = {item: item, search: lp};
+
+		// This will let a wrapper widget intercept and redirect somewhere else
+		$scope.$emit($scope.options.click_event_name, evt);
+	};
+	
+	function getLinkParts(item) {
+		if (item.sys_class_name == 'sc_cat_item_content' && item.content_type == 'external')
+			return item.url;
+		
+		return {id: item.page, sys_id: item.sys_id};
+	}
+	
+	$scope.getItemHREF = function(item) {
+		var lp = getLinkParts(item);
+		if (typeof lp == "string")
+			return lp;
+		
+		return "?id=" + lp.id + "&sys_id=" + lp.sys_id;
+	}
+	
+	var unregister = $rootScope.$on($scope.options.click_event_name, function($event, o) {
+		if ("url" in o)
+			$location.href = o.url;
+		else
+			$location.search(o.search);
+	});
+	
+	$scope.$on("$destroy", function() { 
+		unregister(); 
+	});
+	/*=============== End link handling ===============*/
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.cat{
+  padding-top: 1%;
+}
+.cat2{
+  padding-bottom: 1%;
+}
+
+.h4{
+  color:black;
+}
+
+.col-md-3{
+  
+ width:40%; 
+}
+  </css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>&lt;h4 class="m-l-xs"&gt;&#13;
+ &lt;img style="margin:25px 0px" src="arrow-right.png" class="column m-r-xs m-b-xs item-image pull-right" /&gt;</description>
+        <docs display_value="Catalog Content">04bdcb60d731120023c84f80de6103b3</docs>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>eob-cat</id>
+        <internal>false</internal>
+        <link/>
+        <name>EOB Category Page</name>
+        <option_schema>[{"name":"click_event_name","default_value":"$sp.cat_item_list.click","label":"Click event name","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	data.category_id = $sp.getParameter("sys_id");
+	data.showPrices = $sp.showCatalogPrices();
+	if (options && options.sys_id)
+		data.category_id = options.sys_id;
+
+	data.sc_catalog_page = $sp.getDisplayValue("sc_catalog_page") || "sc_home";
+	// Does user have permission to see this category?
+	if (!$sp.canReadRecord("sc_category", data.category_id)) {
+		data.error = "You do not have permission to see this category";
+		return;
+	} 
+
+	var cat = new GlideRecord('sc_category');
+	cat.get(data.category_id);
+	data.category = cat.getDisplayValue('title');
+	var items = data.items = [];
+	var sc = new GlideRecord('sc_cat_item_category');
+	if (data.category_id) 
+		sc.addQuery('sc_category', data.category_id);
+
+	sc.addQuery('sc_cat_item.active',true);
+	sc.addQuery('sc_cat_item.sys_class_name', 'NOT IN', 'sc_cat_item_wizard');
+	sc.orderBy('sc_cat_item.order');
+	sc.orderBy('sc_cat_item.name');
+	sc.query();
+	while (sc.next()) {
+		// Does user have permission to see this item?
+		if (!$sp.canReadRecord("sc_cat_item", sc.sc_cat_item.sys_id.getDisplayValue()))
+			continue;
+
+		var item = {};
+		var gr = new GlideRecord('sc_cat_item');
+		gr.get(sc.sc_cat_item);
+		//gr = GlideScriptRecordUtil.get(gr).getRealRecord();
+		$sp.getRecordDisplayValues(item, gr, 'name,short_description,picture,price,sys_id');
+		item.sys_class_name = sc.sc_cat_item.sys_class_name + "";
+		item.page = 'eob_cat_item_view';
+		if (item.sys_class_name == 'sc_cat_item_guide')
+			item.page = 'sc_cat_item_guide';
+		else if (item.sys_class_name == 'sc_cat_item_content') {
+			$sp.getRecordValues(item, gr, 'url,content_type,kb_article');
+			if (item.content_type == 'kb') {
+				item.page = 'kb_article';
+				item.sys_id = item.kb_article;
+			} else if (item.content_type == 'literal') {
+				item.page = 'eob_cat_item_view';
+			} else if (item.content_type == 'external')
+				item.target = '_blank';
+		}
+
+		items.push(item);
+	}
+})()
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-14 09:09:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3b89f85edbb05b008b72f3d31d961943</sys_id>
+        <sys_mod_count>88</sys_mod_count>
+        <sys_name>EOB Category Page</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sp_widget_3b89f85edbb05b008b72f3d31d961943</sys_update_name>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-03-22 11:20:12</sys_updated_on>
+        <template><![CDATA[<div>
+  <h4 ng-if="data.error">{{data.error}}</h4>
+  <div ng-init="spSearch.targetCatalog()">
+    <h2 class="cat">{{data.category}}</h2>
+        <h4 class="cat2">Select the Incident type you would like to log.</h4>
+    <div class="column">      
+      <div class="col-xs-6 col-md-4" ng-repeat="item in data.items">
+        <div class="panel panel-{{::options.color}} b">
+          <a target="{{item.target}}" ng-href="{{getItemHREF(item)}}" ng-click="onClick($event, item)" class="panel-body block">
+            <div class="overflow-100">
+             
+              <img style="margin:23px 0px" ng-src="{{item.picture}}" ng-if="item.picture" class="m-r-xs m-b-xs item-image pull-left" />
+              <img style="margin:30px 0px" src="arrow-right.png" class="m-r-xs m-b-xs item-image pull-right" />
+               <h5 style="margin:20px 25px;" class="h4">{{item.name}}<span ng-if="item.content_type == 'external'"> </span></h5>
+             </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Security Incidents">ec53e192db745b008b72f3d31d96198b</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Lost and Found</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=e06e944edb78d7008b72f3d31d96193c&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <roles/>
+        <sc_catalogs>0a117371dbb0d7008b72f3d31d96199c</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[current.u_category = "Security Incident";
+current.u_type = "Lost and Found";
+current.location = producer.Location.toString();
+current.from_whom = producer.fromwhom.toString();
+current.u_client = producer.client;
+current.by_whom_received = producer.bywhomreceived.toString();
+current.source = producer.source;
+current.co_no_designation = producer.designation;
+current.priority = producer.priority;
+current.nature_of_report = producer.natureofreport;
+current.u_branch = producer.branch;]]></script>
+        <short_description>Log a call for Security Incident - Lost and Found</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-13 12:32:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e06e944edb78d7008b72f3d31d96193c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Lost and Found</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sc_cat_item_producer_e06e944edb78d7008b72f3d31d96193c</sys_update_name>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-03-23 09:00:49</sys_updated_on>
+        <table_name>engen_eob_electronic_occurences</table_name>
+        <template/>
+        <type>item</type>
+        <u_min_amount_attached/>
+        <u_no_attach>false</u_no_attach>
+        <u_no_submit_button>false</u_no_submit_button>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Engen: Electronic Occurrence Book">af5bcdf0db501300e815712ebf9619f0</workflow>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=e06e944edb78d7008b72f3d31d96193c"/>
+    <fx_price action="delete_multiple" query="id=e06e944edb78d7008b72f3d31d96193c"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="ZAR">ZAR</currency>
+        <field>price</field>
+        <id>e06e944edb78d7008b72f3d31d96193c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="ZAR">ZAR</reference_currency>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-13 12:32:40</sys_created_on>
+        <sys_id>e46e5c42dbb8d7008b72f3d31d961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-03-13 12:32:40</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="ZAR">ZAR</currency>
+        <field>recurring_price</field>
+        <id>e06e944edb78d7008b72f3d31d96193c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="ZAR">ZAR</reference_currency>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-13 12:32:40</sys_created_on>
+        <sys_id>a46e5c42dbb8d7008b72f3d31d961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-03-13 12:32:40</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#9a89c2</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <image_height>56</image_height>
+        <image_width>57</image_width>
+        <size_bytes>5054</size_bytes>
+        <size_compressed>5077</size_compressed>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-13 12:33:28</sys_created_on>
+        <sys_id>4c9e1c42dbb8d7008b72f3d31d961993</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-03-13 12:33:28</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>e06e944edb78d7008b72f3d31d96193c</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="4c9e1c42dbb8d7008b72f3d31d961993">4c9e1c42dbb8d7008b72f3d31d961993</sys_attachment>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-13 12:33:28</sys_created_on>
+        <sys_id>8c9e1c42dbb8d7008b72f3d31d961993</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6756</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="4c9e1c42dbb8d7008b72f3d31d961993">4c9e1c42dbb8d7008b72f3d31d961993</sys_attachment>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-03-13 12:33:28</sys_created_on>
+        <sys_id>009e1c42dbb8d7008b72f3d31d961994</sys_id>
+    </sys_attachment_doc>
+</record_update>

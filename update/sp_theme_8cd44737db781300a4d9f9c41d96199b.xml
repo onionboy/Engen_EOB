@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>/* ---- Set the variables ---- */&#13;
+&#13;
+$brand-primary: #5BC8E5 !default;&#13;
+$brand-info: #034EA2 !default; &#13;
+$sp-logo-margin-x: 		15px !default;&#13;
+$sp-tagline-color:		#fff !default;&#13;
+$navbar-inverse-bg: 	$brand-info !default;&#13;
+$navbar-inverse-link-color: #fff !default;&#13;
+$navbar-inverse-link-hover-color: #ffffff !default;&#13;
+$body-bg: 				#E8E9EB !default;&#13;
+$grid-gutter-width: 30px !default;&#13;
+&#13;
+/* ---- The home-back styles ---- */&#13;
+&#13;
+.navbar {&#13;
+	border-bottom: 4px solid #0066b3 !important;&#13;
+}&#13;
+&#13;
+.home-back {&#13;
+  margin-bottom: 15px;&#13;
+  .wrapper-xl {&#13;
+  	padding: 75px 50px !important;&#13;
+  }&#13;
+}&#13;
+&#13;
+@media(min-width:768px){&#13;
+  .home-back {&#13;
+    margin-top: -70px;&#13;
+    -webkit-box-shadow: inset 0px 120px 160px -100px rgba(0,0,0,0.75), inset 0px -200px 200px -70px #f0f6f9;&#13;
+    -moz-box-shadow: inset 0px 120px 160px -100px rgba(0,0,0,0.75), inset 0px -200px 200px -70px #f0f6f9;&#13;
+    box-shadow: inset 0px 120px 160px -100px rgba(0,0,0,0.75), inset 0px -200px 200px -70px #f0f6f9;&#13;
+  }&#13;
+}&#13;
+&#13;
+@media(max-width:767px) {&#13;
+  .home-back {&#13;
+      margin-left: -15px;&#13;
+      margin-right: -15px;&#13;
+      background-image: none !important;&#13;
+      background-color: $brand-info;&#13;
+  }&#13;
+}&#13;
+&#13;
+&#13;
+/* ---- No gutter class ---- */&#13;
+&#13;
+.row.no-gutters {&#13;
+	margin-right: 0;&#13;
+	margin-left: 0;&#13;
+}&#13;
+.row.no-gutters &gt; [class^="col-"],&#13;
+.row.no-gutters &gt; [class*=" col-"] {&#13;
+	padding-right: 0;&#13;
+	padding-left: 0;&#13;
+}&#13;
+&#13;
+&#13;
+/* ---- Restyle the panels ---- */&#13;
+&#13;
+.panel-default &gt; .panel-heading,&#13;
+.panel-default &gt; .panel-heading h4 {&#13;
+  background-color: transparent !important;&#13;
+  color: $brand-info;&#13;
+  opacity: 0.75;&#13;
+  font-weight: 600;&#13;
+  font-size: 18px;&#13;
+  border-bottom: 0px solid transparent;&#13;
+}&#13;
+&#13;
+.panel-primary &gt; .panel-heading {&#13;
+	background-color: transparent;&#13;
+    border-bottom: 4px solid $brand-primary;&#13;
+}&#13;
+&#13;
+/* ---- General clean up ---- */&#13;
+&#13;
+body .padding-top {&#13;
+  padding-top: 0px !important;&#13;
+}&#13;
+&#13;
+.breadcrumbs-container {&#13;
+  margin-bottom: 30px;&#13;
+}&#13;
+&#13;
+.btn-default  {&#13;
+color: #fff;&#13;
+background-color: $brand-primary;&#13;
+border-color: $brand-primary;&#13;
+}&#13;
+&#13;
+.btn-default:hover,&#13;
+.btn-default:active,&#13;
+.btn-default:focus {&#13;
+	background-color: lighten($brand-primary,10%);&#13;
+}&#13;
+&#13;
+.sp-tagline-color {&#13;
+	text-shadow: 0px 0px 20px #000;&#13;
+}&#13;
+&#13;
+.col-md-9 {&#13;
+background-color:#E8E9EB;&#13;
+height: 100%;&#13;
+}&#13;
+&#13;
+.sp-row-content.row {&#13;
+background-color:#E8E9EB;&#13;
+&#13;
+}&#13;
+</css_variables>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</header>
+        <name>Engen Theme EOB</name>
+        <navbar_fixed>false</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-19 11:09:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8cd44737db781300a4d9f9c41d96199b</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Engen Theme EOB</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sp_theme_8cd44737db781300a4d9f9c41d96199b</sys_update_name>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-03-19 12:18:25</sys_updated_on>
+    </sp_theme>
+</record_update>

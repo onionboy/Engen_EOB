@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Electronic Occurrance Book</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="">Default</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-05 09:32:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>37286a1fdb209fc8a4d9f9c41d9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Electronic Occurrance Book</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sc_category_37286a1fdb209fc8a4d9f9c41d9619cc</sys_update_name>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-03-05 09:32:39</sys_updated_on>
+        <title>Electronic Occurrance Book</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=37286a1fdb209fc8a4d9f9c41d9619cc"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffffff</average_image_color>
+        <chunk_size_bytes/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>icon</file_name>
+        <image_height>30</image_height>
+        <image_width>24</image_width>
+        <size_bytes>723</size_bytes>
+        <size_compressed>746</size_compressed>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-05 09:47:30</sys_created_on>
+        <sys_id>b2db669bdb609fc8a4d9f9c41d9619b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-03-05 09:47:30</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>37286a1fdb209fc8a4d9f9c41d9619cc</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="b2db669bdb609fc8a4d9f9c41d9619b7">b2db669bdb609fc8a4d9f9c41d9619b7</sys_attachment>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-05 09:47:30</sys_created_on>
+        <sys_id>badb669bdb609fc8a4d9f9c41d9619b7</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AdMCLP2JUE5HDQoaCgAAAA1JSERSAAAAGAAAAB4IBgAAAUEp7nMAAAABc1JHQgCuzhzpAAACjUlEQVRIDbWWT4hNcRTH52GKYTEWmlmgSZKFrO0kpSb/NrK0l2QnysbCZrKxmiEbqdlZKTWRt2CpJEZEWSiaFKLIUNfn+7vn3Hfuu/c+99Vz6nvPOd/zPb9/975731iWZU9BNubmyRojHsh7ksuQzLp8jOSherATHV2tcsh7lH+QTLaUu2wCL3xKaiO78iLkY/vvpMovezqucLKDpZiuq2A9WPCi/DpwFmiycYoT+BnwAuSTQcoOe+6FyZxP1ysi84kIRCWVSCwu1/nkGwuN+4inWBqqJllh6ukSz7rm03rzy8lSkUR07S6iUDtSLjFuvqgZocJ9xW4uJr+huHHXxUi94FpTQ3HAPW0var2HooW13QFnwG6wEQycIe1eohZ2Ps1iwjf4BXDKcn/Y5TeDc8bvi0vTo/bdCs+KggXwf8CinmS3Lx7g96rRb5rxa/FPUkxtToIam5IA/oJqSWxEl3wRxF8AaXbE6opPK453epUlfBUZDeFW5dTScxQboi7GR2PSpmFy2IaoL+2hVGhK2iyp2stJdEGdpWONHUPPMOitoTu7AvxN8Yr4UZwtxN+I34N3YIl79quo1a17RNylNAmD7QfbQGX7cFPA7XaxqgEB4gPegJ+rSCG3g+UgqgsvVxqNQLwpNFwv6SjMhuK/wpelZhIa9LF6bY36/e8oaSDuWbGtO+gD0KDj/GGNn/FbVOs/9w3WcIsnIRl5+kdgfL9zvfjHQPlHME1z+tb3T0BteGO1x+jaaZ0XGXzVRxnJBAy2ywfEL4e4ckSx5nHvVepM1Y8H6meIW00Q9UPHozqixonjZyqKjnPjnhsxEwsN8U34u1Z7GzVNE+gzUPoUxKb+2B7J/C9oX/G/H9FfEtIFd2nr7p4AAAAASUVORK5CYII5vkvn0wIAAA==</data>
+        <length>984</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="b2db669bdb609fc8a4d9f9c41d9619b7">b2db669bdb609fc8a4d9f9c41d9619b7</sys_attachment>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-05 09:47:30</sys_created_on>
+        <sys_id>3edb669bdb609fc8a4d9f9c41d9619b7</sys_id>
+    </sys_attachment_doc>
+</record_update>

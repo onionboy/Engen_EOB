@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>Service Portal</category>
+        <format>png</format>
+        <height>15</height>
+        <image/>
+        <name>arrow-right.png</name>
+        <size_bytes>289</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-19 07:40:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8be396f3dbb41300a4d9f9c41d9619ef</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>arrow-right.png</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>db_image_8be396f3dbb41300a4d9f9c41d9619ef</sys_update_name>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-03-19 09:18:48</sys_updated_on>
+        <thumbnail/>
+        <width>8</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <image_height>15</image_height>
+        <image_width>8</image_width>
+        <size_bytes>289</size_bytes>
+        <size_compressed>312</size_compressed>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-19 09:18:48</sys_created_on>
+        <sys_id>328ba2f7dbf41300a4d9f9c41d961973</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-03-19 09:18:48</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>8be396f3dbb41300a4d9f9c41d9619ef</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="328ba2f7dbf41300a4d9f9c41d961973">328ba2f7dbf41300a4d9f9c41d961973</sys_attachment>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-19 09:18:48</sys_created_on>
+        <sys_id>728ba2f7dbf41300a4d9f9c41d961973</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>ASEB3v6JUE5HDQoaCgAAAA1JSERSAAAACAAAAA8IBgAAAa4NvqUAAAABc1JHQgCuzhzpAAAA20lEQVQYGW2PWwqCQBSG5+ioC2gFvXQxoihqD71468lAoU21AMcigghbQy9B0FstRp1pFM6gmC9n/u//5iKhDnuQPx91ku8f3ELUTT6kJbZC061VBCp0Lje84xytamqgQy7hsgmJuT2NJFxXELCx/POgJLynIahb4KLO9ZYgXWGYGAFbKNPw2UwFuQDTTadc8AsQY5ffw3ezrNbqVinaUrxKMZLiC0UlILAcNixB3GSxz7P42RFQ1L10QwQ/UAQ41QmCVyf0lYBv4IRGRRbauIHiXwiAsMjiMRY4f3WaUts6RdWkAAAAAElFTkSuQmCCp5MlnSEBAAA=</data>
+        <length>404</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="328ba2f7dbf41300a4d9f9c41d961973">328ba2f7dbf41300a4d9f9c41d961973</sys_attachment>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-19 09:18:48</sys_created_on>
+        <sys_id>f28ba2f7dbf41300a4d9f9c41d961973</sys_id>
+    </sys_attachment_doc>
+</record_update>
