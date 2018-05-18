@@ -105,4 +105,21 @@
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="ZAR">ZAR</currency>
+        <field>rec_price_if_checked</field>
+        <id>16432bd6dbe8d7cc8b72f3d31d96198c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="ZAR">ZAR</reference_currency>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-03-26 13:13:26</sys_created_on>
+        <sys_id>18646b02db495300a4d9f9c41d961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-03-26 13:13:26</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
 </record_update>

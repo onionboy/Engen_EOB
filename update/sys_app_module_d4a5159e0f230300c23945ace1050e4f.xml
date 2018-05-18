@@ -15,7 +15,7 @@
         <mobile_title>Electronic Occurences</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>engen_eob_electronic_occurences</name>
-        <order/>
+        <order>100</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d4a5159e0f230300c23945ace1050e4f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Electronic Occurences (All)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
@@ -37,8 +37,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sys_app_module_d4a5159e0f230300c23945ace1050e4f</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-14 13:07:33</sys_updated_on>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-04-03 08:58:57</sys_updated_on>
         <timeline_page/>
         <title>Electronic Occurences (All)</title>
         <uncancelable>false</uncancelable>

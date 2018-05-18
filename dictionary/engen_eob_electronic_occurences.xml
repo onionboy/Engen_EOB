@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="Electronic Occurences" max_length="40" name="engen_eob_electronic_occurences" sizeclass="27" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="Engen EOB Electronic Occurences" max_length="40" name="engen_eob_electronic_occurences" sizeclass="22" type="collection">
         <element label="Additional Equipment" max_length="40" name="additional_equipment" type="boolean"/>
         <element label=" " max_length="40" name="add_equipm" type="string"/>
         <element label="Alcoblow / MarkX Units" max_length="40" name="alcoblow_markx_units" type="boolean"/>
@@ -18,21 +18,31 @@
         <element label="Comment" max_length="4000" name="comment" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Co No. / Designation" max_length="40" name="co_no_designation" type="string"/>
         <element label="Date and Time" max_length="40" name="date_and_time" type="glide_date_time"/>
+        <element label="Date of Training" max_length="40" name="date_of_training" type="glide_date_time"/>
+        <element label="Date &amp; Time" max_length="40" name="date_time_1" type="glide_date_time"/>
+        <element label="Date &amp; Time" max_length="40" name="date_time_2" type="glide_date_time"/>
         <element label="DSGR Units with Charger" max_length="40" name="dsgr_units_with_charger" type="boolean"/>
+        <element label="Equipment" max_length="100" name="equipment" type="string"/>
         <element label="Escalated To" max_length="40" name="escalated_to" type="string"/>
         <element label="From Whom" max_length="32" name="from_whom" reference="sys_user" type="reference"/>
         <element label="Handcuffs with Keys" max_length="40" name="handcuffs_with_keys" type="boolean"/>
         <element label="Handing Over By" max_length="40" name="handing_over_by" type="string"/>
         <element label="Handing Over Received By" max_length="40" name="handing_over_received_by" type="string"/>
+        <element label="Incdent Reference" max_length="20" name="incdent_reference" type="string"/>
         <element label="Inspector Name &amp; Surname" max_length="40" name="inspector_name" type="string"/>
         <element label="Inspector Surname" max_length="40" name="inspector_surname" type="string"/>
+        <element label="Issue Date and Time" max_length="40" name="issue_date_and_time" type="glide_date_time"/>
+        <element label="Logged By" max_length="32" name="loggedby" reference="sys_user" type="reference"/>
         <element label="Lost and Found Equipment" max_length="40" name="lost_and_found_equipment" type="boolean"/>
         <element label="Medical Equipment" max_length="40" name="medical_equipment" type="boolean"/>
         <element label="Metal Detectors" max_length="40" name="metal_detectors" type="boolean"/>
+        <element label="Name of Company" max_length="40" name="name_company" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Nature of Report" max_length="4000" name="nature_of_report" type="string"/>
+        <element choice="1" label="Officers Searched?" max_length="40" name="officers_searched" type="choice">
+            <choice/>
+        </element>
         <element label="Officer Name &amp; Surname" max_length="40" name="officer_name" type="string"/>
-        <element label="Officers Searched" max_length="40" name="officer_searched" type="boolean"/>
-        <element choice="1" label="Officer Tested" max_length="40" name="officer_tested" type="choice">
+        <element choice="1" label="Officer tested for substance abuse?" max_length="40" name="officer_tested" type="choice">
             <choice/>
         </element>
         <element label="Patrol Done By" max_length="40" name="patrol_done_by" type="string"/>
@@ -42,12 +52,17 @@
         <element choice="1" label="Patrol Type" max_length="40" name="patrol_type" type="choice">
             <choice/>
         </element>
+        <element label="Person Visit" max_length="40" name="personvisit" type="string"/>
+        <element label="Reason" max_length="100" name="reason" type="string"/>
         <element label="Reason for Request" max_length="40" name="reason_for_request" type="string"/>
         <element label="Reported By" max_length="40" name="reported_by" type="string"/>
         <element label="Requested By" max_length="40" name="requested_by" type="string"/>
         <element label="Return Date/Time" max_length="40" name="return_date_time" type="glide_date_time"/>
         <element label="Seals (Plastic and Steel)" max_length="40" name="seals_plastic_and_steel" type="boolean"/>
         <element label="Security Officers Names &amp; Surnames" max_length="4000" name="security_officers_name" type="string"/>
+        <element label="1. Security Officer Name &amp; Surname" max_length="100" name="security_officer_name_surname_1" type="string"/>
+        <element label="2. Security Officer Name &amp; Surname" max_length="100" name="security_officer_name_surname_2" type="string"/>
+        <element label="Site Visited" max_length="40" name="sitevisited" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Source" max_length="40" name="source" type="string">
             <choice>
                 <element label="Phone" sequence="0" value="Phone"/>
@@ -60,6 +75,7 @@
         <element label="Time of Training" max_length="40" name="time_of_training" type="glide_date_time"/>
         <element label="Time On Duty" max_length="40" name="time_on_duty" type="glide_date_time"/>
         <element label="Torches" max_length="40" name="torches" type="boolean"/>
+        <element label="Training" max_length="100" name="training" type="string"/>
         <element label="Two-way Radio Charges" max_length="40" name="two_way_radio_charges" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="50" name="u_category" type="string">
             <choice>

@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>false</active>
         <attributes/>
-        <cat_item display_value="Client Instructions">50225c4edbf4d7008b72f3d31d96197b</cat_item>
+        <cat_item display_value="On Site">31559456db305b008b72f3d31d9619c6</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -37,17 +37,17 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>client_surname</name>
-        <order>110</order>
+        <name>Location</name>
+        <order>55</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Client Surname</question_text>
+        <question_text>Location</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>engen_eob_electronic_occurences</record_producer_table>
-        <reference/>
+        <reference>cmn_location</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <scale_max>5</scale_max>
@@ -58,21 +58,21 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>danie.steenkamp</sys_created_by>
-        <sys_created_on>2018-03-16 10:06:12</sys_created_on>
+        <sys_created_on>2018-04-19 11:39:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>1a89dffadb785f008b72f3d31d9619fc</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Client Surname</sys_name>
+        <sys_id>93b4b631dbe957408b72f3d31d96196b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Location</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
-        <sys_update_name>item_option_new_1a89dffadb785f008b72f3d31d9619fc</sys_update_name>
+        <sys_update_name>item_option_new_93b4b631dbe957408b72f3d31d96196b</sys_update_name>
         <sys_updated_by>danie.steenkamp</sys_updated_by>
-        <sys_updated_on>2018-03-23 09:08:59</sys_updated_on>
+        <sys_updated_on>2018-04-19 11:53:50</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>8</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
@@ -86,22 +86,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=1a89dffadb785f008b72f3d31d9619fc"/>
-    <fx_price action="delete_multiple" query="id=1a89dffadb785f008b72f3d31d9619fc"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=93b4b631dbe957408b72f3d31d96196b"/>
+    <fx_price action="delete_multiple" query="id=93b4b631dbe957408b72f3d31d96196b"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="ZAR">ZAR</currency>
         <field>price_if_checked</field>
-        <id>1a89dffadb785f008b72f3d31d9619fc</id>
+        <id>93b4b631dbe957408b72f3d31d96196b</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="ZAR">ZAR</reference_currency>
         <sys_created_by>danie.steenkamp</sys_created_by>
-        <sys_created_on>2018-03-16 10:06:12</sys_created_on>
-        <sys_id>4ca9933edb785f008b72f3d31d9619b3</sys_id>
+        <sys_created_on>2018-04-19 11:39:38</sys_created_on>
+        <sys_id>9c15f631dbe957408b72f3d31d961993</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>danie.steenkamp</sys_updated_by>
-        <sys_updated_on>2018-03-16 10:06:12</sys_updated_on>
+        <sys_updated_on>2018-04-19 11:39:38</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -109,16 +109,16 @@
         <amount>0</amount>
         <currency display_value="ZAR">ZAR</currency>
         <field>rec_price_if_checked</field>
-        <id>1a89dffadb785f008b72f3d31d9619fc</id>
+        <id>93b4b631dbe957408b72f3d31d96196b</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="ZAR">ZAR</reference_currency>
         <sys_created_by>danie.steenkamp</sys_created_by>
-        <sys_created_on>2018-03-16 10:06:12</sys_created_on>
-        <sys_id>04a9933edb785f008b72f3d31d9619b3</sys_id>
+        <sys_created_on>2018-04-19 11:39:38</sys_created_on>
+        <sys_id>d815f631dbe957408b72f3d31d961992</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>danie.steenkamp</sys_updated_by>
-        <sys_updated_on>2018-03-16 10:06:12</sys_updated_on>
+        <sys_updated_on>2018-04-19 11:39:38</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

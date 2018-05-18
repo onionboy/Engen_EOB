@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2018-03-26 13:13:30">
+<record_update node_type="sys_portal_page" unload_date="2018-05-18 09:55:20">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -26,5 +26,291 @@
         <title>EOB Dashboard</title>
         <user/>
         <view>eob_dashboard</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="EOB Dashboard">819ca9a5db909700a4d9f9c41d96198d</page>
+                <summary/>
+                <sys_created_by>rudolf.cronje</sys_created_by>
+                <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                <sys_id>84ffb295db99d3008b72f3d31d9619de</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>rudolf.cronje</sys_updated_by>
+                <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619de</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>08ffb295db99d3008b72f3d31d9619de</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>a89eb691db99d3008b72f3d31d961950</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619de</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>48ffb295db99d3008b72f3d31d9619e0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>819ca9a5db909700a4d9f9c41d96198d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619de</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>c0ffb295db99d3008b72f3d31d9619df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619de</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>c0ffb295db99d3008b72f3d31d9619e0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>EOB Single Location: EOB Categories by State</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619de</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>c4ffb295db99d3008b72f3d31d9619df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619de</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>c8ffb295db99d3008b72f3d31d9619df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619de</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>ccffb295db99d3008b72f3d31d9619df</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="EOB Dashboard">819ca9a5db909700a4d9f9c41d96198d</page>
+                <summary/>
+                <sys_created_by>rudolf.cronje</sys_created_by>
+                <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                <sys_id>84ffb295db99d3008b72f3d31d9619e3</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>rudolf.cronje</sys_updated_by>
+                <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619e3</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>08ffb295db99d3008b72f3d31d9619e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>958ee929db909700a4d9f9c41d9619bc</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619e3</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>08ffb295db99d3008b72f3d31d9619e5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>819ca9a5db909700a4d9f9c41d96198d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619e3</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>80ffb295db99d3008b72f3d31d9619e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619e3</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>80ffb295db99d3008b72f3d31d9619e5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>EOB Single Location: Open EOB by Categories</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619e3</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>84ffb295db99d3008b72f3d31d9619e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619e3</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>88ffb295db99d3008b72f3d31d9619e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619e3</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>8cffb295db99d3008b72f3d31d9619e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">84ffb295db99d3008b72f3d31d9619e3</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>8cffb295db99d3008b72f3d31d9619e4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="EOB Dashboard">819ca9a5db909700a4d9f9c41d96198d</page>
+                <summary/>
+                <sys_created_by>rudolf.cronje</sys_created_by>
+                <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                <sys_id>c0ffb295db99d3008b72f3d31d9619e1</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>rudolf.cronje</sys_updated_by>
+                <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">c0ffb295db99d3008b72f3d31d9619e1</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>40ffb295db99d3008b72f3d31d9619e3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>819ca9a5db909700a4d9f9c41d96198d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">c0ffb295db99d3008b72f3d31d9619e1</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>44ffb295db99d3008b72f3d31d9619e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>b9df29a9db909700a4d9f9c41d9619b1</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">c0ffb295db99d3008b72f3d31d9619e1</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>c0ffb295db99d3008b72f3d31d9619e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">c0ffb295db99d3008b72f3d31d9619e1</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>c4ffb295db99d3008b72f3d31d9619e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>pivot</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">c0ffb295db99d3008b72f3d31d9619e1</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>c8ffb295db99d3008b72f3d31d9619e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">c0ffb295db99d3008b72f3d31d9619e1</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>c8ffb295db99d3008b72f3d31d9619e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>EOB Single Location: Open EOB by Type</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-04-05 14:54:29">c0ffb295db99d3008b72f3d31d9619e1</portal_section>
+                        <sys_created_by>rudolf.cronje</sys_created_by>
+                        <sys_created_on>2018-04-05 12:54:29</sys_created_on>
+                        <sys_id>ccffb295db99d3008b72f3d31d9619e1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rudolf.cronje</sys_updated_by>
+                        <sys_updated_on>2018-04-05 12:54:29</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
     </sys_portal_page>
 </record_update>

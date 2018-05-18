@@ -12,7 +12,7 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>true</is_extendable>
-        <label>Electronic Occurences</label>
+        <label>Engen EOB Electronic Occurences</label>
         <live_feed_enabled>true</live_feed_enabled>
         <name>engen_eob_electronic_occurences</name>
         <number_ref display_value="EOB">10a5159e0f230300c23945ace1050e48</number_ref>
@@ -26,15 +26,15 @@
         <sys_created_on>2018-01-11 07:54:01</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3795119e0f230300c23945ace1050e6c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Electronic Occurences</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Engen EOB Electronic Occurences</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sys_db_object_3795119e0f230300c23945ace1050e6c</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-11 07:54:03</sys_updated_on>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-04-23 07:11:15</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="engen_eob.user" name="engen_eob.user">3b95d19e0f230300c23945ace1050e73</user_role>
         <ws_access>true</ws_access>

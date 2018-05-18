@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Security On Duty">369b559edb345b008b72f3d31d96191a</catalog_item>
+        <catalog_variable>IO:8b24ce8edbb95b008b72f3d31d96195e</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-05-02 13:02:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d7b48a42dbf95b008b72f3d31d96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date_time_on_duty2</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d7b48a42dbf95b008b72f3d31d96195f</sys_update_name>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-05-02 13:02:59</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Security Officer 2">a3844642dbf95b008b72f3d31d9619e6</ui_policy>
+        <variable>date_time_on_duty2</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>
