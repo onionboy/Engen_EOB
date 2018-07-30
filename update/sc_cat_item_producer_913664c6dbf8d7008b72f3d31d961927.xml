@@ -48,14 +48,11 @@
         <script><![CDATA[current.u_category = "Scheduled Event";
 current.u_type = "Fire Test";
 current.location = producer.Location.toString();
-current.from_whom = producer.fromwhom.toString();
 current.u_client = producer.client;
-current.by_whom_received = producer.bywhomreceived.toString();
 current.source = producer.source;
 current.co_no_designation = producer.designation;
-current.priority = producer.priority;
-current.nature_of_report = producer.natureofreport;
-current.u_branch = producer.branch;]]></script>
+current.priority = producer.Priority;
+current.nature_of_report = producer.natureofreport;]]></script>
         <short_description>Log a call for Scheduled Event - Fire Test</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -64,7 +61,7 @@ current.u_branch = producer.branch;]]></script>
         <sys_created_on>2018-03-13 13:06:52</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>913664c6dbf8d7008b72f3d31d961927</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Fire Test</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
@@ -72,7 +69,7 @@ current.u_branch = producer.branch;]]></script>
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sc_cat_item_producer_913664c6dbf8d7008b72f3d31d961927</sys_update_name>
         <sys_updated_by>danie.steenkamp</sys_updated_by>
-        <sys_updated_on>2018-03-23 08:46:35</sys_updated_on>
+        <sys_updated_on>2018-07-06 09:53:57</sys_updated_on>
         <table_name>engen_eob_electronic_occurences</table_name>
         <template/>
         <type>item</type>

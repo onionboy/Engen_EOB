@@ -5,13 +5,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-05-02 13:10:22</sys_created_on>
-            <sys_id>44868606dbf95b008b72f3d31d96192d</sys_id>
+            <sys_created_on>2018-05-24 06:37:51</sys_created_on>
+            <sys_id>b8af7589dbd21bc08b72f3d31d961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-05-02 13:10:22</sys_updated_on>
+            <sys_updated_on>2018-05-24 06:37:51</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -19,141 +19,127 @@
             <element>security_officers_name</element>
             <position>1</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-05-02 13:10:22</sys_created_on>
-            <sys_id>c4868606dbf95b008b72f3d31d96192d</sys_id>
+            <sys_created_on>2018-05-24 06:37:51</sys_created_on>
+            <sys_id>3caf7589dbd21bc08b72f3d31d961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-05-02 13:10:22</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>2</position>
-            <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-05-02 13:10:22</sys_created_on>
-            <sys_id>48868606dbf95b008b72f3d31d96192d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
-            <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-05-02 13:10:22</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>time_on_duty</element>
-            <position>3</position>
-            <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-05-02 13:10:22</sys_created_on>
-            <sys_id>c8868606dbf95b008b72f3d31d96192d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
-            <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-05-02 13:10:22</sys_updated_on>
+            <sys_updated_on>2018-05-24 06:37:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>officer_tested</element>
-            <position>4</position>
+            <position>2</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-05-02 13:10:22</sys_created_on>
-            <sys_id>4c868606dbf95b008b72f3d31d96192d</sys_id>
+            <sys_created_on>2018-05-24 06:37:51</sys_created_on>
+            <sys_id>bcaf7589dbd21bc08b72f3d31d961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-05-02 13:10:22</sys_updated_on>
+            <sys_updated_on>2018-05-24 06:37:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>5</position>
+            <element>officers_reporting_late_not_reporting</element>
+            <position>3</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-05-02 13:10:22</sys_created_on>
-            <sys_id>cc868606dbf95b008b72f3d31d96192d</sys_id>
+            <sys_created_on>2018-05-24 06:37:51</sys_created_on>
+            <sys_id>30af7589dbd21bc08b72f3d31d961922</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-05-02 13:10:22</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>security_officer_name_surname_1</element>
-            <position>6</position>
-            <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-05-02 13:10:22</sys_created_on>
-            <sys_id>40868606dbf95b008b72f3d31d96192e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
-            <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-05-02 13:10:22</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>security_officer_name_surname_2</element>
-            <position>7</position>
-            <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-05-02 13:10:22</sys_created_on>
-            <sys_id>c0868606dbf95b008b72f3d31d96192e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
-            <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-05-02 13:10:22</sys_updated_on>
+            <sys_updated_on>2018-05-24 06:37:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
+            <position>4</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-05-02 13:10:22</sys_created_on>
-            <sys_id>44868606dbf95b008b72f3d31d96192e</sys_id>
+            <sys_created_on>2018-05-24 06:37:51</sys_created_on>
+            <sys_id>b0af7589dbd21bc08b72f3d31d961922</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-05-02 13:10:22</sys_updated_on>
+            <sys_updated_on>2018-05-24 06:37:51</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>date_time_1</element>
-            <position>9</position>
+            <element>time_on_duty</element>
+            <position>5</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-05-02 13:10:22</sys_created_on>
-            <sys_id>c4868606dbf95b008b72f3d31d96192e</sys_id>
+            <sys_created_on>2018-05-24 06:37:51</sys_created_on>
+            <sys_id>34af7589dbd21bc08b72f3d31d961922</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-05-02 13:10:22</sys_updated_on>
+            <sys_updated_on>2018-05-24 06:37:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>date_time_2</element>
-            <position>10</position>
+            <element>comment</element>
+            <position>6</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-05-02 13:10:22</sys_created_on>
-            <sys_id>48868606dbf95b008b72f3d31d96192e</sys_id>
+            <sys_created_on>2018-05-24 06:37:51</sys_created_on>
+            <sys_id>b4af7589dbd21bc08b72f3d31d961922</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-05-02 13:10:22</sys_updated_on>
+            <sys_updated_on>2018-05-24 06:37:51</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_security</element>
+            <position>7</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-05-24 06:37:51</sys_created_on>
+            <sys_id>38af7589dbd21bc08b72f3d31d961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-05-24 06:37:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>names_additional_security_staff</element>
+            <position>8</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-05-24 06:37:51</sys_created_on>
+            <sys_id>b8af7589dbd21bc08b72f3d31d961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-05-24 06:37:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-05-24 06:37:51</sys_created_on>
+            <sys_id>3caf7589dbd21bc08b72f3d31d961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Security On Duty" display_value="Security On Duty" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">e702a7cddb019b008b72f3d31d96195e</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-05-24 06:37:51</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Security On Duty</caption>

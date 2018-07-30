@@ -5,279 +5,293 @@
             <element>handing_over_by</element>
             <position>0</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>9d75354edbcddf008b72f3d31d9619bb</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>66df653cdb92d7c08b72f3d31d9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_and_time</element>
+            <position>1</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>e6df653cdb92d7c08b72f3d31d9619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>1575354edbcddf008b72f3d31d9619bc</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>6adf653cdb92d7c08b72f3d31d9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>handing_over_received_by</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>9575354edbcddf008b72f3d31d9619bc</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>eadf653cdb92d7c08b72f3d31d9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>1975354edbcddf008b72f3d31d9619bc</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>6edf653cdb92d7c08b72f3d31d9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>all_keys</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>9975354edbcddf008b72f3d31d9619bc</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>eadfa130dbd2d7c08b72f3d31d9619a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>bloodhound_unit_with_charger</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>1d75354edbcddf008b72f3d31d9619bc</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>6edfa130dbd2d7c08b72f3d31d9619a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>dsgr_units_with_charger</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>9d75354edbcddf008b72f3d31d9619bc</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>eedfa130dbd2d7c08b72f3d31d9619a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>seals_plastic_and_steel</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>1175354edbcddf008b72f3d31d9619bd</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>62dfa130dbd2d7c08b72f3d31d9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>medical_equipment</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>9175354edbcddf008b72f3d31d9619bd</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>e2dfa130dbd2d7c08b72f3d31d9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>additional_equipment</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>1575354edbcddf008b72f3d31d9619bd</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>66dfa130dbd2d7c08b72f3d31d9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>add_equipm</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>9575354edbcddf008b72f3d31d9619bd</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>e6dfa130dbd2d7c08b72f3d31d9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>1975354edbcddf008b72f3d31d9619bd</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>6adfa130dbd2d7c08b72f3d31d9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>two_way_radio_charges</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>9975354edbcddf008b72f3d31d9619bd</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>eadfa130dbd2d7c08b72f3d31d9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>torches</element>
-            <position>13</position>
+            <position>14</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>1d75354edbcddf008b72f3d31d9619bd</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>6edfa130dbd2d7c08b72f3d31d9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>metal_detectors</element>
-            <position>14</position>
+            <position>15</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>9d75354edbcddf008b72f3d31d9619bd</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>eedfa130dbd2d7c08b72f3d31d9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>alcoblow_markx_units</element>
-            <position>15</position>
+            <position>16</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>1175354edbcddf008b72f3d31d9619be</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>62dfa130dbd2d7c08b72f3d31d9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>handcuffs_with_keys</element>
-            <position>16</position>
+            <position>17</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>9175354edbcddf008b72f3d31d9619be</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>e2dfa130dbd2d7c08b72f3d31d9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>lost_and_found_equipment</element>
-            <position>17</position>
+            <position>18</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>1575354edbcddf008b72f3d31d9619be</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>66dfa130dbd2d7c08b72f3d31d9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>18</position>
+            <position>19</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>9575354edbcddf008b72f3d31d9619be</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>e6dfa130dbd2d7c08b72f3d31d9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comment</element>
-            <position>19</position>
+            <position>20</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 05:08:48</sys_created_on>
-            <sys_id>1975354edbcddf008b72f3d31d9619be</sys_id>
+            <sys_created_on>2018-05-23 10:50:24</sys_created_on>
+            <sys_id>6adfa130dbd2d7c08b72f3d31d9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Security Shift Handover" display_value="Security Shift Handover" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">fe97c4d9db059b008b72f3d31d9619e0</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 05:08:48</sys_updated_on>
+            <sys_updated_on>2018-05-23 10:50:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

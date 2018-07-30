@@ -1,48 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="Engen EOB Electronic Occurences" max_length="40" name="engen_eob_electronic_occurences" sizeclass="22" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="Engen EOB Electronic Occurences" max_length="40" name="engen_eob_electronic_occurences" sizeclass="102" type="collection">
+        <element label="Access Appoved By" max_length="40" name="access_appoved_by" type="string"/>
+        <element label="Action Taken by Security" max_length="4000" name="action_taken_by_security" type="string"/>
+        <element label="Action Taken by Security Staff" max_length="4000" name="action_taken_by_security_staff" type="string"/>
+        <element label="Actual Date and Time" max_length="40" name="actual_date_and_time" type="glide_date_time"/>
         <element label="Additional Equipment" max_length="40" name="additional_equipment" type="boolean"/>
-        <element label=" " max_length="40" name="add_equipm" type="string"/>
+        <element choice="1" label="Additional Security" max_length="40" name="additional_security" type="choice">
+            <choice/>
+        </element>
+        <element label="Additional Equipment" max_length="4000" name="add_equipm" type="string"/>
         <element label="Alcoblow / MarkX Units" max_length="40" name="alcoblow_markx_units" type="boolean"/>
         <element label="All Keys" max_length="40" name="all_keys" type="boolean"/>
         <element label="Batons" max_length="40" name="batons" type="boolean"/>
         <element label="Bloodhound Unit with Charger" max_length="40" name="bloodhound_unit_with_charger" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Branch Code" max_length="40" name="branch_code" type="string"/>
         <element label="By Whom Received" max_length="32" name="by_whom_received" reference="sys_user" type="reference"/>
-        <element choice="1" label="Catalog Category" max_length="40" name="cat_cat" read_only="true" reference="sc_category" reference_qual="sc_catalog=0a117371dbb0d7008b72f3d31d96199c^EQ" reference_qual_condition="sc_catalog=0a117371dbb0d7008b72f3d31d96199c^EQ" type="reference">
+        <element label="Catalog Category" max_length="32" name="catalog_category" reference="sc_category" reference_qual="sc_catalog=0a117371dbb0d7008b72f3d31d96199c^EQ" reference_qual_condition="sc_catalog=0a117371dbb0d7008b72f3d31d96199c^EQ" type="reference"/>
+        <element choice="1" label="Catalog Category" max_length="40" name="cat_cat" reference="sc_category" reference_qual="sc_catalog=0a117371dbb0d7008b72f3d31d96199c^EQ" reference_qual_condition="sc_catalog=0a117371dbb0d7008b72f3d31d96199c^EQ" type="reference">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Client" max_length="40" name="client" type="string"/>
         <element label="Client Name &amp; Surname" max_length="40" name="client_name" type="string"/>
         <element label="Client Surname" max_length="40" name="client_surname" type="string"/>
         <element label="Comment" max_length="4000" name="comment" type="string"/>
+        <element label="Completed By" max_length="40" name="completed_by" type="string"/>
+        <element label="Condition of Equipment" max_length="80" name="condition_of_equipment" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Co No. / Designation" max_length="40" name="co_no_designation" type="string"/>
         <element label="Date and Time" max_length="40" name="date_and_time" type="glide_date_time"/>
         <element label="Date of Training" max_length="40" name="date_of_training" type="glide_date_time"/>
         <element label="Date &amp; Time" max_length="40" name="date_time_1" type="glide_date_time"/>
         <element label="Date &amp; Time" max_length="40" name="date_time_2" type="glide_date_time"/>
+        <element label="Details of Event" max_length="4000" name="details_of_event" type="string"/>
         <element label="DSGR Units with Charger" max_length="40" name="dsgr_units_with_charger" type="boolean"/>
-        <element label="Equipment" max_length="100" name="equipment" type="string"/>
+        <element label="Equipment" max_length="4000" name="equipment" type="string"/>
         <element label="Escalated To" max_length="40" name="escalated_to" type="string"/>
+        <element label="Exact Time of Incident" max_length="40" name="exact_time_of_incident" type="glide_date_time"/>
         <element label="From Whom" max_length="32" name="from_whom" reference="sys_user" type="reference"/>
         <element label="Handcuffs with Keys" max_length="40" name="handcuffs_with_keys" type="boolean"/>
         <element label="Handing Over By" max_length="40" name="handing_over_by" type="string"/>
         <element label="Handing Over Received By" max_length="40" name="handing_over_received_by" type="string"/>
         <element label="Incdent Reference" max_length="20" name="incdent_reference" type="string"/>
+        <element label="Information Received" max_length="4000" name="information_received" type="string"/>
+        <element label="Information Received From" max_length="60" name="information_received_from" type="string"/>
         <element label="Inspector Name &amp; Surname" max_length="40" name="inspector_name" type="string"/>
         <element label="Inspector Surname" max_length="40" name="inspector_surname" type="string"/>
+        <element label="Instructions/Information" max_length="4000" name="instructions_information" type="string"/>
+        <element label="Issued By" max_length="40" name="issued_by" type="string"/>
         <element label="Issue Date and Time" max_length="40" name="issue_date_and_time" type="glide_date_time"/>
+        <element label="Item Received From" max_length="60" name="item_received_from" type="string"/>
+        <element choice="1" label="Item Returned to Owner" max_length="40" name="item_returned_to_owner" type="string">
+            <choice>
+                <element label="Yes" sequence="1" value="Yes"/>
+                <element label="No" sequence="2" value="No"/>
+            </choice>
+        </element>
+        <element label="Location Item Found" max_length="100" name="location_item_found" type="string"/>
+        <element label="Location of Incident" max_length="100" name="location_of_incident" type="string"/>
         <element label="Logged By" max_length="32" name="loggedby" reference="sys_user" type="reference"/>
         <element label="Lost and Found Equipment" max_length="40" name="lost_and_found_equipment" type="boolean"/>
+        <element label="Managers' Name and Surname" max_length="40" name="managers_name_and_surname" type="string"/>
         <element label="Medical Equipment" max_length="40" name="medical_equipment" type="boolean"/>
         <element label="Metal Detectors" max_length="40" name="metal_detectors" type="boolean"/>
+        <element label="Name &amp; Surname of Additional Security Staff" max_length="4000" name="names_additional_security_staff" type="string"/>
         <element label="Name of Company" max_length="40" name="name_company" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Nature of Report" max_length="4000" name="nature_of_report" type="string"/>
-        <element choice="1" label="Officers Searched?" max_length="40" name="officers_searched" type="choice">
+        <element label="Officers Reporting Late / Officers Not Reporting for Duty" max_length="4000" name="officers_reporting_late_not_reporting" type="string"/>
+        <element choice="1" label="All Officers Searched?" max_length="40" name="officers_searched" type="choice">
             <choice/>
         </element>
-        <element label="Officer Name &amp; Surname" max_length="40" name="officer_name" type="string"/>
-        <element choice="1" label="Officer tested for substance abuse?" max_length="40" name="officer_tested" type="choice">
+        <element label="Officers Standing By" max_length="4000" name="officers_standing_by" type="string"/>
+        <element label="Officer Name &amp; Surname" max_length="60" name="officer_name" type="string"/>
+        <element choice="1" label="All Officers tested for substance abuse?" max_length="40" name="officer_tested" type="choice">
             <choice/>
         </element>
         <element label="Patrol Done By" max_length="40" name="patrol_done_by" type="string"/>
@@ -53,15 +82,25 @@
             <choice/>
         </element>
         <element label="Person Visit" max_length="40" name="personvisit" type="string"/>
+        <element label="Person Collected" max_length="40" name="person_collected" type="string"/>
         <element label="Reason" max_length="100" name="reason" type="string"/>
         <element label="Reason for Request" max_length="40" name="reason_for_request" type="string"/>
+        <element label="Received By" max_length="40" name="received_by" type="string"/>
         <element label="Reported By" max_length="40" name="reported_by" type="string"/>
         <element label="Requested By" max_length="40" name="requested_by" type="string"/>
+        <element label="Restricted Office / Room Name" max_length="40" name="restricted_office_room_name" type="string"/>
+        <element label="Result / Outcome" max_length="4000" name="result_outcome" type="string"/>
+        <element label="Returned By" max_length="60" name="returned_by" type="string"/>
         <element label="Return Date/Time" max_length="40" name="return_date_time" type="glide_date_time"/>
         <element label="Seals (Plastic and Steel)" max_length="40" name="seals_plastic_and_steel" type="boolean"/>
         <element label="Security Officers Names &amp; Surnames" max_length="4000" name="security_officers_name" type="string"/>
+        <element label="Security Officer Name &amp; Surname" max_length="60" name="security_officer_name_surname" type="string"/>
         <element label="1. Security Officer Name &amp; Surname" max_length="100" name="security_officer_name_surname_1" type="string"/>
         <element label="2. Security Officer Name &amp; Surname" max_length="100" name="security_officer_name_surname_2" type="string"/>
+        <element label="Security Standby Officer" max_length="40" name="security_standby_officer" type="string"/>
+        <element label="Short Description of Incident" max_length="100" name="short_description_of_incident" type="string"/>
+        <element label="Short Description of Item Found" max_length="60" name="short_description_of_item_found" type="string"/>
+        <element label="Short Description of the Event" max_length="60" name="short_description_of_the_event" type="string"/>
         <element label="Site Visited" max_length="40" name="sitevisited" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Source" max_length="40" name="source" type="string">
             <choice>
@@ -71,9 +110,10 @@
             </choice>
         </element>
         <element label="Statements attached" max_length="40" name="statements_attached" type="boolean"/>
-        <element label="Time Off Duty" max_length="40" name="time_off_duty" type="glide_date_time"/>
+        <element label="Time Event Started" max_length="40" name="time_event_started" type="glide_date_time"/>
+        <element label="Time All Officers Off Duty" max_length="40" name="time_off_duty" type="glide_date_time"/>
         <element label="Time of Training" max_length="40" name="time_of_training" type="glide_date_time"/>
-        <element label="Time On Duty" max_length="40" name="time_on_duty" type="glide_date_time"/>
+        <element label="Time All Officers On Duty" max_length="40" name="time_on_duty" type="glide_date_time"/>
         <element label="Torches" max_length="40" name="torches" type="boolean"/>
         <element label="Training" max_length="100" name="training" type="string"/>
         <element label="Two-way Radio Charges" max_length="40" name="two_way_radio_charges" type="boolean"/>
@@ -110,11 +150,12 @@
                 <element dependent_value="Maintenance Incident" label="Air Conditioning" sequence="1" value="Air Conditioning"/>
                 <element dependent_value="Security Incident" label="Assault" sequence="1" value="Assault"/>
                 <element dependent_value="Scheduled Event" label="Board Meeting" sequence="1" value="Board Meeting"/>
+                <element dependent_value="Security Status Report" label="Equipment Sign-Out" sequence="1" value="Equipment Sign-Out"/>
                 <element dependent_value="Health and Safety Incident" label="Evacuation" sequence="1" value="Evacuation"/>
                 <element dependent_value="Contractors Status Report" label="On Site" sequence="1" value="On Site"/>
                 <element dependent_value="Scheduled Event" label="Building Tests" sequence="2" value="Building Tests"/>
                 <element dependent_value="Maintenance Incident" label="CCTV" sequence="2" value="CCTV"/>
-                <element dependent_value="Security Status Report" label="Equipment Sign-Out" sequence="2" value="Equipment Sign-Out"/>
+                <element dependent_value="Security Status Report" label="Equipment Returned" sequence="2" value="Equipment Returned"/>
                 <element dependent_value="Health and Safety Incident" label="Firearm Discharge" sequence="2" value="Firearm Discharge"/>
                 <element dependent_value="Security Incident" label="Harassment" sequence="2" value="Harassment"/>
                 <element dependent_value="Contractors Status Report" label="Other" sequence="2" value="Other"/>
@@ -147,14 +188,15 @@
                 <element dependent_value="Scheduled Event" label="Power Outage" sequence="7" value="Power Outage"/>
                 <element dependent_value="Security Incident" label="Protest Action" sequence="7" value="Protest Action"/>
                 <element dependent_value="Maintenance Incident" label="Perimeter/Entrances" sequence="8" value="Perimeter/Entrances"/>
+                <element dependent_value="Security Status Report" label="Restricted Offices/Areas" sequence="8" value="Restricted Offices/Areas"/>
                 <element dependent_value="Security Incident" label="Sabotage" sequence="8" value="Sabotage"/>
-                <element dependent_value="Security Status Report" label="Security Information" sequence="8" value="Security Information"/>
                 <element dependent_value="Maintenance Incident" label="Plumbing" sequence="9" value="Plumbing"/>
-                <element dependent_value="Security Status Report" label="Security Off Duty" sequence="9" value="Security Off Duty"/>
+                <element dependent_value="Security Status Report" label="Security Information" sequence="9" value="Security Information"/>
                 <element dependent_value="Security Incident" label="Suspicious Persons/Devices" sequence="9" value="Suspicious Persons/Devices"/>
                 <element dependent_value="Maintenance Incident" label="Other" sequence="10" value="Other"/>
-                <element dependent_value="Security Status Report" label="Security On Duty" sequence="10" value="Security On Duty"/>
+                <element dependent_value="Security Status Report" label="Security Off Duty" sequence="10" value="Security Off Duty"/>
                 <element dependent_value="Security Incident" label="Theft" sequence="10" value="Theft"/>
+                <element dependent_value="Security Status Report" label="Security On Duty" sequence="11" value="Security On Duty"/>
                 <element dependent_value="Security Incident" label="Trespass/Security Breach" sequence="11" value="Trespass/Security Breach"/>
                 <element dependent_value="Security Incident" label="Other" sequence="12" value="Other"/>
                 <element dependent_value="Security Status Report" label="Site Situation Report" sequence="12" value="Site Situation Report"/>

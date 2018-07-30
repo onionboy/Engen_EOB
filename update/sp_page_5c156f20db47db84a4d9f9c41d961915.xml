@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>.myPadding {&#13;
+  padding-top: 0px;&#13;
+}&#13;
+.myBackground {&#13;
+&#13;
+}&#13;
+.col-md-3{&#13;
+ padding: 0 0 0 0 ; &#13;
+}&#13;
+.col-md-2 {&#13;
+ padding: 0 0 0 0 ; &#13;
+}&#13;
+.col-md-6{&#13;
+  &#13;
+padding-top: 2%;&#13;
+  &#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>eob_logged_items</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description>Logged Items</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-06-29 07:31:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5c156f20db47db84a4d9f9c41d961915</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>eob_logged_items</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sp_page_5c156f20db47db84a4d9f9c41d961915</sys_update_name>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-07-05 10:22:42</sys_updated_on>
+        <title>EOB Logged Items</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=5c156f20db47db84a4d9f9c41d961915"/>
+</record_update>

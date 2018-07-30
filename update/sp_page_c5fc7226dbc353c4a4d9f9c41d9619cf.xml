@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>.sp-attachments-input {&#13;
+  visibility: hidden;&#13;
+  position: absolute;&#13;
+  left: 0px;&#13;
+}&#13;
+&#13;
+.bg-primary {&#13;
+  background-color: #034EA2 !important;&#13;
+}&#13;
+&#13;
+.panel-primary &gt; .panel-heading {&#13;
+  background-color: #034EA2 !important;&#13;
+}&#13;
+&#13;
+.btn-primary {&#13;
+  background-color: #034EA2 !important;&#13;
+}&#13;
+&#13;
+.file-selector {&#13;
+  float: right;&#13;
+  font-size: 24px;&#13;
+  margin-top: -5px;&#13;
+}&#13;
+.col-xs-2 {&#13;
+  &#13;
+padding-left: 0px;&#13;
+  &#13;
+}&#13;
+.col-sm-2{&#13;
+  &#13;
+padding-left: 0px;&#13;
+  &#13;
+} &#13;
+&#13;
+.col-md-2{&#13;
+  &#13;
+padding-left: 0px;&#13;
+  &#13;
+} &#13;
+.col-md-6{&#13;
+  &#13;
+padding-top: 2%;&#13;
+  &#13;
+} </css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>eob_ticket</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-07-05 09:43:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c5fc7226dbc353c4a4d9f9c41d9619cf</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>eob_ticket</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sp_page_c5fc7226dbc353c4a4d9f9c41d9619cf</sys_update_name>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-07-05 10:17:23</sys_updated_on>
+        <title>EOB Ticket Form</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=c5fc7226dbc353c4a4d9f9c41d9619cf"/>
+</record_update>

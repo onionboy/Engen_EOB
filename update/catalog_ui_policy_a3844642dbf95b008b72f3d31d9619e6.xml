@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:3d728e4edbb95b008b72f3d31d9619beISNOTEMPTY^EQ</catalog_conditions>
+        <catalog_conditions>IO:2b68f105dbd21bc08b72f3d31d961978=yes^EQ</catalog_conditions>
         <catalog_item display_value="Security On Duty">369b559edb345b008b72f3d31d96191a</catalog_item>
         <conditions/>
         <description/>
@@ -26,7 +26,7 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Security Officer 2</short_description>
+        <short_description>Additional Security</short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>danie.steenkamp</sys_created_by>
         <sys_created_on>2018-05-02 13:02:24</sys_created_on>
@@ -34,8 +34,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a3844642dbf95b008b72f3d31d9619e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Security Officer 2</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Additional Security</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>catalog_ui_policy_a3844642dbf95b008b72f3d31d9619e6</sys_update_name>
         <sys_updated_by>danie.steenkamp</sys_updated_by>
-        <sys_updated_on>2018-05-02 13:02:24</sys_updated_on>
+        <sys_updated_on>2018-05-24 06:30:56</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>

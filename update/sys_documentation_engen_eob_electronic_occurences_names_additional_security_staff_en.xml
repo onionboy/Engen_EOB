@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="names_additional_security_staff" label="Name &amp; Surname of Additional Security Staff" language="en" table="engen_eob_electronic_occurences">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>names_additional_security_staff</element>
+            <help/>
+            <hint/>
+            <label>Name &amp; Surname of Additional Security Staff</label>
+            <language>en</language>
+            <name>engen_eob_electronic_occurences</name>
+            <plural>Name &amp; Surname of Additional Security Staffs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-05-24 06:04:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2b083dc1dbd21bc08b72f3d31d961960</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Name &amp; Surname of Additional Security Staff</sys_name>
+            <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+            <sys_update_name>sys_documentation_engen_eob_electronic_occurences_names_additional_security_staff_en</sys_update_name>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-05-24 06:48:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

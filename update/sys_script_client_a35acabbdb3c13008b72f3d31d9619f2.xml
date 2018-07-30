@@ -10,7 +10,7 @@
         <messages/>
         <name>Display/Hide EOB Vars</name>
         <order/>
-        <script><![CDATA[function onLoad() {
+        <script><![CDATA[/*function onLoad() {
    //Type appropriate comment here, and begin script below
 	if (g_form.getValue('u_type') == "Client Instructions") {
 	g_form.setSectionDisplay('report_received', false);
@@ -68,8 +68,27 @@
 		g_form.setVisible('description', false);
 		g_form.setVisible('escalated_to', false);
 	  }	
-		*/
-}]]></script>
+		
+	
+	function onLoad() {
+
+	if(g_form.getValue('item_returned_to_owner') == 'Yes'){
+	   	   g_form.setReadOnly('person_collected', false);
+	   	   	   	  		
+	   	 } else {
+			
+	   	   g_form.setReadOnly('person_collected', true);
+	   	  
+	} 
+}
+*/
+function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	//if (g_form.getValue('item_returned_to_owner') == "Yes") {
+		g_form.setReadOnly('person_collected', true);
+		
+	}]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>danie.steenkamp</sys_created_by>
         <sys_created_on>2018-03-19 07:12:56</sys_created_on>
@@ -77,7 +96,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a35acabbdb3c13008b72f3d31d9619f2</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>Display/Hide EOB Vars</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
@@ -86,7 +105,7 @@
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sys_script_client_a35acabbdb3c13008b72f3d31d9619f2</sys_update_name>
         <sys_updated_by>danie.steenkamp</sys_updated_by>
-        <sys_updated_on>2018-03-19 09:51:00</sys_updated_on>
+        <sys_updated_on>2018-07-06 13:22:20</sys_updated_on>
         <table>engen_eob_electronic_occurences</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

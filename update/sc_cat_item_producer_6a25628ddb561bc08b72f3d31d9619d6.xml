@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Site Security Status">216329d2db745b008b72f3d31d961927</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Equipment Returned</span></p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Equipment Returned</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=6a25628ddb561bc08b72f3d31d9619d6&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <roles/>
+        <sc_catalogs>0a117371dbb0d7008b72f3d31d96199c</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[current.u_category = "Security Status Report";
+current.u_type = "Equipment Returned";
+current.location = producer.Location.toString();
+current.from_whom = producer.fromwhom.toString();
+current.u_client = producer.client;
+current.by_whom_received = producer.bywhomreceived.toString();
+current.source = producer.source;
+current.co_no_designation = producer.designation;
+current.priority = producer.priority;
+current.nature_of_report = producer.natureofreport;
+current.u_branch = producer.branch;]]></script>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-05-24 09:21:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6a25628ddb561bc08b72f3d31d9619d6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Equipment Returned</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sc_cat_item_producer_6a25628ddb561bc08b72f3d31d9619d6</sys_update_name>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-06-05 11:40:19</sys_updated_on>
+        <table_name>engen_eob_electronic_occurences</table_name>
+        <template/>
+        <type>item</type>
+        <u_min_amount_attached/>
+        <u_no_attach>false</u_no_attach>
+        <u_no_submit_button>false</u_no_submit_button>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Engen: Electronic Occurrence Book">af5bcdf0db501300e815712ebf9619f0</workflow>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a25628ddb561bc08b72f3d31d9619d6"/>
+    <fx_price action="delete_multiple" query="id=6a25628ddb561bc08b72f3d31d9619d6"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="ZAR">ZAR</currency>
+        <field>price</field>
+        <id>6a25628ddb561bc08b72f3d31d9619d6</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="ZAR">ZAR</reference_currency>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-05-24 09:21:49</sys_created_on>
+        <sys_id>ee25628ddb561bc08b72f3d31d9619d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-05-24 09:21:51</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="ZAR">ZAR</currency>
+        <field>recurring_price</field>
+        <id>6a25628ddb561bc08b72f3d31d9619d6</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="ZAR">ZAR</reference_currency>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-05-24 09:21:49</sys_created_on>
+        <sys_id>6625628ddb561bc08b72f3d31d9619d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-05-24 09:21:51</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#9ddbe7</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <image_height>57</image_height>
+        <image_width>57</image_width>
+        <size_bytes>5743</size_bytes>
+        <size_compressed>5766</size_compressed>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-06-12 11:27:09</sys_created_on>
+        <sys_id>ff08b01bdba6db048b72f3d31d961908</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-06-12 11:27:09</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>6a25628ddb561bc08b72f3d31d9619d6</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="ff08b01bdba6db048b72f3d31d961908">ff08b01bdba6db048b72f3d31d961908</sys_attachment>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-06-12 11:27:09</sys_created_on>
+        <sys_id>3308b01bdba6db048b72f3d31d961909</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>7676</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="ff08b01bdba6db048b72f3d31d961908">ff08b01bdba6db048b72f3d31d961908</sys_attachment>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-06-12 11:27:09</sys_created_on>
+        <sys_id>b308b01bdba6db048b72f3d31d961909</sys_id>
+    </sys_attachment_doc>
+</record_update>

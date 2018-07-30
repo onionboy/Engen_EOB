@@ -5,13 +5,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 08:54:36</sys_created_on>
-            <sys_id>f0292a06db8513408b72f3d31d9619b2</sys_id>
+            <sys_created_on>2018-07-05 04:56:22</sys_created_on>
+            <sys_id>ff2bfdeadb8f5bc48b72f3d31d9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patrol Off" display_value="Patrol Off" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">eeb4738ddb819b008b72f3d31d961968</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 08:54:36</sys_updated_on>
+            <sys_updated_on>2018-07-05 04:56:22</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>patrol_done_by</element>
             <position>1</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 08:54:36</sys_created_on>
-            <sys_id>78292a06db8513408b72f3d31d9619b2</sys_id>
+            <sys_created_on>2018-07-05 04:56:22</sys_created_on>
+            <sys_id>732bfdeadb8f5bc48b72f3d31d9619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patrol Off" display_value="Patrol Off" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">eeb4738ddb819b008b72f3d31d961968</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 08:54:36</sys_updated_on>
+            <sys_updated_on>2018-07-05 04:56:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,55 +33,69 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 08:54:36</sys_created_on>
-            <sys_id>f8292a06db8513408b72f3d31d9619b2</sys_id>
+            <sys_created_on>2018-07-05 04:56:22</sys_created_on>
+            <sys_id>f32bfdeadb8f5bc48b72f3d31d9619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patrol Off" display_value="Patrol Off" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">eeb4738ddb819b008b72f3d31d961968</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 08:54:36</sys_updated_on>
+            <sys_updated_on>2018-07-05 04:56:22</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>patrol_end_time</element>
+            <element>patrol_type</element>
             <position>3</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 08:54:36</sys_created_on>
-            <sys_id>7c292a06db8513408b72f3d31d9619b2</sys_id>
+            <sys_created_on>2018-07-05 04:56:22</sys_created_on>
+            <sys_id>772bfdeadb8f5bc48b72f3d31d9619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patrol Off" display_value="Patrol Off" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">eeb4738ddb819b008b72f3d31d961968</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 08:54:36</sys_updated_on>
+            <sys_updated_on>2018-07-05 04:56:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>patrol_end_time</element>
+            <position>4</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 04:56:22</sys_created_on>
+            <sys_id>f72bfdeadb8f5bc48b72f3d31d9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Patrol Off" display_value="Patrol Off" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">eeb4738ddb819b008b72f3d31d961968</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 04:56:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 08:54:36</sys_created_on>
-            <sys_id>fc292a06db8513408b72f3d31d9619b2</sys_id>
+            <sys_created_on>2018-07-05 04:56:22</sys_created_on>
+            <sys_id>7b2bfdeadb8f5bc48b72f3d31d9619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patrol Off" display_value="Patrol Off" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">eeb4738ddb819b008b72f3d31d961968</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 08:54:36</sys_updated_on>
+            <sys_updated_on>2018-07-05 04:56:22</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>patrol_findings</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-26 08:54:36</sys_created_on>
-            <sys_id>70292a06db8513408b72f3d31d9619b3</sys_id>
+            <sys_created_on>2018-07-05 04:56:22</sys_created_on>
+            <sys_id>fb2bfdeadb8f5bc48b72f3d31d9619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Patrol Off" display_value="Patrol Off" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">eeb4738ddb819b008b72f3d31d961968</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-26 08:54:36</sys_updated_on>
+            <sys_updated_on>2018-07-05 04:56:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

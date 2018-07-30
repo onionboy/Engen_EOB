@@ -38,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>reason</name>
-        <order>40</order>
+        <order>30</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Reason</question_text>
@@ -61,15 +61,15 @@
         <sys_created_on>2018-04-19 05:35:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4cb1e9fddbe157408b72f3d31d9619c4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>reason</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Reason</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>item_option_new_4cb1e9fddbe157408b72f3d31d9619c4</sys_update_name>
         <sys_updated_by>danie.steenkamp</sys_updated_by>
-        <sys_updated_on>2018-04-19 12:19:50</sys_updated_on>
+        <sys_updated_on>2018-07-04 13:18:03</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

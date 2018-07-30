@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Equipment Returned" section_id="9577668ddb561bc08b72f3d31d961953" sys_domain="global" table="engen_eob_electronic_occurences" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>return_date_time</element>
+            <position>0</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 04:43:58</sys_created_on>
+            <sys_id>46587526db8f5bc48b72f3d31d96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Equipment Returned" display_value="Equipment Returned" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">9577668ddb561bc08b72f3d31d961953</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 04:43:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment</element>
+            <position>1</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 04:43:58</sys_created_on>
+            <sys_id>c6587526db8f5bc48b72f3d31d96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Equipment Returned" display_value="Equipment Returned" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">9577668ddb561bc08b72f3d31d961953</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 04:43:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 04:43:58</sys_created_on>
+            <sys_id>4a587526db8f5bc48b72f3d31d96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Equipment Returned" display_value="Equipment Returned" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">9577668ddb561bc08b72f3d31d961953</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 04:43:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>returned_by</element>
+            <position>3</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 04:43:58</sys_created_on>
+            <sys_id>ca587526db8f5bc48b72f3d31d96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Equipment Returned" display_value="Equipment Returned" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">9577668ddb561bc08b72f3d31d961953</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 04:43:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>condition_of_equipment</element>
+            <position>4</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 04:43:58</sys_created_on>
+            <sys_id>4e587526db8f5bc48b72f3d31d96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Equipment Returned" display_value="Equipment Returned" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">9577668ddb561bc08b72f3d31d961953</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 04:43:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>received_by</element>
+            <position>5</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 04:43:58</sys_created_on>
+            <sys_id>ce587526db8f5bc48b72f3d31d96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Equipment Returned" display_value="Equipment Returned" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">9577668ddb561bc08b72f3d31d961953</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 04:43:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Equipment Returned</caption>
+            <header>false</header>
+            <name>engen_eob_electronic_occurences</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-05-24 09:31:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9577668ddb561bc08b72f3d31d961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Equipment Returned</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+            <sys_update_name>sys_ui_section_9577668ddb561bc08b72f3d31d961953</sys_update_name>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-05-24 09:31:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

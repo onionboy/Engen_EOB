@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field>u_category</display_field>
+        <field_list>u_category,cat_cat,work_notes,opened_by</field_list>
+        <filter table="engen_eob_electronic_occurences">sys_created_by=javascript: gs.getUserName();^sys_created_onRELATIVEGT@hour@ago@24<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript: gs.getUserName();"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="RELATIVE" or="false" value="GT@hour@ago@24"/>
+        </filter>
+        <glyph>eye</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by>sys_created_on</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>lg</size>
+        <sp_column display_value="2">3e14366adb8353c4a4d9f9c41d96195e</sp_column>
+        <sp_page display_value="eob_ticket">c5fc7226dbc353c4a4d9f9c41d9619cf</sp_page>
+        <sp_widget display_value="Engen Simple List 2">f03990e2dbf27a008b72f3d31d9619c2</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-07-05 09:13:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a2067aaadb8353c4a4d9f9c41d961913</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>logged items in the past 24 Hours</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sp_instance_vlist_a2067aaadb8353c4a4d9f9c41d961913</sys_update_name>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-07-16 19:56:51</sys_updated_on>
+        <table>engen_eob_electronic_occurences</table>
+        <title>logged items in the past 24 Hours</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "sys_created_on,opened_by,u_type",
+		"displayValue": "opened_by,u_type,sys_created_on"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=a2067aaadb8353c4a4d9f9c41d961913"/>
+</record_update>

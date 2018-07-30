@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>person_collected</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-07-06 12:46:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5140fc43db8f1fc48b72f3d31d96195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>person_collected</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5140fc43db8f1fc48b72f3d31d96195c</sys_update_name>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-07-06 12:46:33</sys_updated_on>
+        <table>engen_eob_electronic_occurences</table>
+        <ui_policy display_value="Item Returned to Owner - Display &amp; Mandatory ">ec00f443db8f1fc48b72f3d31d961941</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

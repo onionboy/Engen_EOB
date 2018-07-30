@@ -75,7 +75,7 @@ height: 100%; &#13;
         <sys_created_on>2018-02-20 10:13:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a5747b83db501300e815712ebf961951</sys_id>
-        <sys_mod_count>217</sys_mod_count>
+        <sys_mod_count>221</sys_mod_count>
         <sys_name>EOB Menu</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
@@ -83,8 +83,8 @@ height: 100%; &#13;
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sp_widget_a5747b83db501300e815712ebf961951</sys_update_name>
         <sys_updated_by>rudolf.cronje</sys_updated_by>
-        <sys_updated_on>2018-03-22 09:42:35</sys_updated_on>
-        <template><![CDATA[<table  class="table-panel" id="tablecontainer"   >
+        <sys_updated_on>2018-07-06 10:14:37</sys_updated_on>
+        <template><![CDATA[<table class="table-panel" id="tablecontainer"   >
   
 <tr>
 <div class="div1">
@@ -156,7 +156,7 @@ SECURITY STATUS
 </tr>
 
 <tr>
-<div class="div1" onclick="location.href='?id=eob_category&sys_id=2ea32116db745b008b72f3d31d961932'">
+<div class="div1" onclick="location.href='?id=eob_kb_main&kb_category=1879d69edb871bc48b72f3d31d96199e&spa'">
 <img src="siteinstructions-icon-grey.png"  style="width:20%"/>
 <h5 class="h5">
 SITE INSTRUCTIONS  

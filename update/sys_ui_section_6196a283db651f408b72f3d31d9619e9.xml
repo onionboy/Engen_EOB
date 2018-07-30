@@ -5,27 +5,27 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-04-23 07:55:28</sys_created_on>
-            <sys_id>6f18ee0bdb651f408b72f3d31d961990</sys_id>
+            <sys_created_on>2018-07-04 13:22:47</sys_created_on>
+            <sys_id>c885e696db0b1bc48b72f3d31d961997</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="On Site" display_value="On Site" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">6196a283db651f408b72f3d31d9619e9</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-04-23 07:55:28</sys_updated_on>
+            <sys_updated_on>2018-07-04 13:22:47</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>loggedby</element>
+            <element>date_and_time</element>
             <position>1</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-04-23 07:55:28</sys_created_on>
-            <sys_id>ef18ee0bdb651f408b72f3d31d961990</sys_id>
+            <sys_created_on>2018-07-04 13:22:47</sys_created_on>
+            <sys_id>4085e696db0b1bc48b72f3d31d961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="On Site" display_value="On Site" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">6196a283db651f408b72f3d31d9619e9</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-04-23 07:55:28</sys_updated_on>
+            <sys_updated_on>2018-07-04 13:22:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,139 +33,111 @@
             <element>name_company</element>
             <position>2</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-04-23 07:55:28</sys_created_on>
-            <sys_id>6318ee0bdb651f408b72f3d31d961991</sys_id>
+            <sys_created_on>2018-07-04 13:22:47</sys_created_on>
+            <sys_id>c085e696db0b1bc48b72f3d31d961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="On Site" display_value="On Site" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">6196a283db651f408b72f3d31d9619e9</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-04-23 07:55:28</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sitevisited</element>
-            <position>3</position>
-            <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-04-23 07:55:28</sys_created_on>
-            <sys_id>e318ee0bdb651f408b72f3d31d961991</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="On Site" display_value="On Site" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">6196a283db651f408b72f3d31d9619e9</sys_ui_section>
-            <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-04-23 07:55:28</sys_updated_on>
+            <sys_updated_on>2018-07-04 13:22:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reason</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-04-23 07:55:28</sys_created_on>
-            <sys_id>6718ee0bdb651f408b72f3d31d961991</sys_id>
+            <sys_created_on>2018-07-04 13:22:47</sys_created_on>
+            <sys_id>4485e696db0b1bc48b72f3d31d961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="On Site" display_value="On Site" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">6196a283db651f408b72f3d31d9619e9</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-04-23 07:55:28</sys_updated_on>
+            <sys_updated_on>2018-07-04 13:22:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-04-23 07:55:28</sys_created_on>
-            <sys_id>e718ee0bdb651f408b72f3d31d961991</sys_id>
+            <sys_created_on>2018-07-04 13:22:47</sys_created_on>
+            <sys_id>c485e696db0b1bc48b72f3d31d961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="On Site" display_value="On Site" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">6196a283db651f408b72f3d31d9619e9</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-04-23 07:55:28</sys_updated_on>
+            <sys_updated_on>2018-07-04 13:22:47</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>date_and_time</element>
-            <position>6</position>
+            <element>sitevisited</element>
+            <position>5</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-04-23 07:55:28</sys_created_on>
-            <sys_id>6b18ee0bdb651f408b72f3d31d961991</sys_id>
+            <sys_created_on>2018-07-04 13:22:47</sys_created_on>
+            <sys_id>4885e696db0b1bc48b72f3d31d961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="On Site" display_value="On Site" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">6196a283db651f408b72f3d31d9619e9</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-04-23 07:55:28</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>client</element>
-            <position>7</position>
-            <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-04-23 07:55:28</sys_created_on>
-            <sys_id>eb18ee0bdb651f408b72f3d31d961991</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="On Site" display_value="On Site" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">6196a283db651f408b72f3d31d9619e9</sys_ui_section>
-            <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-04-23 07:55:28</sys_updated_on>
+            <sys_updated_on>2018-07-04 13:22:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>personvisit</element>
-            <position>8</position>
+            <position>6</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-04-23 07:55:28</sys_created_on>
-            <sys_id>6f18ee0bdb651f408b72f3d31d961991</sys_id>
+            <sys_created_on>2018-07-04 13:22:47</sys_created_on>
+            <sys_id>c885e696db0b1bc48b72f3d31d961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="On Site" display_value="On Site" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">6196a283db651f408b72f3d31d9619e9</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-04-23 07:55:28</sys_updated_on>
+            <sys_updated_on>2018-07-04 13:22:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>co_no_designation</element>
-            <position>9</position>
+            <element>reported_by</element>
+            <position>7</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-04-23 07:55:28</sys_created_on>
-            <sys_id>ef18ee0bdb651f408b72f3d31d961991</sys_id>
+            <sys_created_on>2018-07-04 13:22:47</sys_created_on>
+            <sys_id>4c85e696db0b1bc48b72f3d31d961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="On Site" display_value="On Site" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">6196a283db651f408b72f3d31d9619e9</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-04-23 07:55:28</sys_updated_on>
+            <sys_updated_on>2018-07-04 13:22:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>10</position>
+            <position>8</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-04-23 07:55:28</sys_created_on>
-            <sys_id>6318ee0bdb651f408b72f3d31d961992</sys_id>
+            <sys_created_on>2018-07-04 13:22:47</sys_created_on>
+            <sys_id>cc85e696db0b1bc48b72f3d31d961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="On Site" display_value="On Site" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">6196a283db651f408b72f3d31d9619e9</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-04-23 07:55:28</sys_updated_on>
+            <sys_updated_on>2018-07-04 13:22:47</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comment</element>
-            <position>11</position>
+            <position>9</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-04-23 07:55:28</sys_created_on>
-            <sys_id>e318ee0bdb651f408b72f3d31d961992</sys_id>
+            <sys_created_on>2018-07-04 13:22:47</sys_created_on>
+            <sys_id>4085e696db0b1bc48b72f3d31d961999</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="On Site" display_value="On Site" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">6196a283db651f408b72f3d31d9619e9</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-04-23 07:55:28</sys_updated_on>
+            <sys_updated_on>2018-07-04 13:22:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

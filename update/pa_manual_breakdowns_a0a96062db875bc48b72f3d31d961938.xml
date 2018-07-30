@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_manual_breakdowns">
+    <pa_manual_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="CMDB Class Manual">8a35ec16f3011200eaae19d854612b65</breakdown>
+        <order>100</order>
+        <sys_class_name>pa_manual_breakdowns</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-04 23:00:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0a96062db875bc48b72f3d31d961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci_qualifier_traffic_based_connecti</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>pa_manual_breakdowns_a0a96062db875bc48b72f3d31d961938</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-04 23:00:04</sys_updated_on>
+        <value>cmdb_ci_qualifier_traffic_based_connecti</value>
+    </pa_manual_breakdowns>
+</record_update>

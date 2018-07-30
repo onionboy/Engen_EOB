@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c59f32a6dbc353c4a4d9f9c41d9619c9</sp_column>
+        <sp_widget display_value="EOB Menu">a5747b83db501300e815712ebf961951</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-07-05 09:56:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>53ef7e66dbc353c4a4d9f9c41d9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sp_instance_53ef7e66dbc353c4a4d9f9c41d9619ca</sys_update_name>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-07-05 09:56:43</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=53ef7e66dbc353c4a4d9f9c41d9619ca"/>
+</record_update>

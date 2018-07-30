@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="engen_eob_electronic_occurences">u_type=Access Control Maintenance^ORu_type=Building Tests^ORu_type=CCTV Maintenance^ORu_type=Fire Test^ORu_type=Panic Alarm Tests^ORu_type=Power Outage^EQ<item endquery="false" field="u_type" goto="false" newquery="false" operator="=" or="false" value="Access Control Maintenance"/>
+            <item endquery="false" field="u_type" goto="false" newquery="false" operator="=" or="true" value="Building Tests"/>
+            <item endquery="false" field="u_type" goto="false" newquery="false" operator="=" or="true" value="CCTV Maintenance"/>
+            <item endquery="false" field="u_type" goto="false" newquery="false" operator="=" or="true" value="Fire Test"/>
+            <item endquery="false" field="u_type" goto="false" newquery="false" operator="=" or="true" value="Panic Alarm Tests"/>
+            <item endquery="false" field="u_type" goto="false" newquery="false" operator="=" or="true" value="Power Outage"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide Short Description for Event</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>danie.steenkamp</sys_created_by>
+        <sys_created_on>2018-06-05 12:34:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4040dc1db2ed3048b72f3d31d96198c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Hide Short Description for Event</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sys_ui_policy_c4040dc1db2ed3048b72f3d31d96198c</sys_update_name>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-06-06 11:44:51</sys_updated_on>
+        <table>engen_eob_electronic_occurences</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

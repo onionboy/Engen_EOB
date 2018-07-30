@@ -47,15 +47,8 @@
         <sc_ic_version/>
         <script><![CDATA[current.u_category = "Maintenance Incident";
 current.u_type = "Communication Systems";
-current.location = producer.Location.toString();
-current.from_whom = producer.fromwhom.toString();
-current.u_client = producer.client;
-current.by_whom_received = producer.bywhomreceived.toString();
-current.source = producer.source;
-current.co_no_designation = producer.designation;
-current.priority = producer.priority;
-current.nature_of_report = producer.natureofreport;
-current.u_branch = producer.branch;]]></script>
+current.priority = producer.Priority;
+current.source = producer.source;]]></script>
         <short_description>Log a call for Maintenance - Communication Systems</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -64,7 +57,7 @@ current.u_branch = producer.branch;]]></script>
         <sys_created_on>2018-03-13 06:38:43</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>ab5d0b71dbf897008b72f3d31d9619db</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Communication Systems</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
@@ -72,7 +65,7 @@ current.u_branch = producer.branch;]]></script>
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sc_cat_item_producer_ab5d0b71dbf897008b72f3d31d9619db</sys_update_name>
         <sys_updated_by>danie.steenkamp</sys_updated_by>
-        <sys_updated_on>2018-03-23 08:42:28</sys_updated_on>
+        <sys_updated_on>2018-07-06 09:40:26</sys_updated_on>
         <table_name>engen_eob_electronic_occurences</table_name>
         <template display_value="EOB Maintenance - Fire Equipment">b1621bdedb64d7cc8b72f3d31d961924</template>
         <type>item</type>

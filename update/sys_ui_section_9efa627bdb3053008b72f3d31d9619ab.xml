@@ -5,13 +5,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-23 08:04:54</sys_created_on>
-            <sys_id>97f08f01db4d5b008b72f3d31d9619ad</sys_id>
+            <sys_created_on>2018-07-05 04:25:30</sys_created_on>
+            <sys_id>ef14752edb4f5bc48b72f3d31d96194e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Client Instructions" display_value="Client Instructions" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">9efa627bdb3053008b72f3d31d9619ab</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-23 08:04:54</sys_updated_on>
+            <sys_updated_on>2018-07-05 04:25:30</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>client_name</element>
             <position>1</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-23 08:04:54</sys_created_on>
-            <sys_id>1bf08f01db4d5b008b72f3d31d9619ad</sys_id>
+            <sys_created_on>2018-07-05 04:25:30</sys_created_on>
+            <sys_id>6314752edb4f5bc48b72f3d31d96194f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Client Instructions" display_value="Client Instructions" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">9efa627bdb3053008b72f3d31d9619ab</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-23 08:04:54</sys_updated_on>
+            <sys_updated_on>2018-07-05 04:25:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-23 08:04:54</sys_created_on>
-            <sys_id>9bf08f01db4d5b008b72f3d31d9619ad</sys_id>
+            <sys_created_on>2018-07-05 04:25:30</sys_created_on>
+            <sys_id>e314752edb4f5bc48b72f3d31d96194f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Client Instructions" display_value="Client Instructions" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">9efa627bdb3053008b72f3d31d9619ab</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-23 08:04:54</sys_updated_on>
+            <sys_updated_on>2018-07-05 04:25:30</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>escalated_to</element>
             <position>3</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-23 08:04:54</sys_created_on>
-            <sys_id>1ff08f01db4d5b008b72f3d31d9619ad</sys_id>
+            <sys_created_on>2018-07-05 04:25:30</sys_created_on>
+            <sys_id>6714752edb4f5bc48b72f3d31d96194f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Client Instructions" display_value="Client Instructions" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">9efa627bdb3053008b72f3d31d9619ab</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-23 08:04:54</sys_updated_on>
+            <sys_updated_on>2018-07-05 04:25:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,27 +61,27 @@
             <element>.end_split</element>
             <position>4</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-23 08:04:54</sys_created_on>
-            <sys_id>9ff08f01db4d5b008b72f3d31d9619ad</sys_id>
+            <sys_created_on>2018-07-05 04:25:30</sys_created_on>
+            <sys_id>e714752edb4f5bc48b72f3d31d96194f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Client Instructions" display_value="Client Instructions" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">9efa627bdb3053008b72f3d31d9619ab</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-23 08:04:54</sys_updated_on>
+            <sys_updated_on>2018-07-05 04:25:30</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>comment</element>
+            <element>instructions_information</element>
             <position>5</position>
             <sys_created_by>danie.steenkamp</sys_created_by>
-            <sys_created_on>2018-03-23 08:04:54</sys_created_on>
-            <sys_id>13f08f01db4d5b008b72f3d31d9619ae</sys_id>
+            <sys_created_on>2018-07-05 04:25:30</sys_created_on>
+            <sys_id>6b14752edb4f5bc48b72f3d31d96194f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Client Instructions" display_value="Client Instructions" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">9efa627bdb3053008b72f3d31d9619ab</sys_ui_section>
             <sys_updated_by>danie.steenkamp</sys_updated_by>
-            <sys_updated_on>2018-03-23 08:04:54</sys_updated_on>
+            <sys_updated_on>2018-07-05 04:25:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

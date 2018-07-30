@@ -11,7 +11,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Please log client information</span></p>]]></description>
+        <description><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Please log client instructions or information</span></p>]]></description>
         <entitlement_script/>
         <group/>
         <hide_sp>false</hide_sp>
@@ -58,23 +58,13 @@ current.nature_of_report = producer.natureofreport;
 current.u_branch = producer.branch;
 
 
-if (g_form){
-
-g_form.submit();
-
-setTimeout(redirectpage, 5000);
-
-}
 
 
+//document.location = "/eob";
+//producer.location = "/eob";
+//location.href = "/eob/";
 
-function redirectpage()
-
-{
-
-document.location = "/eob";
-
-}]]></script>
+]]></script>
         <short_description>Log a call for Site Security - Client Instructions</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -83,7 +73,7 @@ document.location = "/eob";
         <sys_created_on>2018-03-13 11:39:08</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>50225c4edbf4d7008b72f3d31d96197b</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Client Instructions</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
@@ -91,7 +81,7 @@ document.location = "/eob";
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sc_cat_item_producer_50225c4edbf4d7008b72f3d31d96197b</sys_update_name>
         <sys_updated_by>danie.steenkamp</sys_updated_by>
-        <sys_updated_on>2018-03-23 08:21:48</sys_updated_on>
+        <sys_updated_on>2018-07-05 07:47:29</sys_updated_on>
         <table_name>engen_eob_electronic_occurences</table_name>
         <template/>
         <type>item</type>

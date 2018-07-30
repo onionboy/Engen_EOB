@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="HSEQ Incidents" section_id="d9880e85db161bc08b72f3d31d9619cd" sys_domain="global" table="engen_eob_electronic_occurences" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description_of_incident</element>
+            <position>0</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-06 09:32:00</sys_created_on>
+            <sys_id>83d38007db4b1fc48b72f3d31d96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HSEQ Incidents" display_value="HSEQ Incidents" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d9880e85db161bc08b72f3d31d9619cd</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-06 09:32:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location_of_incident</element>
+            <position>1</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-06 09:32:00</sys_created_on>
+            <sys_id>0bd38007db4b1fc48b72f3d31d96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HSEQ Incidents" display_value="HSEQ Incidents" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d9880e85db161bc08b72f3d31d9619cd</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-06 09:32:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reported_by</element>
+            <position>2</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-06 09:32:00</sys_created_on>
+            <sys_id>8bd38007db4b1fc48b72f3d31d96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HSEQ Incidents" display_value="HSEQ Incidents" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d9880e85db161bc08b72f3d31d9619cd</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-06 09:32:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>completed_by</element>
+            <position>3</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-06 09:32:00</sys_created_on>
+            <sys_id>0fd38007db4b1fc48b72f3d31d96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HSEQ Incidents" display_value="HSEQ Incidents" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d9880e85db161bc08b72f3d31d9619cd</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-06 09:32:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_name</element>
+            <position>4</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-06 09:32:00</sys_created_on>
+            <sys_id>8fd38007db4b1fc48b72f3d31d96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HSEQ Incidents" display_value="HSEQ Incidents" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d9880e85db161bc08b72f3d31d9619cd</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-06 09:32:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>action_taken_by_security_staff</element>
+            <position>5</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-06 09:32:00</sys_created_on>
+            <sys_id>03d38007db4b1fc48b72f3d31d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HSEQ Incidents" display_value="HSEQ Incidents" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d9880e85db161bc08b72f3d31d9619cd</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-06 09:32:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-06 09:32:00</sys_created_on>
+            <sys_id>83d38007db4b1fc48b72f3d31d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HSEQ Incidents" display_value="HSEQ Incidents" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d9880e85db161bc08b72f3d31d9619cd</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-06 09:32:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exact_time_of_incident</element>
+            <position>7</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-06 09:32:00</sys_created_on>
+            <sys_id>07d38007db4b1fc48b72f3d31d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HSEQ Incidents" display_value="HSEQ Incidents" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d9880e85db161bc08b72f3d31d9619cd</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-06 09:32:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>source</element>
+            <position>8</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-06 09:32:00</sys_created_on>
+            <sys_id>87d38007db4b1fc48b72f3d31d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HSEQ Incidents" display_value="HSEQ Incidents" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d9880e85db161bc08b72f3d31d9619cd</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-06 09:32:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nature_of_report</element>
+            <position>9</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-06 09:32:00</sys_created_on>
+            <sys_id>0bd38007db4b1fc48b72f3d31d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HSEQ Incidents" display_value="HSEQ Incidents" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d9880e85db161bc08b72f3d31d9619cd</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-06 09:32:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>result_outcome</element>
+            <position>10</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-06 09:32:00</sys_created_on>
+            <sys_id>8bd38007db4b1fc48b72f3d31d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HSEQ Incidents" display_value="HSEQ Incidents" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">d9880e85db161bc08b72f3d31d9619cd</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-06 09:32:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>HSEQ Incidents</caption>
+            <header>false</header>
+            <name>engen_eob_electronic_occurences</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-05-24 07:16:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9880e85db161bc08b72f3d31d9619cd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>HSEQ Incidents</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+            <sys_update_name>sys_ui_section_d9880e85db161bc08b72f3d31d9619cd</sys_update_name>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-06-28 14:28:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

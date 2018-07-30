@@ -38,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>formatter12</name>
-        <order>720</order>
+        <order>850</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text/>
@@ -61,15 +61,15 @@
         <sys_created_on>2018-03-02 11:15:44</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>16432bd6dbe8d7cc8b72f3d31d96198c</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>formatter12</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>item_option_new_16432bd6dbe8d7cc8b72f3d31d96198c</sys_update_name>
-        <sys_updated_by>rudolf.cronje</sys_updated_by>
-        <sys_updated_on>2018-03-05 08:24:09</sys_updated_on>
+        <sys_updated_by>danie.steenkamp</sys_updated_by>
+        <sys_updated_on>2018-06-07 10:18:47</sys_updated_on>
         <table/>
         <tooltip/>
         <type>20</type>

@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label> </column_label>
+        <column_label>Additional Equipment</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -35,7 +35,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>4000</max_length>
         <name>engen_eob_electronic_occurences</name>
         <next_element/>
         <primary>false</primary>
@@ -56,15 +56,15 @@
         <sys_created_on>2018-03-26 04:59:43</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7a43b14adbcddf008b72f3d31d961993</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name> </sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Additional Equipment</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sys_dictionary_engen_eob_electronic_occurences_add_equipm</sys_update_name>
         <sys_updated_by>danie.steenkamp</sys_updated_by>
-        <sys_updated_on>2018-03-26 05:02:16</sys_updated_on>
+        <sys_updated_on>2018-05-23 10:43:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">8e5196d2db0713c4a4d9f9c41d9619fc</sp_column>
+        <sp_widget display_value="EOB KB Categories - KBv3">24f0d692db0713c4a4d9f9c41d961926</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>rudolf.cronje</sys_created_by>
+        <sys_created_on>2018-07-04 11:54:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>06619ed2db0713c4a4d9f9c41d9619dd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Site Instructions</sys_name>
+        <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+        <sys_update_name>sp_instance_06619ed2db0713c4a4d9f9c41d9619dd</sys_update_name>
+        <sys_updated_by>rudolf.cronje</sys_updated_by>
+        <sys_updated_on>2018-07-04 12:36:35</sys_updated_on>
+        <title>Site Instructions</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=06619ed2db0713c4a4d9f9c41d9619dd"/>
+</record_update>

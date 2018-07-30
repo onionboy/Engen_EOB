@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Lost and Found" section_id="ae28c4a0db1257c08b72f3d31d9619b8" sys_domain="global" table="engen_eob_electronic_occurences" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>actual_date_and_time</element>
+            <position>0</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 11:15:44</sys_created_on>
+            <sys_id>b802df66db0b9bc48b72f3d31d961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost and Found" display_value="Lost and Found" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">ae28c4a0db1257c08b72f3d31d9619b8</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 11:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description_of_item_found</element>
+            <position>1</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 11:15:44</sys_created_on>
+            <sys_id>3002df66db0b9bc48b72f3d31d961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost and Found" display_value="Lost and Found" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">ae28c4a0db1257c08b72f3d31d9619b8</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 11:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location_item_found</element>
+            <position>2</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 11:15:44</sys_created_on>
+            <sys_id>b002df66db0b9bc48b72f3d31d961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost and Found" display_value="Lost and Found" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">ae28c4a0db1257c08b72f3d31d9619b8</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 11:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>source</element>
+            <position>3</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 11:15:44</sys_created_on>
+            <sys_id>3402df66db0b9bc48b72f3d31d961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost and Found" display_value="Lost and Found" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">ae28c4a0db1257c08b72f3d31d9619b8</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 11:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_received_from</element>
+            <position>4</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 11:15:44</sys_created_on>
+            <sys_id>b402df66db0b9bc48b72f3d31d961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost and Found" display_value="Lost and Found" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">ae28c4a0db1257c08b72f3d31d9619b8</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 11:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 11:15:44</sys_created_on>
+            <sys_id>3802df66db0b9bc48b72f3d31d961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost and Found" display_value="Lost and Found" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">ae28c4a0db1257c08b72f3d31d9619b8</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 11:15:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reported_by</element>
+            <position>6</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 11:15:44</sys_created_on>
+            <sys_id>b802df66db0b9bc48b72f3d31d961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost and Found" display_value="Lost and Found" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">ae28c4a0db1257c08b72f3d31d9619b8</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 11:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>7</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 11:15:44</sys_created_on>
+            <sys_id>3c02df66db0b9bc48b72f3d31d961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost and Found" display_value="Lost and Found" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">ae28c4a0db1257c08b72f3d31d9619b8</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 11:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_returned_to_owner</element>
+            <position>8</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 11:15:44</sys_created_on>
+            <sys_id>bc02df66db0b9bc48b72f3d31d961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost and Found" display_value="Lost and Found" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">ae28c4a0db1257c08b72f3d31d9619b8</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 11:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>person_collected</element>
+            <position>9</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 11:15:44</sys_created_on>
+            <sys_id>3002df66db0b9bc48b72f3d31d961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost and Found" display_value="Lost and Found" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">ae28c4a0db1257c08b72f3d31d9619b8</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 11:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-07-05 11:15:44</sys_created_on>
+            <sys_id>b002df66db0b9bc48b72f3d31d961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost and Found" display_value="Lost and Found" name="engen_eob_electronic_occurences" sys_domain="global" view="Default view">ae28c4a0db1257c08b72f3d31d9619b8</sys_ui_section>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-07-05 11:15:44</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Lost and Found</caption>
+            <header>false</header>
+            <name>engen_eob_electronic_occurences</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>danie.steenkamp</sys_created_by>
+            <sys_created_on>2018-05-22 08:38:54</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae28c4a0db1257c08b72f3d31d9619b8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Lost and Found</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
+            <sys_update_name>sys_ui_section_ae28c4a0db1257c08b72f3d31d9619b8</sys_update_name>
+            <sys_updated_by>danie.steenkamp</sys_updated_by>
+            <sys_updated_on>2018-05-22 09:06:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

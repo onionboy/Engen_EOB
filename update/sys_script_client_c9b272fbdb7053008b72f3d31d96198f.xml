@@ -28,6 +28,14 @@
 		g_form.setSectionDisplay('security_shifthandover', false);
 		g_form.setSectionDisplay('off_site', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	}	
 
 	else if
@@ -46,6 +54,14 @@
 		g_form.setSectionDisplay('security_shifthandover', false);
 		g_form.setSectionDisplay('off_site', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	}
 	
 	else if
@@ -64,6 +80,14 @@
 		g_form.setSectionDisplay('security_shifthandover', false);
 		g_form.setSectionDisplay('off_site', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	}	
 	
 	else if
@@ -82,6 +106,14 @@
 		g_form.setSectionDisplay('security_shifthandover', false);
 		g_form.setSectionDisplay('off_site', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	}	
 		
 	else if
@@ -100,6 +132,14 @@
 		g_form.setSectionDisplay('security_shifthandover', false);
 		g_form.setSectionDisplay('off_site', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	}	
 		
 	else if
@@ -118,6 +158,14 @@
 		g_form.setSectionDisplay('security_shifthandover', false);
 		g_form.setSectionDisplay('off_site', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	}	
 	
 	else if
@@ -136,6 +184,14 @@
 		g_form.setSectionDisplay('security_shifthandover', false);
 		g_form.setSectionDisplay('off_site', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	}	
 	
 	else if
@@ -154,6 +210,14 @@
 		g_form.setSectionDisplay('security_shifthandover', false);
 		g_form.setSectionDisplay('off_site', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	}	
 	
 	else if
@@ -172,6 +236,14 @@
 		g_form.setSectionDisplay('site_situationreport', false);
 		g_form.setSectionDisplay('off_site', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	}	
 	
 	else if
@@ -190,6 +262,14 @@
 		g_form.setSectionDisplay('security_shifthandover', false);
 		g_form.setSectionDisplay('off_site', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	}
 	
 	else if
@@ -208,6 +288,14 @@
 		g_form.setSectionDisplay('security_shifthandover', false);
 		g_form.setSectionDisplay('off_site', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	}
 		
 	else if
@@ -226,9 +314,16 @@
 		g_form.setSectionDisplay('security_onduty', false);
 		g_form.setSectionDisplay('security_shifthandover', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	}
-	
-		
+			
 	else if
 	  (g_form.getValue('u_type') == "On Site") {
 		g_form.setSectionDisplay('on_site', true);
@@ -245,12 +340,198 @@
 		g_form.setSectionDisplay('security_onduty', false);
 		g_form.setSectionDisplay('security_shifthandover', false);
 		g_form.setSectionDisplay('off_site', false);
-		
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);		
 	}
 	
+	else if
+	  (g_form.getValue('u_type') == "Equipment Returned") {
+		g_form.setSectionDisplay('equipment_returned', true);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+		g_form.setSectionDisplay('off_site', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
+	}
 	
 	else if
-	  (g_form.getValue('u_category') == "Maintenance Incident" || g_form.getValue('u_category') == "Security Incident" || g_form.getValue('u_category') == "Health and Safety Incident" || g_form.getValue('u_category') == "Scheduled Event" || g_form.getValue('u_category') == "Contractors Status Report") {
+	  (g_form.getValue('u_type') == "Restricted Offices/Areas") {
+		g_form.setSectionDisplay('restricted_officesareas', true);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+		g_form.setSectionDisplay('off_site', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
+	}
+	
+	else if
+	  (g_form.getValue('u_category') == "Scheduled Event") {
+		g_form.setSectionDisplay('scheduled_event', true);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+		g_form.setSectionDisplay('off_site', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
+		
+	}
+	else if
+	  (g_form.getValue('u_category') == "Health and Safety Incident") {
+		g_form.setSectionDisplay('hseq_incidents', true);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+		g_form.setSectionDisplay('off_site', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
+	}
+	
+	else if
+	  (g_form.getValue('u_category') == "Maintenance Incident") {
+		g_form.setSectionDisplay('maintenance_incident', true);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+		g_form.setSectionDisplay('off_site', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('security_incident', false);
+	}
+	
+	else if
+	  (g_form.getValue('u_type') == "Lost and Found") {
+		g_form.setSectionDisplay('lost_andfound', true);
+		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+		g_form.setSectionDisplay('off_site', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
+	}
+		
+	else if
+	  (g_form.getValue('u_category') == "Security Incident" && g_form.getValue('u_type') != "Lost and Found") {
+		g_form.setSectionDisplay('security_incident', true);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('site_situationreport', false);
+		g_form.setSectionDisplay('security_trainingmeeting', false);
+		g_form.setSectionDisplay('client_instructions', false);
+		g_form.setSectionDisplay('report_received', false);
+		g_form.setSectionDisplay('equipment_signout', false);
+		g_form.setSectionDisplay('managementinspector_visits', false);
+		g_form.setSectionDisplay('patrol_on', false);
+		g_form.setSectionDisplay('patrol_off', false);
+		g_form.setSectionDisplay('security_information', false);
+		g_form.setSectionDisplay('security_offduty', false);
+		g_form.setSectionDisplay('security_onduty', false);
+		g_form.setSectionDisplay('security_shifthandover', false);
+		g_form.setSectionDisplay('off_site', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('scheduled_event', false);  
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+	}
+	
+	/*
+	else if
+	  (g_form.getValue('u_category') == "Maintenance Incident" || g_form.getValue('u_category') == "Security Incident" ||  g_form.getValue('u_category') == "Contractors Status Report") {
 		g_form.setSectionDisplay('report_received', true);
 		g_form.setSectionDisplay('client_instructions', false);
 		g_form.setSectionDisplay('equipment_signout', false);
@@ -265,8 +546,16 @@
 		g_form.setSectionDisplay('security_trainingmeeting', false);
 		g_form.setSectionDisplay('off_site', false);
 		g_form.setSectionDisplay('on_site', false);
+		g_form.setSectionDisplay('lost_andfound', false);
+		g_form.setSectionDisplay('scheduled_event', false);
+		g_form.setSectionDisplay('theft', false);
+		g_form.setSectionDisplay('equipment_returned', false);
+		g_form.setSectionDisplay('restricted_officesareas', false);
+		g_form.setSectionDisplay('hseq_incidents', false);
+		g_form.setSectionDisplay('maintenance_incident', false);
+		g_form.setSectionDisplay('security_incident', false);
 	  }
-	
+	*/
 	
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -276,7 +565,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c9b272fbdb7053008b72f3d31d96198f</sys_id>
-        <sys_mod_count>69</sys_mod_count>
+        <sys_mod_count>96</sys_mod_count>
         <sys_name>EOB - Display Tab according to Type</sys_name>
         <sys_overrides/>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
@@ -285,7 +574,7 @@
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sys_script_client_c9b272fbdb7053008b72f3d31d96198f</sys_update_name>
         <sys_updated_by>danie.steenkamp</sys_updated_by>
-        <sys_updated_on>2018-04-23 08:13:53</sys_updated_on>
+        <sys_updated_on>2018-07-05 06:59:21</sys_updated_on>
         <table>engen_eob_electronic_occurences</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

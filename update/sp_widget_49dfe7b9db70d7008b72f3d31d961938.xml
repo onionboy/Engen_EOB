@@ -4,8 +4,8 @@
         <category>custom</category>
         <client_script><![CDATA[function($scope) {
 	var c = this;
-	addItemsToCategories(c.data.categories, c.data.items);
-	function addItemsToCategories(cats, items) {
+	addItemsToCategories(c.data.categories, c.data.items, c.data.result);
+	function addItemsToCategories(cats, items, result) {
 		cats.forEach(function(cat) {
 			cat.items = [];
 			items.forEach(function (item) {
@@ -22,35 +22,60 @@
         <css>}
 .col-xs-6{
   background-color: white; 
-  padding: 1%;
+  padding: 0%;
   margin: 7% 2% 1% 2%;
-  border:solid;
+  //border:solid;
   border-width:.5px;
   border-color: white;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-    height:200px;
-  
+  width:35%;
 }
+
 .h3{
  text-align: center; 
-
 }
-img{
+
+.img1{
     display: block;
-  	margin-top: -40px;
+  	margin-top: -50px;
+  	margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;  
     border: 8px solid white;
     border-radius: 70px;
 }
 .h5{
- text-align: center; 
-color:black;
+ 	text-align: center; 
+	color:black;
 }
 
+.smallleft{
+  border-right: 3px solid #E8E9EB;
+  border-top: 3px solid #E8E9EB;
+  background-color: #fff;
+  width: 50%;
+ 	float:left;
+}
+  .smallleft:hover {
+	-moz-box-shadow: 0 0 10px #ccc; 
+  -webkit-box-shadow: 0 0 10px #ccc; 
+  box-shadow: 0 0 20px #ccc;
+}
 
+.smallright{
+  border-left: 3px solid #E8E9EB;
+  border-top: 3px solid #E8E9EB;
+  background-color: #fff;
+  width: 50%;
+  float:right;
+}
+.smallright:hover {
+-moz-box-shadow: 0 0 10px #ccc; 
+  -webkit-box-shadow: 0 0 10px #ccc; 
+  box-shadow: 0 0 20px #ccc;
 
+}
 </css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -142,6 +167,7 @@ data.result = result;
 	data.title = gr.getValue("title");  //Title of catalog which is EOB
 	data.categories = getCategories(cat);// Gets categories of the EOB
 	data.items = getItems(cat); //gets all Items for EOB catalog
+	data.result = getLoggedItems(cat);
 	
 
 	function getItems(cat) {
@@ -188,16 +214,22 @@ data.result = result;
 		}
 		return cats;
 	}
-
-	var g = new GlideAggregate('engen_eob_electronic_occurences');
-g.addQuery('cat_cat', cat);
-g.addAggregate('COUNT');
+	
+	function getLoggedItems(cat) {
+	var g = new GlideRecord('engen_eob_electronic_occurences');
+g.addQuery('catalog_category', cat);
+		
 g.query();
+		var results = [];
 var result = 0;
 if (g.next()) {
-result  = g.getAggregate('COUNT');
-data.result = result;
-
+			var c = {};
+			$sp.getRecordValues(c,gr,'sys_id,title,parent');
+			$sp.getRecordDisplayValues(c, gr, 'homepage_image'); //added
+			results.push(c);
+	
+}
+		return result;
 }	
 })();]]></script>
         <servicenow>false</servicenow>
@@ -206,7 +238,7 @@ data.result = result;
         <sys_created_on>2018-03-13 09:09:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>49dfe7b9db70d7008b72f3d31d961938</sys_id>
-        <sys_mod_count>199</sys_mod_count>
+        <sys_mod_count>352</sys_mod_count>
         <sys_name>EOB Catalog Content</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
@@ -214,19 +246,25 @@ data.result = result;
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>sp_widget_49dfe7b9db70d7008b72f3d31d961938</sys_update_name>
         <sys_updated_by>rudolf.cronje</sys_updated_by>
-        <sys_updated_on>2018-03-22 11:05:37</sys_updated_on>
-        <template><![CDATA[<div class="col-xs-6 col-md-3" ng-repeat="c in ::data.categories" ng-if="::c.items.length">
-   <a ng-href="?id=eob_category&sys_id={{::c.sys_id}}">
+        <sys_updated_on>2018-06-29 08:37:13</sys_updated_on>
+        <template><![CDATA[
+<div class="col-xs-6 col-md-3" ng-repeat="c in ::data.categories" ng-if="::c.items.length">
+   
 <div class="overflow-70">
   
-<img ng-src="{{::c.homepage_image}}" ng-if="::c.homepage_image"  />
- <div class="h5"> {{data.result}} Items Logged</div>
-<div class="h3"><a style="color:black; font-weight: bold; text-transform: uppercase;" ng-href="?id=eob_category&sys_id={{::c.sys_id}}">{{::c.title}}</a>
+<img class="img1" ng-src="{{::c.homepage_image}}" ng-if="::c.homepage_image"  />
+     </div>
+     
+ 
+<div style="color:black;font-weight: bold;text-transform: uppercase;"class="h3">{{::c.title}}
    
   
   </div>
-   </div>
-     </a>
-   </div>]]></template>
+  <a ng-href="?id=eob_logged_items">
+  <div class="smallleft"><h4 class="h3" style="vertical-align: baseline;color:#034EA2;">VIEW ALL</h4></div></a>
+   <a ng-href="?id=eob_category&sys_id={{::c.sys_id}}"><div class="smallright"><h4 class="h3" style="color:#034EA2;font-weight: bold;">ADD LOG</h4></div>
+  </a></div>
+
+]]></template>
     </sp_widget>
 </record_update>

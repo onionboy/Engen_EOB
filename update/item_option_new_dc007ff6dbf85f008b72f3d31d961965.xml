@@ -38,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>formatter2</name>
-        <order>151</order>
+        <order>171</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text/>
@@ -61,7 +61,7 @@
         <sys_created_on>2018-03-16 11:43:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>dc007ff6dbf85f008b72f3d31d961965</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>formatter2</sys_name>
         <sys_package display_value="Electronic Occurence Book" source="engen_eob">f395119e0f230300c23945ace1050e6c</sys_package>
         <sys_policy/>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Electronic Occurence Book">f395119e0f230300c23945ace1050e6c</sys_scope>
         <sys_update_name>item_option_new_dc007ff6dbf85f008b72f3d31d961965</sys_update_name>
         <sys_updated_by>danie.steenkamp</sys_updated_by>
-        <sys_updated_on>2018-04-23 09:11:09</sys_updated_on>
+        <sys_updated_on>2018-07-05 04:34:00</sys_updated_on>
         <table/>
         <tooltip/>
         <type>20</type>
